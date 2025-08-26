@@ -40,36 +40,91 @@ public class UserData {
     private String country;
 
     // Getters and Setters
-    public String getUserid() { return userid; }
-    public void setUserid(String userid) { this.userid = userid; }
+    public String getUserid() {
+        return userid;
+    }
 
-    public String getFirstname() { return firstname; }
-    public void setFirstname(String firstname) { this.firstname = firstname; }
+    public void setUserid(String userid) {
+        this.userid = userid;
+    }
 
-    public String getLastname() { return lastname; }
-    public void setLastname(String lastname) { this.lastname = lastname; }
+    public String getFirstname() {
+        return firstname;
+    }
 
-    public String getEmail() { return email; }
-    public void setEmail(String email) { this.email = email; }
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
 
-    public String getPhonenumber() { return phonenumber; }
-    public void setPhonenumber(String phonenumber) { this.phonenumber = phonenumber; }
+    public String getLastname() {
+        return lastname;
+    }
 
-    public String getAddress1() { return address1; }
-    public void setAddress1(String address1) { this.address1 = address1; }
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
 
-    public String getAddress2() { return address2; }
-    public void setAddress2(String address2) { this.address2 = address2; }
+    public String getEmail() {
+        return email;
+    }
 
-    public String getCity() { return city; }
-    public void setCity(String city) { this.city = city; }
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
-    public String getState() { return state; }
-    public void setState(String state) { this.state = state; }
+    public String getPhonenumber() {
+        return phonenumber;
+    }
 
-    public String getZipcode() { return zipcode; }
-    public void setZipcode(String zipcode) { this.zipcode = zipcode; }
+    public void setPhonenumber(String phonenumber) {
+        this.phonenumber = phonenumber;
+    }
 
-    public String getCountry() { return country; }
-    public void setCountry(String country) { this.country = country; }
+    public String getAddress1() {
+        return address1;
+    }
+
+    public void setAddress1(String address1) {
+        this.address1 = address1;
+    }
+
+    public String getAddress2() {
+        return address2;
+    }
+
+    public void setAddress2(String address2) {
+        this.address2 = address2;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public String getZipcode() {
+        return zipcode;
+    }
+
+    public void setZipcode(String zipcode) {
+        this.zipcode = zipcode;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
 }

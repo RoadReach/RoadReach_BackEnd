@@ -55,14 +55,13 @@ public class UserController {
         Optional<User> userOpt = userRepository.findByEmailAndPassword(loginUser.getEmail(), loginUser.getPassword());
         if (userOpt.isPresent()) {
             User user = userOpt.get();
-            System.out.println(user.getFirstName()+user.getLastName()+user.getEmail()+user.getUserid());
+            System.out.println(user.getFirstName() + user.getLastName() + user.getEmail() + user.getUserid());
             return ResponseEntity.ok().body(java.util.Map.of(
-                "success", true,
-                "firstname", user.getFirstName(),
-                "lastname", user.getLastName(),
-                "email", user.getEmail(),
-                "userid", user.getUserid()
-            ));
+                    "success", true,
+                    "firstname", user.getFirstName(),
+                    "lastname", user.getLastName(),
+                    "email", user.getEmail(),
+                    "userid", user.getUserid()));
         } else {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(java.util.Map.of("success", false));
         }
@@ -71,7 +70,8 @@ public class UserController {
     @PostMapping("/userData")
     public ResponseEntity<?> saveUserData(@RequestBody UserData userData) {
         // if (userDataRepository.existsById(userData.getUserid())) {
-        //     return ResponseEntity.status(HttpStatus.CONFLICT).body("User data already exists for this userid.");
+        // return ResponseEntity.status(HttpStatus.CONFLICT).body("User data already
+        // exists for this userid.");
         // }
         userDataRepository.save(userData);
         return ResponseEntity.ok("User data saved successfully!");
@@ -83,14 +83,13 @@ public class UserController {
         if (userDataOpt.isPresent()) {
             UserData userData = userDataOpt.get();
             return ResponseEntity.ok().body(java.util.Map.of(
-                "address1", userData.getAddress1(),
-                "address2", userData.getAddress2(),
-                "phonenumber", userData.getPhonenumber(),
-                "city", userData.getCity(),
-                "state", userData.getState(),
-                "zipcode", userData.getZipcode(),
-                "country", userData.getCountry()
-            ));
+                    "address1", userData.getAddress1(),
+                    "address2", userData.getAddress2(),
+                    "phonenumber", userData.getPhonenumber(),
+                    "city", userData.getCity(),
+                    "state", userData.getState(),
+                    "zipcode", userData.getZipcode(),
+                    "country", userData.getCountry()));
         } else {
             return ResponseEntity.ok().body(java.util.Map.of());
         }
