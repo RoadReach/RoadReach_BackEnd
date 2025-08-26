@@ -6,6 +6,7 @@ import com.roadreach.roadreach_backend.model.User;
 import com.roadreach.roadreach_backend.repository.UserRepository;
 import com.roadreach.roadreach_backend.model.UserData;
 import com.roadreach.roadreach_backend.repository.UserDataRepository;
+import com.roadreach.roadreach_backend.model.GeoCountry;
 
 import java.util.Optional;
 import org.springframework.http.ResponseEntity;
@@ -111,6 +112,24 @@ public class UserController {
         userDataRepository.save(userData);
         return ResponseEntity.ok("User data saved successfully!");
     }
+    @PutMapping("/userData")
+    public ResponseEntity<?> updateAddress(@RequestBody UserData updatedData) {
+        Optional<UserData> userDataOpt = userDataRepository.findByUserid(updatedData.getUserid());
+        if (userDataOpt.isPresent()) {
+            UserData userData = userDataOpt.get();
+            userData.setPhonenumber(updatedData.getPhonenumber());
+            userData.setAddress1(updatedData.getAddress1());
+            userData.setAddress2(updatedData.getAddress2());
+            userData.setCity(updatedData.getCity());
+            userData.setState(updatedData.getState());
+            userData.setZipcode(updatedData.getZipcode());
+            userData.setCountry(updatedData.getCountry());
+            userDataRepository.save(userData);
+            return ResponseEntity.ok("Address updated successfully!");
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found.");
+        }
+    }
 
     @GetMapping("/profile/{userid}")
     public ResponseEntity<?> getProfile(@PathVariable String userid) {
@@ -126,7 +145,33 @@ public class UserController {
                     "zipcode", userData.getZipcode(),
                     "country", userData.getCountry()));
         } else {
-            return ResponseEntity.ok().body(java.util.Map.of());
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(java.util.Map.of(
+                "message", "User not found"
+            ));
         }
     }
+
+    @DeleteMapping("/profile/{userid}")
+    public ResponseEntity<?> deleteUser(@PathVariable String userid) {
+        boolean userExists = userRepository.existsByUserid(userid);
+        boolean userDataExists = userDataRepository.existsByUserid(userid);
+
+        if (userExists || userDataExists) {
+            if (userExists) {
+                userRepository.deleteByUserid(userid);
+            }
+            if (userDataExists) {
+                userDataRepository.deleteByUserid(userid);
+            }
+            return ResponseEntity.ok("User deleted successfully from both tables.");
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found in either table.");
+        }
+    }
+
+    @GetMapping("/geo/countries")
+    public ResponseEntity<?> getCountries() {
+        return ResponseEntity.ok(GeoCountry.getAllCountries());
+    }
+    
 }
