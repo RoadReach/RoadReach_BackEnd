@@ -31,13 +31,48 @@ public class UserController {
     private String generateUniqueUserID() {
         String id;
         do {
-            StringBuilder sb = new StringBuilder(USER_ID_LENGTH);
+            StringBuilder sb = new StringBuilder();
+            sb.append("RR_"); // prepend RR_
             for (int i = 0; i < USER_ID_LENGTH; i++) {
                 sb.append(CHARACTERS.charAt(random.nextInt(CHARACTERS.length())));
             }
             id = sb.toString();
         } while (userRepository.existsByUserid(id)); // Ensure uniqueness
         return id;
+    }
+
+    @PutMapping("/updateEmail")
+    public ResponseEntity<?> updateEmail(@RequestBody java.util.Map<String, String> payload) {
+        String userid = payload.get("userid");
+        System.out.println("Updating email for user: " + userid);
+        String newEmail = payload.get("email");
+        boolean updated = false;
+        try {
+            Optional<User> userOpt = userRepository.findById(userid);
+            if (userOpt.isPresent()) {
+                User user = userOpt.get();
+                user.setEmail(newEmail);
+                userRepository.save(user);
+                updated = true;
+            }
+
+            Optional<UserData> userDataOpt = userDataRepository.findById(userid);
+            if (userDataOpt.isPresent()) {
+                UserData userData = userDataOpt.get();
+                userData.setEmail(newEmail);
+                userDataRepository.save(userData);
+                updated = true;
+            }
+
+            if (updated) {
+                return ResponseEntity.ok("Email updated in both tables.");
+            } else {
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found.");
+            }
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Server error: " + e.getMessage());
+        }
     }
 
     @PostMapping("/create")
