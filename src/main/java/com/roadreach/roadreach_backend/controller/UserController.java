@@ -193,4 +193,24 @@ public class UserController {
                     .body("Server error: " + e.getMessage());
         }
     }
+
+    @PutMapping("/updatePassword")
+    public ResponseEntity<?> updatePassword(@RequestBody java.util.Map<String, String> payload) {
+        String userid = payload.get("userid");
+        String newPassword = payload.get("password");
+        try {
+            Optional<User> userOpt = userRepository.findById(userid);
+            if (userOpt.isPresent()) {
+                User user = userOpt.get();
+                user.setPassword(newPassword);
+                userRepository.save(user);
+                return ResponseEntity.ok("Password updated successfully!");
+            } else {
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found.");
+            }
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Server error: " + e.getMessage());
+        }
+    }
 }
