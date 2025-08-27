@@ -112,6 +112,7 @@ public class UserController {
         userDataRepository.save(userData);
         return ResponseEntity.ok("User data saved successfully!");
     }
+
     @PutMapping("/userData")
     public ResponseEntity<?> updateAddress(@RequestBody UserData updatedData) {
         Optional<UserData> userDataOpt = userDataRepository.findByUserid(updatedData.getUserid());
@@ -146,8 +147,7 @@ public class UserController {
                     "country", userData.getCountry()));
         } else {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(java.util.Map.of(
-                "message", "User not found"
-            ));
+                    "message", "User not found"));
         }
     }
 
@@ -173,5 +173,24 @@ public class UserController {
     public ResponseEntity<?> getCountries() {
         return ResponseEntity.ok(GeoCountry.getAllCountries());
     }
-    
+
+    @PutMapping("/updatePhone")
+    public ResponseEntity<?> updatePhone(@RequestBody java.util.Map<String, String> payload) {
+        String userid = payload.get("userid");
+        String newPhone = payload.get("phonenumber");
+        try {
+            Optional<UserData> userDataOpt = userDataRepository.findByUserid(userid);
+            if (userDataOpt.isPresent()) {
+                UserData userData = userDataOpt.get();
+                userData.setPhonenumber(newPhone);
+                userDataRepository.save(userData);
+                return ResponseEntity.ok("Phone number updated successfully!");
+            } else {
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found.");
+            }
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Server error: " + e.getMessage());
+        }
+    }
 }
