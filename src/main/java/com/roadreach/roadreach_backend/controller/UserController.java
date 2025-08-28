@@ -213,4 +213,10 @@ public class UserController {
                     .body("Server error: " + e.getMessage());
         }
     }
+
+    @GetMapping("/profile")
+    public ResponseEntity<?> getProfile() {
+        // ...your logic here...
+        return ResponseEntity.status(HttpStatus.NOT_IMPLEMENTED).body("Not implemented.");
+    }
 }
