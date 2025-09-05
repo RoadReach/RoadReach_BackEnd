@@ -1,4 +1,4 @@
-package com.roadreach.roadreach_backend.config;
+package com.roadreach.roadreach_backend.model;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,11 +12,11 @@ public class WebConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/api/**")
-                        .allowedOrigins("http://localhost:5174")
-                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-                        .allowedHeaders("*")
-                        .allowCredentials(true);
+                registry.addMapping("/**");
+                // .allowedOrigins("http://localhost:5174")
+                // .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                // .allowedHeaders("*")
+                // .allowCredentials(true);
             }
         };
     }

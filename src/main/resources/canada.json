@@ -1,0 +1,1124 @@
+{
+  "code": "CA",
+  "name": "Canada",
+  "locale": "en-CA",
+  "currencyCode": "CAD",
+  "currencySymbol": "$",
+  "currencyFormat": "$#,##0.00",
+  "dateFormat": "MM/dd/yyyy",
+  "states": [
+    {
+      "name": "Alberta",
+      "abbreviation": "AB",
+      "cities": [
+        {
+          "name": "Banff",
+          "type": "city"
+        },
+        {
+          "name": "Brooks",
+          "type": "city"
+        },
+        {
+          "name": "Calgary",
+          "type": "city"
+        },
+        {
+          "name": "Edmonton",
+          "type": "city"
+        },
+        {
+          "name": "Fort McMurray",
+          "type": "city"
+        },
+        {
+          "name": "Grande Prairie",
+          "type": "city"
+        },
+        {
+          "name": "Jasper",
+          "type": "city"
+        },
+        {
+          "name": "Lake Louise",
+          "type": "city"
+        },
+        {
+          "name": "Lethbridge",
+          "type": "city"
+        },
+        {
+          "name": "Medicine Hat",
+          "type": "city"
+        },
+        {
+          "name": "Red Deer",
+          "type": "city"
+        },
+        {
+          "name": "Saint Albert",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Calgary International",
+          "type": "airport",
+          "code": "YYC"
+        },
+        {
+          "name": "Edmonton International",
+          "type": "airport",
+          "code": "YEG"
+        }
+      ]
+    },
+    {
+      "name": "British Columbia",
+      "abbreviation": "BC",
+      "cities": [
+        {
+          "name": "Barkerville",
+          "type": "city"
+        },
+        {
+          "name": "Burnaby",
+          "type": "city"
+        },
+        {
+          "name": "Campbell River",
+          "type": "city"
+        },
+        {
+          "name": "Chilliwack",
+          "type": "city"
+        },
+        {
+          "name": "Courtenay",
+          "type": "city"
+        },
+        {
+          "name": "Cranbrook",
+          "type": "city"
+        },
+        {
+          "name": "Dawson Creek",
+          "type": "city"
+        },
+        {
+          "name": "Delta",
+          "type": "city"
+        },
+        {
+          "name": "Esquimalt",
+          "type": "city"
+        },
+        {
+          "name": "Fort Saint James",
+          "type": "city"
+        },
+        {
+          "name": "Fort Saint John",
+          "type": "city"
+        },
+        {
+          "name": "Hope",
+          "type": "city"
+        },
+        {
+          "name": "Kamloops",
+          "type": "city"
+        },
+        {
+          "name": "Kelowna",
+          "type": "city"
+        },
+        {
+          "name": "Kimberley",
+          "type": "city"
+        },
+        {
+          "name": "Kitimat",
+          "type": "city"
+        },
+        {
+          "name": "Langley",
+          "type": "city"
+        },
+        {
+          "name": "Nanaimo",
+          "type": "city"
+        },
+        {
+          "name": "Nelson",
+          "type": "city"
+        },
+        {
+          "name": "New Westminster",
+          "type": "city"
+        },
+        {
+          "name": "North Vancouver",
+          "type": "city"
+        },
+        {
+          "name": "Oak Bay",
+          "type": "city"
+        },
+        {
+          "name": "Penticton",
+          "type": "city"
+        },
+        {
+          "name": "Powell River",
+          "type": "city"
+        },
+        {
+          "name": "Prince George",
+          "type": "city"
+        },
+        {
+          "name": "Prince Rupert",
+          "type": "city"
+        },
+        {
+          "name": "Quesnel",
+          "type": "city"
+        },
+        {
+          "name": "Revelstoke",
+          "type": "city"
+        },
+        {
+          "name": "Rossland",
+          "type": "city"
+        },
+        {
+          "name": "Trail",
+          "type": "city"
+        },
+        {
+          "name": "Vancouver",
+          "type": "city"
+        },
+        {
+          "name": "Vernon",
+          "type": "city"
+        },
+        {
+          "name": "Victoria",
+          "type": "city"
+        },
+        {
+          "name": "West Vancouver",
+          "type": "city"
+        },
+        {
+          "name": "White Rock",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Vancouver International",
+          "type": "airport",
+          "code": "YVR"
+        },
+        {
+          "name": "Victoria International",
+          "type": "airport",
+          "code": "YYJ"
+        },
+        {
+          "name": "Kelowna International",
+          "type": "airport",
+          "code": "YLW"
+        }
+      ]
+    },
+    {
+      "name": "Manitoba",
+      "abbreviation": "MB",
+      "cities": [
+        {
+          "name": "Brandon",
+          "type": "city"
+        },
+        {
+          "name": "Churchill",
+          "type": "city"
+        },
+        {
+          "name": "Dauphin",
+          "type": "city"
+        },
+        {
+          "name": "Flin Flon",
+          "type": "city"
+        },
+        {
+          "name": "Kildonan",
+          "type": "city"
+        },
+        {
+          "name": "Saint Boniface",
+          "type": "city"
+        },
+        {
+          "name": "Swan River",
+          "type": "city"
+        },
+        {
+          "name": "Thompson",
+          "type": "city"
+        },
+        {
+          "name": "Winnipeg",
+          "type": "city"
+        },
+        {
+          "name": "York Factory",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Winnipeg James Armstrong Richardson International",
+          "type": "airport",
+          "code": "YWG"
+        }
+      ]
+    },
+    {
+      "name": "New Brunswick",
+      "abbreviation": "NB",
+      "cities": [
+        {
+          "name": "Bathurst",
+          "type": "city"
+        },
+        {
+          "name": "Caraquet",
+          "type": "city"
+        },
+        {
+          "name": "Dalhousie",
+          "type": "city"
+        },
+        {
+          "name": "Fredericton",
+          "type": "city"
+        },
+        {
+          "name": "Miramichi",
+          "type": "city"
+        },
+        {
+          "name": "Moncton",
+          "type": "city"
+        },
+        {
+          "name": "Saint John",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Greater Moncton Roméo LeBlanc International",
+          "type": "airport",
+          "code": "YQM"
+        },
+        {
+          "name": "Fredericton International",
+          "type": "airport",
+          "code": "YFC"
+        },
+        {
+          "name": "Saint John Airport",
+          "type": "airport",
+          "code": "YSJ"
+        }
+      ]
+    },
+    {
+      "name": "Newfoundland and Labrador",
+      "abbreviation": "NL",
+      "cities": [
+        {
+          "name": "Argentia",
+          "type": "city"
+        },
+        {
+          "name": "Bonavista",
+          "type": "city"
+        },
+        {
+          "name": "Channel-Port aux Basques",
+          "type": "city"
+        },
+        {
+          "name": "Corner Brook",
+          "type": "city"
+        },
+        {
+          "name": "Ferryland",
+          "type": "city"
+        },
+        {
+          "name": "Gander",
+          "type": "city"
+        },
+        {
+          "name": "Grand Falls–Windsor",
+          "type": "city"
+        },
+        {
+          "name": "Happy Valley–Goose Bay",
+          "type": "city"
+        },
+        {
+          "name": "Harbour Grace",
+          "type": "city"
+        },
+        {
+          "name": "Labrador City",
+          "type": "city"
+        },
+        {
+          "name": "Placentia",
+          "type": "city"
+        },
+        {
+          "name": "Saint Anthony",
+          "type": "city"
+        },
+        {
+          "name": "St. John’s",
+          "type": "city"
+        },
+        {
+          "name": "Wabana",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "St. John’s International",
+          "type": "airport",
+          "code": "YYT"
+        },
+        {
+          "name": "Gander International",
+          "type": "airport",
+          "code": "YQX"
+        }
+      ]
+    },
+    {
+      "name": "Nova Scotia",
+      "abbreviation": "NS",
+      "cities": [
+        {
+          "name": "Baddeck",
+          "type": "city"
+        },
+        {
+          "name": "Digby",
+          "type": "city"
+        },
+        {
+          "name": "Glace Bay",
+          "type": "city"
+        },
+        {
+          "name": "Halifax",
+          "type": "city"
+        },
+        {
+          "name": "Liverpool",
+          "type": "city"
+        },
+        {
+          "name": "Louisbourg",
+          "type": "city"
+        },
+        {
+          "name": "Lunenburg",
+          "type": "city"
+        },
+        {
+          "name": "Pictou",
+          "type": "city"
+        },
+        {
+          "name": "Port Hawkesbury",
+          "type": "city"
+        },
+        {
+          "name": "Springhill",
+          "type": "city"
+        },
+        {
+          "name": "Sydney",
+          "type": "city"
+        },
+        {
+          "name": "Yarmouth",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Halifax Stanfield International",
+          "type": "airport",
+          "code": "YHZ"
+        }
+      ]
+    },
+    {
+      "name": "Ontario",
+      "abbreviation": "ON",
+      "cities": [
+        {
+          "name": "Bancroft",
+          "type": "city"
+        },
+        {
+          "name": "Barrie",
+          "type": "city"
+        },
+        {
+          "name": "Belleville",
+          "type": "city"
+        },
+        {
+          "name": "Brampton",
+          "type": "city"
+        },
+        {
+          "name": "Brantford",
+          "type": "city"
+        },
+        {
+          "name": "Brockville",
+          "type": "city"
+        },
+        {
+          "name": "Burlington",
+          "type": "city"
+        },
+        {
+          "name": "Cambridge",
+          "type": "city"
+        },
+        {
+          "name": "Chatham",
+          "type": "city"
+        },
+        {
+          "name": "Chatham-Kent",
+          "type": "city"
+        },
+        {
+          "name": "Cornwall",
+          "type": "city"
+        },
+        {
+          "name": "Elliot Lake",
+          "type": "city"
+        },
+        {
+          "name": "Etobicoke",
+          "type": "city"
+        },
+        {
+          "name": "Fort Erie",
+          "type": "city"
+        },
+        {
+          "name": "Fort Frances",
+          "type": "city"
+        },
+        {
+          "name": "Gananoque",
+          "type": "city"
+        },
+        {
+          "name": "Guelph",
+          "type": "city"
+        },
+        {
+          "name": "Hamilton",
+          "type": "city"
+        },
+        {
+          "name": "Iroquois Falls",
+          "type": "city"
+        },
+        {
+          "name": "Kapuskasing",
+          "type": "city"
+        },
+        {
+          "name": "Kawartha Lakes",
+          "type": "city"
+        },
+        {
+          "name": "Kenora",
+          "type": "city"
+        },
+        {
+          "name": "Kingston",
+          "type": "city"
+        },
+        {
+          "name": "Kirkland Lake",
+          "type": "city"
+        },
+        {
+          "name": "Kitchener",
+          "type": "city"
+        },
+        {
+          "name": "Laurentian Hills",
+          "type": "city"
+        },
+        {
+          "name": "London",
+          "type": "city"
+        },
+        {
+          "name": "Midland",
+          "type": "city"
+        },
+        {
+          "name": "Mississauga",
+          "type": "city"
+        },
+        {
+          "name": "Moose Factory",
+          "type": "city"
+        },
+        {
+          "name": "Moosonee",
+          "type": "city"
+        },
+        {
+          "name": "Niagara Falls",
+          "type": "city"
+        },
+        {
+          "name": "Niagara-on-the-Lake",
+          "type": "city"
+        },
+        {
+          "name": "North Bay",
+          "type": "city"
+        },
+        {
+          "name": "North York",
+          "type": "city"
+        },
+        {
+          "name": "Oakville",
+          "type": "city"
+        },
+        {
+          "name": "Orillia",
+          "type": "city"
+        },
+        {
+          "name": "Oshawa",
+          "type": "city"
+        },
+        {
+          "name": "Ottawa",
+          "type": "city"
+        },
+        {
+          "name": "Parry Sound",
+          "type": "city"
+        },
+        {
+          "name": "Perth",
+          "type": "city"
+        },
+        {
+          "name": "Peterborough",
+          "type": "city"
+        },
+        {
+          "name": "Picton",
+          "type": "city"
+        },
+        {
+          "name": "Port Colborne",
+          "type": "city"
+        },
+        {
+          "name": "Saint Catharines",
+          "type": "city"
+        },
+        {
+          "name": "Saint Thomas",
+          "type": "city"
+        },
+        {
+          "name": "Sarnia-Clearwater",
+          "type": "city"
+        },
+        {
+          "name": "Sault Sainte Marie",
+          "type": "city"
+        },
+        {
+          "name": "Scarborough",
+          "type": "city"
+        },
+        {
+          "name": "Simcoe",
+          "type": "city"
+        },
+        {
+          "name": "Stratford",
+          "type": "city"
+        },
+        {
+          "name": "Sudbury",
+          "type": "city"
+        },
+        {
+          "name": "Temiskaming Shores",
+          "type": "city"
+        },
+        {
+          "name": "Thorold",
+          "type": "city"
+        },
+        {
+          "name": "Thunder Bay",
+          "type": "city"
+        },
+        {
+          "name": "Timmins",
+          "type": "city"
+        },
+        {
+          "name": "Toronto",
+          "type": "city"
+        },
+        {
+          "name": "Trenton",
+          "type": "city"
+        },
+        {
+          "name": "Waterloo",
+          "type": "city"
+        },
+        {
+          "name": "Welland",
+          "type": "city"
+        },
+        {
+          "name": "West Nipissing",
+          "type": "city"
+        },
+        {
+          "name": "Windsor",
+          "type": "city"
+        },
+        {
+          "name": "Woodstock",
+          "type": "city"
+        },
+        {
+          "name": "York",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Toronto Pearson International",
+          "type": "airport",
+          "code": "YYZ"
+        },
+        {
+          "name": "Ottawa Macdonald-Cartier International",
+          "type": "airport",
+          "code": "YOW"
+        },
+        {
+          "name": "Billy Bishop Toronto City Airport",
+          "type": "airport",
+          "code": "YTZ"
+        },
+        {
+          "name": "London International",
+          "type": "airport",
+          "code": "YXU"
+        },
+        {
+          "name": "Thunder Bay International",
+          "type": "airport",
+          "code": "YQT"
+        }
+      ]
+    },
+    {
+      "name": "Prince Edward Island",
+      "abbreviation": "PE",
+      "cities": [
+        {
+          "name": "Borden",
+          "type": "city"
+        },
+        {
+          "name": "Cavendish",
+          "type": "city"
+        },
+        {
+          "name": "Charlottetown",
+          "type": "city"
+        },
+        {
+          "name": "Souris",
+          "type": "city"
+        },
+        {
+          "name": "Summerside",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Charlottetown Airport",
+          "type": "airport",
+          "code": "YYG"
+        }
+      ]
+    },
+    {
+      "name": "Quebec",
+      "abbreviation": "QC",
+      "cities": [
+        {
+          "name": "Asbestos",
+          "type": "city"
+        },
+        {
+          "name": "Baie-Comeau",
+          "type": "city"
+        },
+        {
+          "name": "Beloeil",
+          "type": "city"
+        },
+        {
+          "name": "Cap-de-la-Madeleine",
+          "type": "city"
+        },
+        {
+          "name": "Chambly",
+          "type": "city"
+        },
+        {
+          "name": "Charlesbourg",
+          "type": "city"
+        },
+        {
+          "name": "Châteauguay",
+          "type": "city"
+        },
+        {
+          "name": "Chibougamau",
+          "type": "city"
+        },
+        {
+          "name": "Côte-Saint-Luc",
+          "type": "city"
+        },
+        {
+          "name": "Dorval",
+          "type": "city"
+        },
+        {
+          "name": "Gaspé",
+          "type": "city"
+        },
+        {
+          "name": "Gatineau",
+          "type": "city"
+        },
+        {
+          "name": "Granby",
+          "type": "city"
+        },
+        {
+          "name": "Havre-Saint-Pierre",
+          "type": "city"
+        },
+        {
+          "name": "Hull",
+          "type": "city"
+        },
+        {
+          "name": "Jonquière",
+          "type": "city"
+        },
+        {
+          "name": "Kuujjuaq",
+          "type": "city"
+        },
+        {
+          "name": "La Salle",
+          "type": "city"
+        },
+        {
+          "name": "La Tuque",
+          "type": "city"
+        },
+        {
+          "name": "Lachine",
+          "type": "city"
+        },
+        {
+          "name": "Laval",
+          "type": "city"
+        },
+        {
+          "name": "Lévis",
+          "type": "city"
+        },
+        {
+          "name": "Longueuil",
+          "type": "city"
+        },
+        {
+          "name": "Magog",
+          "type": "city"
+        },
+        {
+          "name": "Matane",
+          "type": "city"
+        },
+        {
+          "name": "Montreal",
+          "type": "city"
+        },
+        {
+          "name": "Montréal-Nord",
+          "type": "city"
+        },
+        {
+          "name": "Percé",
+          "type": "city"
+        },
+        {
+          "name": "Port-Cartier",
+          "type": "city"
+        },
+        {
+          "name": "Quebec",
+          "type": "city"
+        },
+        {
+          "name": "Rimouski",
+          "type": "city"
+        },
+        {
+          "name": "Rouyn-Noranda",
+          "type": "city"
+        },
+        {
+          "name": "Saguenay",
+          "type": "city"
+        },
+        {
+          "name": "Saint-Eustache",
+          "type": "city"
+        },
+        {
+          "name": "Saint-Hubert",
+          "type": "city"
+        },
+        {
+          "name": "Sainte-Anne-de-Beaupré",
+          "type": "city"
+        },
+        {
+          "name": "Sainte-Foy",
+          "type": "city"
+        },
+        {
+          "name": "Sainte-Thérèse",
+          "type": "city"
+        },
+        {
+          "name": "Sept-Îles",
+          "type": "city"
+        },
+        {
+          "name": "Sherbrooke",
+          "type": "city"
+        },
+        {
+          "name": "Sorel-Tracy",
+          "type": "city"
+        },
+        {
+          "name": "Trois-Rivières",
+          "type": "city"
+        },
+        {
+          "name": "Val-d’Or",
+          "type": "city"
+        },
+        {
+          "name": "Waskaganish",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Montréal–Trudeau International",
+          "type": "airport",
+          "code": "YUL"
+        },
+        {
+          "name": "Québec City Jean Lesage International",
+          "type": "airport",
+          "code": "YQB"
+        }
+      ]
+    },
+    {
+      "name": "Saskatchewan",
+      "abbreviation": "SK",
+      "cities": [
+        {
+          "name": "Batoche",
+          "type": "city"
+        },
+        {
+          "name": "Cumberland House",
+          "type": "city"
+        },
+        {
+          "name": "Estevan",
+          "type": "city"
+        },
+        {
+          "name": "Flin Flon",
+          "type": "city"
+        },
+        {
+          "name": "Moose Jaw",
+          "type": "city"
+        },
+        {
+          "name": "Prince Albert",
+          "type": "city"
+        },
+        {
+          "name": "Regina",
+          "type": "city"
+        },
+        {
+          "name": "Saskatoon",
+          "type": "city"
+        },
+        {
+          "name": "Uranium City",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Saskatoon John G. Diefenbaker International",
+          "type": "airport",
+          "code": "YXE"
+        },
+        {
+          "name": "Regina International",
+          "type": "airport",
+          "code": "YQR"
+        }
+      ]
+    },
+    {
+      "name": "Northwest Territories",
+      "abbreviation": "NT",
+      "cities": [
+        {
+          "name": "Fort Smith",
+          "type": "city"
+        },
+        {
+          "name": "Hay River",
+          "type": "city"
+        },
+        {
+          "name": "Inuvik",
+          "type": "city"
+        },
+        {
+          "name": "Tuktoyaktuk",
+          "type": "city"
+        },
+        {
+          "name": "Yellowknife",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Yellowknife Airport",
+          "type": "airport",
+          "code": "YZF"
+        }
+      ]
+    },
+    {
+      "name": "Nunavut",
+      "abbreviation": "NU",
+      "cities": [
+        {
+          "name": "Iqaluit",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Iqaluit Airport",
+          "type": "airport",
+          "code": "YFB"
+        }
+      ]
+    },
+    {
+      "name": "Yukon",
+      "abbreviation": "YT",
+      "cities": [
+        {
+          "name": "Dawson",
+          "type": "city"
+        },
+        {
+          "name": "Watson Lake",
+          "type": "city"
+        },
+        {
+          "name": "Whitehorse",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Whitehorse International",
+          "type": "airport",
+          "code": "YXY"
+        }
+      ]
+    }
+  ]
+}
