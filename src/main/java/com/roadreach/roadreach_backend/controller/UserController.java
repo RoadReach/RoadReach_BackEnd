@@ -97,7 +97,8 @@ public class UserController {
                     "firstname", user.getFirstName(),
                     "lastname", user.getLastName(),
                     "email", user.getEmail(),
-                    "userid", user.getUserid()));
+                    "userid", user.getUserid(),
+                    "password", user.getPassword()));
         } else {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(java.util.Map.of("success", false));
         }
