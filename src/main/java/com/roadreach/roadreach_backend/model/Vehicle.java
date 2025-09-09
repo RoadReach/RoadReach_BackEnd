@@ -1,6 +1,13 @@
 package com.roadreach.roadreach_backend.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "vehicles")
 public class Vehicle {
+    @Id
     private String id;
     private String type;
     private String company;
