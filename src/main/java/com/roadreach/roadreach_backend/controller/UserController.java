@@ -13,6 +13,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpStatus;
 
 import java.security.SecureRandom;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
+import jakarta.mail.internet.MimeMessage;
 
 @RestController
 @RequestMapping("/api/users")
@@ -24,6 +27,9 @@ public class UserController {
 
     @Autowired
     private UserDataRepository userDataRepository;
+
+    @Autowired
+    private JavaMailSender mailSender;
 
     private static final String CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     private static final int USER_ID_LENGTH = 8;
@@ -83,6 +89,24 @@ public class UserController {
         }
         user.setUserid(generateUniqueUserID());
         userRepository.save(user);
+
+        // Send confirmation email
+        try {
+            MimeMessage message = mailSender.createMimeMessage();
+            MimeMessageHelper helper = new MimeMessageHelper(message, true);
+            helper.setTo(user.getEmail());
+            helper.setSubject("Welcome to RoadReach!");
+            helper.setText(
+                "Hello " + user.getFirstName() + ",<br>" +
+                "Your account has been created successfully!<br>" +
+                "Your User ID is: <b>" + user.getUserid() + "</b>",
+                true
+            );
+            mailSender.send(message);
+        } catch (Exception e) {
+            return "User created, but failed to send email: " + e.getMessage();
+        }
+
         return "User created successfully!";
     }
 
