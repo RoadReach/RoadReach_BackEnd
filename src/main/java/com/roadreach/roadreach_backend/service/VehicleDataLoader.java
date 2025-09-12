@@ -19,12 +19,30 @@ public class VehicleDataLoader implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        if (vehicleRepository.count() == 0) { // Only load if DB is empty
-            ObjectMapper mapper = new ObjectMapper();
-            InputStream is = getClass().getResourceAsStream("/vehicle_inventory.json");
-            List<Vehicle> vehicles = mapper.readValue(is, new TypeReference<List<Vehicle>>() {});
-            vehicleRepository.saveAll(vehicles);
-            System.out.println("Loaded vehicles from JSON to PostgreSQL: " + vehicles.size());
+        ObjectMapper mapper = new ObjectMapper();
+        InputStream is = getClass().getResourceAsStream("/vehicle_inventory.json");
+        List<Vehicle> vehicles = mapper.readValue(is, new TypeReference<List<Vehicle>>() {});
+        int updated = 0, inserted = 0;
+        for (Vehicle v : vehicles) {
+            Vehicle existing = vehicleRepository.findById(v.getId()).orElse(null);
+            if (existing != null) {
+                // Update all fields
+                existing.setType(v.getType());
+                existing.setCompany(v.getCompany());
+                existing.setPrice(v.getPrice());
+                existing.setPassengers(v.getPassengers());
+                existing.setBags(v.getBags());
+                existing.setTransmission(v.getTransmission());
+                existing.setEco(v.isEco());
+                existing.setLuxury(v.isLuxury());
+                existing.setImageUrl(v.getImageUrl());
+                vehicleRepository.save(existing);
+                updated++;
+            } else {
+                vehicleRepository.save(v);
+                inserted++;
+            }
         }
+        System.out.println("Upserted vehicles from JSON to PostgreSQL: " + vehicles.size() + " (" + inserted + " inserted, " + updated + " updated)");
     }
 }

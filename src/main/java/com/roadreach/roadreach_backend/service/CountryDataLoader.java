@@ -5,6 +5,9 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.roadreach.roadreach_backend.model.*;
 import com.roadreach.roadreach_backend.repository.CountryRepository;
+import com.roadreach.roadreach_backend.repository.StateRepository;
+import com.roadreach.roadreach_backend.repository.CityRepository;
+import com.roadreach.roadreach_backend.repository.AirportRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import jakarta.persistence.EntityManager;
 import org.springframework.boot.CommandLineRunner;
@@ -23,13 +26,20 @@ public class CountryDataLoader implements CommandLineRunner {
     private static final Logger logger = LoggerFactory.getLogger(CountryDataLoader.class);
     private final CountryRepository countryRepository;
     private final ObjectMapper objectMapper;
+    private final StateRepository stateRepository;
+    private final CityRepository cityRepository;
+    private final AirportRepository airportRepository;
 
     @Autowired
     private EntityManager entityManager;
 
-    public CountryDataLoader(CountryRepository countryRepository, ObjectMapper objectMapper) {
+    public CountryDataLoader(CountryRepository countryRepository, ObjectMapper objectMapper,
+                            StateRepository stateRepository, CityRepository cityRepository, AirportRepository airportRepository) {
         this.countryRepository = countryRepository;
         this.objectMapper = objectMapper;
+        this.stateRepository = stateRepository;
+        this.cityRepository = cityRepository;
+        this.airportRepository = airportRepository;
     }
 
     @Override
@@ -48,82 +58,83 @@ public class CountryDataLoader implements CommandLineRunner {
     private void loadCountryFromJson(String fileName) {
         try {
             String code = fileName.toLowerCase().contains("canada") ? "CA" : "US";
-            Country country = countryRepository.findByCode(code);
-            boolean countryExists = (country != null);
-            if (!countryExists) {
-                logger.info("Country {} does not exist, creating new entry.", code);
-                country = new Country();
-                InputStream is = new ClassPathResource(fileName).getInputStream();
-                JsonNode root = objectMapper.readTree(is);
-                country.setCode(root.path("code").asText());
-                country.setName(root.path("name").asText());
-                country.setLocale(root.path("locale").asText());
-                country.setCurrencyCode(root.path("currencyCode").asText());
-                country.setCurrencySymbol(root.path("currencySymbol").asText());
-                country.setCurrencyFormat(root.path("currencyFormat").asText());
-                country.setDateFormat(root.path("dateFormat").asText());
-                countryRepository.save(country);
-                entityManager.flush();
-            } else {
-                logger.info("Country {} already exists in DB, updating child data.", code);
-            }
-
-            // Always process states, cities, airports
             InputStream is = new ClassPathResource(fileName).getInputStream();
             JsonNode root = objectMapper.readTree(is);
-            List<State> newStates = new ArrayList<>();
+            Country country = countryRepository.findByCode(code);
+            if (country == null) {
+                country = new Country();
+                country.setCode(root.path("code").asText());
+            }
+            country.setName(root.path("name").asText());
+            country.setLocale(root.path("locale").asText());
+            country.setCurrencyCode(root.path("currencyCode").asText());
+            country.setCurrencySymbol(root.path("currencySymbol").asText());
+            country.setCurrencyFormat(root.path("currencyFormat").asText());
+            country.setDateFormat(root.path("dateFormat").asText());
+            country = countryRepository.save(country);
+            entityManager.flush();
+
             for (JsonNode stateNode : root.path("states")) {
-                State state = new State();
+                String abbr = stateNode.path("abbreviation").asText();
+                State state = stateRepository.findByAbbreviationAndCountry(abbr, country).orElse(null);
+                boolean stateExists = (state != null);
+                if (!stateExists) {
+                    state = new State();
+                    state.setAbbreviation(abbr);
+                    state.setCountry(country);
+                }
                 state.setName(stateNode.path("name").asText());
-                state.setAbbreviation(stateNode.path("abbreviation").asText());
-                state.setCountry(country);
 
-                List<City> cities = new ArrayList<>();
+                // Cities
+                List<City> cityList = new ArrayList<>();
                 for (JsonNode cityNode : stateNode.path("cities")) {
-                    City city = new City();
-                    city.setName(cityNode.path("name").asText());
-                    city.setType(cityNode.path("type").asText());
+                    String cityName = cityNode.path("name").asText();
+                    String cityType = cityNode.path("type").asText();
+                    City city = cityRepository.findByNameAndTypeAndState(cityName, cityType, state).orElse(null);
+                    if (city == null) {
+                        city = new City();
+                        city.setName(cityName);
+                        city.setType(cityType);
+                        city.setState(state);
+                    }
+                    city.setName(cityName);
+                    city.setType(cityType);
                     city.setState(state);
-                    cities.add(city);
+                    cityList.add(city);
                 }
-                state.setCities(cities);
-                for (City city : cities) {
-                    city.setState(state);
+                if (stateExists && state.getCities() != null) {
+                    state.getCities().clear();
+                    state.getCities().addAll(cityList);
+                } else {
+                    state.setCities(cityList);
                 }
 
-                List<Airport> airports = new ArrayList<>();
+                // Airports
+                List<Airport> airportList = new ArrayList<>();
                 for (JsonNode airportNode : stateNode.path("airports")) {
-                    Airport airport = new Airport();
+                    String airportCode = airportNode.path("code").asText();
+                    Airport airport = airportRepository.findByCodeAndState(airportCode, state).orElse(null);
+                    if (airport == null) {
+                        airport = new Airport();
+                        airport.setCode(airportCode);
+                        airport.setState(state);
+                    }
                     airport.setName(airportNode.path("name").asText());
                     airport.setType(airportNode.path("type").asText());
-                    airport.setCode(airportNode.path("code").asText());
+                    airport.setCode(airportCode);
                     airport.setState(state);
-                    airports.add(airport);
+                    airportList.add(airport);
                 }
-                state.setAirports(airports);
-                for (Airport airport : airports) {
-                    airport.setState(state);
-                }
-
-                newStates.add(state);
-            }
-            if (countryExists) {
-                // Clear and add to the existing collection to avoid orphanRemoval error
-                if (country.getStates() != null) {
-                    country.getStates().clear();
-                    country.getStates().addAll(newStates);
+                if (stateExists && state.getAirports() != null) {
+                    state.getAirports().clear();
+                    state.getAirports().addAll(airportList);
                 } else {
-                    country.setStates(newStates);
+                    state.setAirports(airportList);
                 }
-            } else {
-                country.setStates(newStates);
-            }
-            for (State state : newStates) {
                 state.setCountry(country);
+                state = stateRepository.save(state);
             }
-            countryRepository.save(country);
-            entityManager.flush();
-            logger.info("Saved/updated country {} with {} states.", country.getCode(), newStates.size());
+            logger.info("Upserted country {} and all child data.", country.getCode());
         } catch (Exception e) {
             logger.error("Error loading country from {}: {}", fileName, e.getMessage(), e);
         }
