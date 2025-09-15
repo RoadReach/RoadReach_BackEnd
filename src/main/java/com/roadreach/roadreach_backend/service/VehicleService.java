@@ -13,11 +13,18 @@ public class VehicleService {
     @Autowired
     private VehicleRepository vehicleRepository;
 
-    public List<Vehicle> search(Integer minPrice, Integer maxPrice, List<String> types) {
+    public List<Vehicle> search(Integer minPrice, Integer maxPrice, List<String> types, String pickuplocation) {
         return vehicleRepository.findAll().stream()
                 .filter(v -> minPrice == null || v.getPrice() >= minPrice)
                 .filter(v -> maxPrice == null || v.getPrice() <= maxPrice)
                 .filter(v -> types == null || types.isEmpty() || types.contains(v.getType()))
+                .filter(v -> pickuplocation == null || pickuplocation.isEmpty() || v.getCity().equalsIgnoreCase(pickuplocation))
+                .collect(Collectors.toList());
+    }
+
+    public List<Vehicle> searchByCity(String city) {
+        return vehicleRepository.findAll().stream()
+                .filter(v -> city == null || city.isEmpty() || v.getCity().equalsIgnoreCase(city))
                 .collect(Collectors.toList());
     }
 

@@ -27,6 +27,7 @@ public class VehicleDataLoader implements CommandLineRunner {
             Vehicle existing = vehicleRepository.findById(v.getId()).orElse(null);
             if (existing != null) {
                 // Update all fields
+                existing.setCity(v.getCity());
                 existing.setType(v.getType());
                 existing.setCompany(v.getCompany());
                 existing.setPrice(v.getPrice());

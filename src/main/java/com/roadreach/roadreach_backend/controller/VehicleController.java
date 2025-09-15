@@ -21,12 +21,13 @@ public class VehicleController {
     public List<Vehicle> getVehicles(
             @RequestParam(required = false) Integer minPrice,
             @RequestParam(required = false) Integer maxPrice,
-            @RequestParam(required = false) String types // CSV
+            @RequestParam(required = false) String types, // CSV
+            @RequestParam(required = false) String pickuplocation // City
     ) {
         List<String> typeList = (types != null && !types.isEmpty())
                 ? Arrays.asList(types.split(","))
                 : null;
-        return vehicleService.search(minPrice, maxPrice, typeList);
+        return vehicleService.searchByCity(pickuplocation);
     }
 
     @GetMapping("/price-range")
