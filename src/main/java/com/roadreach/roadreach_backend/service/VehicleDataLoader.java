@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import java.io.InputStream;
 import java.util.List;
 
-@Component
+/*@Component
 public class VehicleDataLoader implements CommandLineRunner {
 
     @Autowired
@@ -46,4 +46,4 @@ public class VehicleDataLoader implements CommandLineRunner {
         }
         System.out.println("Upserted vehicles from JSON to PostgreSQL: " + vehicles.size() + " (" + inserted + " inserted, " + updated + " updated)");
     }
-}
+}*/
