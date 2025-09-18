@@ -1,6 +1,7 @@
 package com.roadreach.roadreach_backend.model;
 
 import jakarta.persistence.*;
+import org.springframework.transaction.annotation.Transactional;
 
 @Entity
 @Table(name = "usersbasic")
@@ -61,4 +62,5 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
 }

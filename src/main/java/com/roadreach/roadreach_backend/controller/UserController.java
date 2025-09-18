@@ -1,4 +1,6 @@
+
 package com.roadreach.roadreach_backend.controller;
+import org.springframework.transaction.annotation.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -7,12 +9,14 @@ import com.roadreach.roadreach_backend.repository.UserRepository;
 import com.roadreach.roadreach_backend.model.UserData;
 import com.roadreach.roadreach_backend.repository.UserDataRepository;
 import com.roadreach.roadreach_backend.model.GeoCountry;
-
 import java.util.Optional;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpStatus;
-
 import java.security.SecureRandom;
+import com.roadreach.roadreach_backend.model.PasswordResetCode;
+import com.roadreach.roadreach_backend.repository.PasswordResetCodeRepository;
+import java.time.LocalDateTime;
+// ...existing code...
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import jakarta.mail.internet.MimeMessage;
@@ -21,6 +25,12 @@ import jakarta.mail.internet.MimeMessage;
 @RequestMapping("/api/users")
 @CrossOrigin(origins = "http://localhost:5173")
 public class UserController {
+    // In-memory store for reset codes (for demo; use Redis or DB for production)
+    @Autowired
+    private PasswordResetCodeRepository passwordResetCodeRepository;
+
+    @Autowired
+    private JavaMailSender mailSender;
 
     @Autowired
     private UserRepository userRepository;
@@ -106,7 +116,6 @@ public class UserController {
         } catch (Exception e) {
             return "User created, but failed to send email: " + e.getMessage();
         }
-
         return "User created successfully!";
     }
 
@@ -131,8 +140,7 @@ public class UserController {
     @PostMapping("/userData")
     public ResponseEntity<?> saveUserData(@RequestBody UserData userData) {
         // if (userDataRepository.existsById(userData.getUserid())) {
-        // return ResponseEntity.status(HttpStatus.CONFLICT).body("User data already
-        // exists for this userid.");
+        //     return ResponseEntity.status(HttpStatus.CONFLICT).body("User data already exists for this userid.");
         // }
         userDataRepository.save(userData);
         return ResponseEntity.ok("User data saved successfully!");
@@ -241,7 +249,92 @@ public class UserController {
 
     @GetMapping("/profile")
     public ResponseEntity<?> getProfile() {
-        // ...your logic here...
+    // ...your logic here...
         return ResponseEntity.status(HttpStatus.NOT_IMPLEMENTED).body("Not implemented.");
     }
+    // Removed duplicate declaration
+
+    @PostMapping("/send-reset-code")
+    @Transactional
+    public ResponseEntity<?> sendResetCode(@RequestBody java.util.Map<String, String> payload) {
+        String email = payload.get("email");
+        Optional<User> userOpt = userRepository.findByEmail(email);
+        if (userOpt.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                .contentType(org.springframework.http.MediaType.APPLICATION_JSON)
+                .body(java.util.Map.of("success", false, "message", "Email not found."));
+        }
+        SecureRandom random = new SecureRandom();
+        int code = 100000 + random.nextInt(900000);
+        String codeStr = String.valueOf(code);
+        // Remove any previous code for this email
+        passwordResetCodeRepository.deleteByEmail(email);
+        // Set code to expire in 15 minutes
+        LocalDateTime expiresAt = LocalDateTime.now().plusMinutes(15);
+        PasswordResetCode resetCode = new PasswordResetCode(email, codeStr, expiresAt);
+        passwordResetCodeRepository.save(resetCode);
+        System.out.println("Reset code for " + email + ": " + codeStr);
+        // Send code via email
+        try {
+            MimeMessage message = mailSender.createMimeMessage();
+            MimeMessageHelper helper = new MimeMessageHelper(message, true);
+            helper.setTo(email);
+            helper.setSubject("Your RoadReach Password Reset Code");
+            helper.setText(
+                "Hello,<br><br>Your password reset code is: <b>" + codeStr + "</b><br><br>If you did not request this, please ignore this email.",
+                true
+            );
+            mailSender.send(message);
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                .contentType(org.springframework.http.MediaType.APPLICATION_JSON)
+                .body(java.util.Map.of("success", false, "message", "Failed to send email: " + e.getMessage()));
+        }
+        return ResponseEntity.ok()
+            .contentType(org.springframework.http.MediaType.APPLICATION_JSON)
+            .body(java.util.Map.of("success", true));
+    }
+
+    @PostMapping("/verify-reset-code")
+    public ResponseEntity<?> verifyResetCode(@RequestBody java.util.Map<String, String> payload) {
+        String email = payload.get("email");
+        String code = payload.get("code");
+        var codeOpt = passwordResetCodeRepository.findByEmailAndCode(email, code);
+        if (codeOpt.isPresent() && codeOpt.get().getExpiresAt().isAfter(LocalDateTime.now())) {
+            return ResponseEntity.ok()
+                .contentType(org.springframework.http.MediaType.APPLICATION_JSON)
+                .body(java.util.Map.of("valid", 1));
+        }
+        return ResponseEntity.ok()
+            .contentType(org.springframework.http.MediaType.APPLICATION_JSON)
+            .body(java.util.Map.of("valid", 0));
+    }
+
+    @Transactional
+    @PostMapping("/reset-password")
+    public ResponseEntity<?> resetPassword(@RequestBody java.util.Map<String, String> payload) {
+        String email = payload.get("email");
+        String code = payload.get("code");
+        String newPassword = payload.get("password");
+        var codeOpt = passwordResetCodeRepository.findByEmailAndCode(email, code);
+        if (codeOpt.isPresent() && codeOpt.get().getExpiresAt().isAfter(LocalDateTime.now())) {
+            Optional<User> userOpt = userRepository.findByEmail(email);
+            if (userOpt.isPresent()) {
+                User user = userOpt.get();
+                user.setPassword(newPassword);
+                userRepository.save(user);
+                passwordResetCodeRepository.deleteByEmailAndCode(email, code);
+                return ResponseEntity.ok()
+                    .contentType(org.springframework.http.MediaType.APPLICATION_JSON)
+                    .body(java.util.Map.of("success", true));
+            }
+            return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                .contentType(org.springframework.http.MediaType.APPLICATION_JSON)
+                .body(java.util.Map.of("success", false, "message", "User not found."));
+        }
+        return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
+            .contentType(org.springframework.http.MediaType.APPLICATION_JSON)
+            .body(java.util.Map.of("success", false, "message", "Invalid or expired code."));
+    }
+
 }
