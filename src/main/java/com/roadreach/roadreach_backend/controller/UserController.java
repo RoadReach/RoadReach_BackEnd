@@ -38,9 +38,6 @@ public class UserController {
     @Autowired
     private UserDataRepository userDataRepository;
 
-    @Autowired
-    private JavaMailSender mailSender;
-
     private static final String CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     private static final int USER_ID_LENGTH = 8;
     private static final SecureRandom random = new SecureRandom();
