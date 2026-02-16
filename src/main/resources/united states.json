@@ -1,0 +1,8838 @@
+{
+  "code": "US",
+  "name": "United States",
+  "locale": "en-US",
+  "currencyCode": "USD",
+  "currencySymbol": "$",
+  "currencyFormat": "$#,##0.00",
+  "dateFormat": "MM/dd/yyyy",
+  "states": [
+    {
+      "name": "Alabama",
+      "abbreviation": "AL",
+      "cities": [
+        {
+          "name": "Alexander City",
+          "type": "city"
+        },
+        {
+          "name": "Andalusia",
+          "type": "city"
+        },
+        {
+          "name": "Anniston",
+          "type": "city"
+        },
+        {
+          "name": "Athens",
+          "type": "city"
+        },
+        {
+          "name": "Atmore",
+          "type": "city"
+        },
+        {
+          "name": "Auburn",
+          "type": "city"
+        },
+        {
+          "name": "Bessemer",
+          "type": "city"
+        },
+        {
+          "name": "Birmingham",
+          "type": "city"
+        },
+        {
+          "name": "Chickasaw",
+          "type": "city"
+        },
+        {
+          "name": "Clanton",
+          "type": "city"
+        },
+        {
+          "name": "Cullman",
+          "type": "city"
+        },
+        {
+          "name": "Decatur",
+          "type": "city"
+        },
+        {
+          "name": "Demopolis",
+          "type": "city"
+        },
+        {
+          "name": "Dothan",
+          "type": "city"
+        },
+        {
+          "name": "Enterprise",
+          "type": "city"
+        },
+        {
+          "name": "Eufaula",
+          "type": "city"
+        },
+        {
+          "name": "Florence",
+          "type": "city"
+        },
+        {
+          "name": "Fort Payne",
+          "type": "city"
+        },
+        {
+          "name": "Gadsden",
+          "type": "city"
+        },
+        {
+          "name": "Greenville",
+          "type": "city"
+        },
+        {
+          "name": "Guntersville",
+          "type": "city"
+        },
+        {
+          "name": "Huntsville",
+          "type": "city"
+        },
+        {
+          "name": "Jasper",
+          "type": "city"
+        },
+        {
+          "name": "Marion",
+          "type": "city"
+        },
+        {
+          "name": "Mobile",
+          "type": "city"
+        },
+        {
+          "name": "Montgomery",
+          "type": "city"
+        },
+        {
+          "name": "Opelika",
+          "type": "city"
+        },
+        {
+          "name": "Ozark",
+          "type": "city"
+        },
+        {
+          "name": "Phenix City",
+          "type": "city"
+        },
+        {
+          "name": "Prichard",
+          "type": "city"
+        },
+        {
+          "name": "Scottsboro",
+          "type": "city"
+        },
+        {
+          "name": "Selma",
+          "type": "city"
+        },
+        {
+          "name": "Sheffield",
+          "type": "city"
+        },
+        {
+          "name": "Sylacauga",
+          "type": "city"
+        },
+        {
+          "name": "Talladega",
+          "type": "city"
+        },
+        {
+          "name": "Troy",
+          "type": "city"
+        },
+        {
+          "name": "Tuscaloosa",
+          "type": "city"
+        },
+        {
+          "name": "Tuscumbia",
+          "type": "city"
+        },
+        {
+          "name": "Tuskegee",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Birmingham-Shuttlesworth International",
+          "type": "airport",
+          "code": "BHM"
+        },
+        {
+          "name": "Huntsville International",
+          "type": "airport",
+          "code": "HSV"
+        },
+        {
+          "name": "Mobile Regional",
+          "type": "airport",
+          "code": "MOB"
+        }
+      ]
+    },
+    {
+      "name": "Alaska",
+      "abbreviation": "AK",
+      "cities": [
+        {
+          "name": "Anchorage",
+          "type": "city"
+        },
+        {
+          "name": "Cordova",
+          "type": "city"
+        },
+        {
+          "name": "Fairbanks",
+          "type": "city"
+        },
+        {
+          "name": "Haines",
+          "type": "city"
+        },
+        {
+          "name": "Homer",
+          "type": "city"
+        },
+        {
+          "name": "Juneau",
+          "type": "city"
+        },
+        {
+          "name": "Ketchikan",
+          "type": "city"
+        },
+        {
+          "name": "Kodiak",
+          "type": "city"
+        },
+        {
+          "name": "Kotzebue",
+          "type": "city"
+        },
+        {
+          "name": "Nome",
+          "type": "city"
+        },
+        {
+          "name": "Palmer",
+          "type": "city"
+        },
+        {
+          "name": "Seward",
+          "type": "city"
+        },
+        {
+          "name": "Sitka",
+          "type": "city"
+        },
+        {
+          "name": "Skagway",
+          "type": "city"
+        },
+        {
+          "name": "Valdez",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Ted Stevens Anchorage International",
+          "type": "airport",
+          "code": "ANC"
+        },
+        {
+          "name": "Fairbanks International",
+          "type": "airport",
+          "code": "FAI"
+        },
+        {
+          "name": "Juneau International",
+          "type": "airport",
+          "code": "JNU"
+        }
+      ]
+    },
+    {
+      "name": "Arizona",
+      "abbreviation": "AZ",
+      "cities": [
+        {
+          "name": "Ajo",
+          "type": "city"
+        },
+        {
+          "name": "Avondale",
+          "type": "city"
+        },
+        {
+          "name": "Bisbee",
+          "type": "city"
+        },
+        {
+          "name": "Casa Grande",
+          "type": "city"
+        },
+        {
+          "name": "Chandler",
+          "type": "city"
+        },
+        {
+          "name": "Clifton",
+          "type": "city"
+        },
+        {
+          "name": "Douglas",
+          "type": "city"
+        },
+        {
+          "name": "Flagstaff",
+          "type": "city"
+        },
+        {
+          "name": "Florence",
+          "type": "city"
+        },
+        {
+          "name": "Gila Bend",
+          "type": "city"
+        },
+        {
+          "name": "Glendale",
+          "type": "city"
+        },
+        {
+          "name": "Globe",
+          "type": "city"
+        },
+        {
+          "name": "Kingman",
+          "type": "city"
+        },
+        {
+          "name": "Lake Havasu City",
+          "type": "city"
+        },
+        {
+          "name": "Mesa",
+          "type": "city"
+        },
+        {
+          "name": "Nogales",
+          "type": "city"
+        },
+        {
+          "name": "Oraibi",
+          "type": "city"
+        },
+        {
+          "name": "Phoenix",
+          "type": "city"
+        },
+        {
+          "name": "Prescott",
+          "type": "city"
+        },
+        {
+          "name": "Scottsdale",
+          "type": "city"
+        },
+        {
+          "name": "Sierra Vista",
+          "type": "city"
+        },
+        {
+          "name": "Tempe",
+          "type": "city"
+        },
+        {
+          "name": "Tombstone",
+          "type": "city"
+        },
+        {
+          "name": "Tucson",
+          "type": "city"
+        },
+        {
+          "name": "Walpi",
+          "type": "city"
+        },
+        {
+          "name": "Window Rock",
+          "type": "city"
+        },
+        {
+          "name": "Winslow",
+          "type": "city"
+        },
+        {
+          "name": "Yuma",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Phoenix Sky Harbor International",
+          "type": "airport",
+          "code": "PHX"
+        },
+        {
+          "name": "Tucson International",
+          "type": "airport",
+          "code": "TUS"
+        }
+      ]
+    },
+    {
+      "name": "Arkansas",
+      "abbreviation": "AR",
+      "cities": [
+        {
+          "name": "Arkadelphia",
+          "type": "city"
+        },
+        {
+          "name": "Arkansas Post",
+          "type": "city"
+        },
+        {
+          "name": "Batesville",
+          "type": "city"
+        },
+        {
+          "name": "Benton",
+          "type": "city"
+        },
+        {
+          "name": "Blytheville",
+          "type": "city"
+        },
+        {
+          "name": "Camden",
+          "type": "city"
+        },
+        {
+          "name": "Conway",
+          "type": "city"
+        },
+        {
+          "name": "Crossett",
+          "type": "city"
+        },
+        {
+          "name": "El Dorado",
+          "type": "city"
+        },
+        {
+          "name": "Fayetteville",
+          "type": "city"
+        },
+        {
+          "name": "Forrest City",
+          "type": "city"
+        },
+        {
+          "name": "Fort Smith",
+          "type": "city"
+        },
+        {
+          "name": "Harrison",
+          "type": "city"
+        },
+        {
+          "name": "Helena",
+          "type": "city"
+        },
+        {
+          "name": "Hope",
+          "type": "city"
+        },
+        {
+          "name": "Hot Springs",
+          "type": "city"
+        },
+        {
+          "name": "Jacksonville",
+          "type": "city"
+        },
+        {
+          "name": "Jonesboro",
+          "type": "city"
+        },
+        {
+          "name": "Little Rock",
+          "type": "city"
+        },
+        {
+          "name": "Magnolia",
+          "type": "city"
+        },
+        {
+          "name": "Morrilton",
+          "type": "city"
+        },
+        {
+          "name": "Newport",
+          "type": "city"
+        },
+        {
+          "name": "North Little Rock",
+          "type": "city"
+        },
+        {
+          "name": "Osceola",
+          "type": "city"
+        },
+        {
+          "name": "Pine Bluff",
+          "type": "city"
+        },
+        {
+          "name": "Rogers",
+          "type": "city"
+        },
+        {
+          "name": "Searcy",
+          "type": "city"
+        },
+        {
+          "name": "Stuttgart",
+          "type": "city"
+        },
+        {
+          "name": "Van Buren",
+          "type": "city"
+        },
+        {
+          "name": "West Memphis",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Bill and Hillary Clinton National (Little Rock)",
+          "type": "airport",
+          "code": "LIT"
+        },
+        {
+          "name": "Northwest Arkansas National",
+          "type": "airport",
+          "code": "XNA"
+        }
+      ]
+    },
+    {
+      "name": "California",
+      "abbreviation": "CA",
+      "cities": [
+        {
+          "name": "Alameda",
+          "type": "city"
+        },
+        {
+          "name": "Alhambra",
+          "type": "city"
+        },
+        {
+          "name": "Anaheim",
+          "type": "city"
+        },
+        {
+          "name": "Antioch",
+          "type": "city"
+        },
+        {
+          "name": "Arcadia",
+          "type": "city"
+        },
+        {
+          "name": "Bakersfield",
+          "type": "city"
+        },
+        {
+          "name": "Barstow",
+          "type": "city"
+        },
+        {
+          "name": "Belmont",
+          "type": "city"
+        },
+        {
+          "name": "Berkeley",
+          "type": "city"
+        },
+        {
+          "name": "Beverly Hills",
+          "type": "city"
+        },
+        {
+          "name": "Brea",
+          "type": "city"
+        },
+        {
+          "name": "Buena Park",
+          "type": "city"
+        },
+        {
+          "name": "Burbank",
+          "type": "city"
+        },
+        {
+          "name": "Calexico",
+          "type": "city"
+        },
+        {
+          "name": "Calistoga",
+          "type": "city"
+        },
+        {
+          "name": "Carlsbad",
+          "type": "city"
+        },
+        {
+          "name": "Carmel",
+          "type": "city"
+        },
+        {
+          "name": "Chico",
+          "type": "city"
+        },
+        {
+          "name": "Chula Vista",
+          "type": "city"
+        },
+        {
+          "name": "Claremont",
+          "type": "city"
+        },
+        {
+          "name": "Compton",
+          "type": "city"
+        },
+        {
+          "name": "Concord",
+          "type": "city"
+        },
+        {
+          "name": "Corona",
+          "type": "city"
+        },
+        {
+          "name": "Coronado",
+          "type": "city"
+        },
+        {
+          "name": "Costa Mesa",
+          "type": "city"
+        },
+        {
+          "name": "Culver City",
+          "type": "city"
+        },
+        {
+          "name": "Daly City",
+          "type": "city"
+        },
+        {
+          "name": "Davis",
+          "type": "city"
+        },
+        {
+          "name": "Downey",
+          "type": "city"
+        },
+        {
+          "name": "El Centro",
+          "type": "city"
+        },
+        {
+          "name": "El Cerrito",
+          "type": "city"
+        },
+        {
+          "name": "El Monte",
+          "type": "city"
+        },
+        {
+          "name": "Escondido",
+          "type": "city"
+        },
+        {
+          "name": "Eureka",
+          "type": "city"
+        },
+        {
+          "name": "Fairfield",
+          "type": "city"
+        },
+        {
+          "name": "Fontana",
+          "type": "city"
+        },
+        {
+          "name": "Fremont",
+          "type": "city"
+        },
+        {
+          "name": "Fresno",
+          "type": "city"
+        },
+        {
+          "name": "Fullerton",
+          "type": "city"
+        },
+        {
+          "name": "Garden Grove",
+          "type": "city"
+        },
+        {
+          "name": "Glendale",
+          "type": "city"
+        },
+        {
+          "name": "Hayward",
+          "type": "city"
+        },
+        {
+          "name": "Hollywood",
+          "type": "city"
+        },
+        {
+          "name": "Huntington Beach",
+          "type": "city"
+        },
+        {
+          "name": "Indio",
+          "type": "city"
+        },
+        {
+          "name": "Inglewood",
+          "type": "city"
+        },
+        {
+          "name": "Irvine",
+          "type": "city"
+        },
+        {
+          "name": "La Habra",
+          "type": "city"
+        },
+        {
+          "name": "Laguna Beach",
+          "type": "city"
+        },
+        {
+          "name": "Lancaster",
+          "type": "city"
+        },
+        {
+          "name": "Livermore",
+          "type": "city"
+        },
+        {
+          "name": "Lodi",
+          "type": "city"
+        },
+        {
+          "name": "Lompoc",
+          "type": "city"
+        },
+        {
+          "name": "Long Beach",
+          "type": "city"
+        },
+        {
+          "name": "Los Angeles",
+          "type": "city"
+        },
+        {
+          "name": "Malibu",
+          "type": "city"
+        },
+        {
+          "name": "Martinez",
+          "type": "city"
+        },
+        {
+          "name": "Marysville",
+          "type": "city"
+        },
+        {
+          "name": "Menlo Park",
+          "type": "city"
+        },
+        {
+          "name": "Merced",
+          "type": "city"
+        },
+        {
+          "name": "Modesto",
+          "type": "city"
+        },
+        {
+          "name": "Monterey",
+          "type": "city"
+        },
+        {
+          "name": "Mountain View",
+          "type": "city"
+        },
+        {
+          "name": "Napa",
+          "type": "city"
+        },
+        {
+          "name": "Needles",
+          "type": "city"
+        },
+        {
+          "name": "Newport Beach",
+          "type": "city"
+        },
+        {
+          "name": "Norwalk",
+          "type": "city"
+        },
+        {
+          "name": "Novato",
+          "type": "city"
+        },
+        {
+          "name": "Oakland",
+          "type": "city"
+        },
+        {
+          "name": "Oceanside",
+          "type": "city"
+        },
+        {
+          "name": "Ojai",
+          "type": "city"
+        },
+        {
+          "name": "Ontario",
+          "type": "city"
+        },
+        {
+          "name": "Orange",
+          "type": "city"
+        },
+        {
+          "name": "Oroville",
+          "type": "city"
+        },
+        {
+          "name": "Oxnard",
+          "type": "city"
+        },
+        {
+          "name": "Pacific Grove",
+          "type": "city"
+        },
+        {
+          "name": "Palm Springs",
+          "type": "city"
+        },
+        {
+          "name": "Palmdale",
+          "type": "city"
+        },
+        {
+          "name": "Palo Alto",
+          "type": "city"
+        },
+        {
+          "name": "Pasadena",
+          "type": "city"
+        },
+        {
+          "name": "Petaluma",
+          "type": "city"
+        },
+        {
+          "name": "Pomona",
+          "type": "city"
+        },
+        {
+          "name": "Port Hueneme",
+          "type": "city"
+        },
+        {
+          "name": "Rancho Cucamonga",
+          "type": "city"
+        },
+        {
+          "name": "Red Bluff",
+          "type": "city"
+        },
+        {
+          "name": "Redding",
+          "type": "city"
+        },
+        {
+          "name": "Redlands",
+          "type": "city"
+        },
+        {
+          "name": "Redondo Beach",
+          "type": "city"
+        },
+        {
+          "name": "Redwood City",
+          "type": "city"
+        },
+        {
+          "name": "Richmond",
+          "type": "city"
+        },
+        {
+          "name": "Riverside",
+          "type": "city"
+        },
+        {
+          "name": "Roseville",
+          "type": "city"
+        },
+        {
+          "name": "Sacramento",
+          "type": "city"
+        },
+        {
+          "name": "Salinas",
+          "type": "city"
+        },
+        {
+          "name": "San Bernardino",
+          "type": "city"
+        },
+        {
+          "name": "San Clemente",
+          "type": "city"
+        },
+        {
+          "name": "San Diego",
+          "type": "city"
+        },
+        {
+          "name": "San Fernando",
+          "type": "city"
+        },
+        {
+          "name": "San Francisco",
+          "type": "city"
+        },
+        {
+          "name": "San Gabriel",
+          "type": "city"
+        },
+        {
+          "name": "San Jose",
+          "type": "city"
+        },
+        {
+          "name": "San Juan Capistrano",
+          "type": "city"
+        },
+        {
+          "name": "San Leandro",
+          "type": "city"
+        },
+        {
+          "name": "San Luis Obispo",
+          "type": "city"
+        },
+        {
+          "name": "San Marino",
+          "type": "city"
+        },
+        {
+          "name": "San Mateo",
+          "type": "city"
+        },
+        {
+          "name": "San Pedro",
+          "type": "city"
+        },
+        {
+          "name": "San Rafael",
+          "type": "city"
+        },
+        {
+          "name": "San Simeon",
+          "type": "city"
+        },
+        {
+          "name": "Santa Ana",
+          "type": "city"
+        },
+        {
+          "name": "Santa Barbara",
+          "type": "city"
+        },
+        {
+          "name": "Santa Clara",
+          "type": "city"
+        },
+        {
+          "name": "Santa Clarita",
+          "type": "city"
+        },
+        {
+          "name": "Santa Cruz",
+          "type": "city"
+        },
+        {
+          "name": "Santa Monica",
+          "type": "city"
+        },
+        {
+          "name": "Santa Rosa",
+          "type": "city"
+        },
+        {
+          "name": "Sausalito",
+          "type": "city"
+        },
+        {
+          "name": "Simi Valley",
+          "type": "city"
+        },
+        {
+          "name": "Sonoma",
+          "type": "city"
+        },
+        {
+          "name": "South San Francisco",
+          "type": "city"
+        },
+        {
+          "name": "Stockton",
+          "type": "city"
+        },
+        {
+          "name": "Sunnyvale",
+          "type": "city"
+        },
+        {
+          "name": "Susanville",
+          "type": "city"
+        },
+        {
+          "name": "Thousand Oaks",
+          "type": "city"
+        },
+        {
+          "name": "Torrance",
+          "type": "city"
+        },
+        {
+          "name": "Turlock",
+          "type": "city"
+        },
+        {
+          "name": "Ukiah",
+          "type": "city"
+        },
+        {
+          "name": "Vallejo",
+          "type": "city"
+        },
+        {
+          "name": "Ventura",
+          "type": "city"
+        },
+        {
+          "name": "Victorville",
+          "type": "city"
+        },
+        {
+          "name": "Visalia",
+          "type": "city"
+        },
+        {
+          "name": "Walnut Creek",
+          "type": "city"
+        },
+        {
+          "name": "Watts",
+          "type": "city"
+        },
+        {
+          "name": "West Covina",
+          "type": "city"
+        },
+        {
+          "name": "Whittier",
+          "type": "city"
+        },
+        {
+          "name": "Woodland",
+          "type": "city"
+        },
+        {
+          "name": "Yorba Linda",
+          "type": "city"
+        },
+        {
+          "name": "Yuba City",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Los Angeles International",
+          "type": "airport",
+          "code": "LAX"
+        },
+        {
+          "name": "San Francisco International",
+          "type": "airport",
+          "code": "SFO"
+        },
+        {
+          "name": "San Diego International",
+          "type": "airport",
+          "code": "SAN"
+        },
+        {
+          "name": "San Jose International",
+          "type": "airport",
+          "code": "SJC"
+        },
+        {
+          "name": "Sacramento International",
+          "type": "airport",
+          "code": "SMF"
+        },
+        {
+          "name": "Oakland International",
+          "type": "airport",
+          "code": "OAK"
+        },
+        {
+          "name": "John Wayne (Orange County)",
+          "type": "airport",
+          "code": "SNA"
+        },
+        {
+          "name": "Long Beach",
+          "type": "airport",
+          "code": "LGB"
+        },
+        {
+          "name": "Ontario International",
+          "type": "airport",
+          "code": "ONT"
+        }
+      ]
+    },
+    {
+      "name": "Colorado",
+      "abbreviation": "CO",
+      "cities": [
+        {
+          "name": "Alamosa",
+          "type": "city"
+        },
+        {
+          "name": "Aspen",
+          "type": "city"
+        },
+        {
+          "name": "Aurora",
+          "type": "city"
+        },
+        {
+          "name": "Boulder",
+          "type": "city"
+        },
+        {
+          "name": "Breckenridge",
+          "type": "city"
+        },
+        {
+          "name": "Brighton",
+          "type": "city"
+        },
+        {
+          "name": "Canon City",
+          "type": "city"
+        },
+        {
+          "name": "Central City",
+          "type": "city"
+        },
+        {
+          "name": "Climax",
+          "type": "city"
+        },
+        {
+          "name": "Colorado Springs",
+          "type": "city"
+        },
+        {
+          "name": "Cortez",
+          "type": "city"
+        },
+        {
+          "name": "Cripple Creek",
+          "type": "city"
+        },
+        {
+          "name": "Denver",
+          "type": "city"
+        },
+        {
+          "name": "Durango",
+          "type": "city"
+        },
+        {
+          "name": "Englewood",
+          "type": "city"
+        },
+        {
+          "name": "Estes Park",
+          "type": "city"
+        },
+        {
+          "name": "Fort Collins",
+          "type": "city"
+        },
+        {
+          "name": "Fort Morgan",
+          "type": "city"
+        },
+        {
+          "name": "Georgetown",
+          "type": "city"
+        },
+        {
+          "name": "Glenwood Springs",
+          "type": "city"
+        },
+        {
+          "name": "Golden",
+          "type": "city"
+        },
+        {
+          "name": "Grand Junction",
+          "type": "city"
+        },
+        {
+          "name": "Greeley",
+          "type": "city"
+        },
+        {
+          "name": "Gunnison",
+          "type": "city"
+        },
+        {
+          "name": "La Junta",
+          "type": "city"
+        },
+        {
+          "name": "Leadville",
+          "type": "city"
+        },
+        {
+          "name": "Littleton",
+          "type": "city"
+        },
+        {
+          "name": "Longmont",
+          "type": "city"
+        },
+        {
+          "name": "Loveland",
+          "type": "city"
+        },
+        {
+          "name": "Montrose",
+          "type": "city"
+        },
+        {
+          "name": "Ouray",
+          "type": "city"
+        },
+        {
+          "name": "Pagosa Springs",
+          "type": "city"
+        },
+        {
+          "name": "Pueblo",
+          "type": "city"
+        },
+        {
+          "name": "Silverton",
+          "type": "city"
+        },
+        {
+          "name": "Steamboat Springs",
+          "type": "city"
+        },
+        {
+          "name": "Sterling",
+          "type": "city"
+        },
+        {
+          "name": "Telluride",
+          "type": "city"
+        },
+        {
+          "name": "Trinidad",
+          "type": "city"
+        },
+        {
+          "name": "Vail",
+          "type": "city"
+        },
+        {
+          "name": "Walsenburg",
+          "type": "city"
+        },
+        {
+          "name": "Westminster",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Denver International",
+          "type": "airport",
+          "code": "DEN"
+        },
+        {
+          "name": "Colorado Springs",
+          "type": "airport",
+          "code": "COS"
+        }
+      ]
+    },
+    {
+      "name": "Connecticut",
+      "abbreviation": "CT",
+      "cities": [
+        {
+          "name": "Ansonia",
+          "type": "city"
+        },
+        {
+          "name": "Berlin",
+          "type": "city"
+        },
+        {
+          "name": "Bloomfield",
+          "type": "city"
+        },
+        {
+          "name": "Branford",
+          "type": "city"
+        },
+        {
+          "name": "Bridgeport",
+          "type": "city"
+        },
+        {
+          "name": "Bristol",
+          "type": "city"
+        },
+        {
+          "name": "Coventry",
+          "type": "city"
+        },
+        {
+          "name": "Danbury",
+          "type": "city"
+        },
+        {
+          "name": "Darien",
+          "type": "city"
+        },
+        {
+          "name": "Derby",
+          "type": "city"
+        },
+        {
+          "name": "East Hartford",
+          "type": "city"
+        },
+        {
+          "name": "East Haven",
+          "type": "city"
+        },
+        {
+          "name": "Enfield",
+          "type": "city"
+        },
+        {
+          "name": "Fairfield",
+          "type": "city"
+        },
+        {
+          "name": "Farmington",
+          "type": "city"
+        },
+        {
+          "name": "Greenwich",
+          "type": "city"
+        },
+        {
+          "name": "Groton",
+          "type": "city"
+        },
+        {
+          "name": "Guilford",
+          "type": "city"
+        },
+        {
+          "name": "Hamden",
+          "type": "city"
+        },
+        {
+          "name": "Hartford",
+          "type": "city"
+        },
+        {
+          "name": "Lebanon",
+          "type": "city"
+        },
+        {
+          "name": "Litchfield",
+          "type": "city"
+        },
+        {
+          "name": "Manchester",
+          "type": "city"
+        },
+        {
+          "name": "Mansfield",
+          "type": "city"
+        },
+        {
+          "name": "Meriden",
+          "type": "city"
+        },
+        {
+          "name": "Middletown",
+          "type": "city"
+        },
+        {
+          "name": "Milford",
+          "type": "city"
+        },
+        {
+          "name": "Mystic",
+          "type": "city"
+        },
+        {
+          "name": "Naugatuck",
+          "type": "city"
+        },
+        {
+          "name": "New Britain",
+          "type": "city"
+        },
+        {
+          "name": "New Haven",
+          "type": "city"
+        },
+        {
+          "name": "New London",
+          "type": "city"
+        },
+        {
+          "name": "North Haven",
+          "type": "city"
+        },
+        {
+          "name": "Norwalk",
+          "type": "city"
+        },
+        {
+          "name": "Norwich",
+          "type": "city"
+        },
+        {
+          "name": "Old Saybrook",
+          "type": "city"
+        },
+        {
+          "name": "Orange",
+          "type": "city"
+        },
+        {
+          "name": "Seymour",
+          "type": "city"
+        },
+        {
+          "name": "Shelton",
+          "type": "city"
+        },
+        {
+          "name": "Simsbury",
+          "type": "city"
+        },
+        {
+          "name": "Southington",
+          "type": "city"
+        },
+        {
+          "name": "Stamford",
+          "type": "city"
+        },
+        {
+          "name": "Stonington",
+          "type": "city"
+        },
+        {
+          "name": "Stratford",
+          "type": "city"
+        },
+        {
+          "name": "Torrington",
+          "type": "city"
+        },
+        {
+          "name": "Wallingford",
+          "type": "city"
+        },
+        {
+          "name": "Waterbury",
+          "type": "city"
+        },
+        {
+          "name": "Waterford",
+          "type": "city"
+        },
+        {
+          "name": "Watertown",
+          "type": "city"
+        },
+        {
+          "name": "West Hartford",
+          "type": "city"
+        },
+        {
+          "name": "West Haven",
+          "type": "city"
+        },
+        {
+          "name": "Westport",
+          "type": "city"
+        },
+        {
+          "name": "Wethersfield",
+          "type": "city"
+        },
+        {
+          "name": "Willimantic",
+          "type": "city"
+        },
+        {
+          "name": "Windham",
+          "type": "city"
+        },
+        {
+          "name": "Windsor",
+          "type": "city"
+        },
+        {
+          "name": "Windsor Locks",
+          "type": "city"
+        },
+        {
+          "name": "Winsted",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Bradley International",
+          "type": "airport",
+          "code": "BDL"
+        }
+      ]
+    },
+    {
+      "name": "Delaware",
+      "abbreviation": "DE",
+      "cities": [
+        {
+          "name": "Dover",
+          "type": "city"
+        },
+        {
+          "name": "Lewes",
+          "type": "city"
+        },
+        {
+          "name": "Milford",
+          "type": "city"
+        },
+        {
+          "name": "New Castle",
+          "type": "city"
+        },
+        {
+          "name": "Newark",
+          "type": "city"
+        },
+        {
+          "name": "Smyrna",
+          "type": "city"
+        },
+        {
+          "name": "Wilmington",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Wilmington Airport",
+          "type": "airport",
+          "code": "ILG"
+        }
+      ]
+    },
+    {
+      "name": "Florida",
+      "abbreviation": "FL",
+      "cities": [
+        {
+          "name": "Apalachicola",
+          "type": "city"
+        },
+        {
+          "name": "Bartow",
+          "type": "city"
+        },
+        {
+          "name": "Belle Glade",
+          "type": "city"
+        },
+        {
+          "name": "Boca Raton",
+          "type": "city"
+        },
+        {
+          "name": "Bradenton",
+          "type": "city"
+        },
+        {
+          "name": "Cape Coral",
+          "type": "city"
+        },
+        {
+          "name": "Clearwater",
+          "type": "city"
+        },
+        {
+          "name": "Cocoa Beach",
+          "type": "city"
+        },
+        {
+          "name": "Cocoa-Rockledge",
+          "type": "city"
+        },
+        {
+          "name": "Coral Gables",
+          "type": "city"
+        },
+        {
+          "name": "Daytona Beach",
+          "type": "city"
+        },
+        {
+          "name": "De Land",
+          "type": "city"
+        },
+        {
+          "name": "Deerfield Beach",
+          "type": "city"
+        },
+        {
+          "name": "Delray Beach",
+          "type": "city"
+        },
+        {
+          "name": "Fernandina Beach",
+          "type": "city"
+        },
+        {
+          "name": "Fort Lauderdale",
+          "type": "city"
+        },
+        {
+          "name": "Fort Myers",
+          "type": "city"
+        },
+        {
+          "name": "Fort Pierce",
+          "type": "city"
+        },
+        {
+          "name": "Fort Walton Beach",
+          "type": "city"
+        },
+        {
+          "name": "Gainesville",
+          "type": "city"
+        },
+        {
+          "name": "Hallandale Beach",
+          "type": "city"
+        },
+        {
+          "name": "Hialeah",
+          "type": "city"
+        },
+        {
+          "name": "Hollywood",
+          "type": "city"
+        },
+        {
+          "name": "Homestead",
+          "type": "city"
+        },
+        {
+          "name": "Jacksonville",
+          "type": "city"
+        },
+        {
+          "name": "Key West",
+          "type": "city"
+        },
+        {
+          "name": "Lake City",
+          "type": "city"
+        },
+        {
+          "name": "Lake Wales",
+          "type": "city"
+        },
+        {
+          "name": "Lakeland",
+          "type": "city"
+        },
+        {
+          "name": "Largo",
+          "type": "city"
+        },
+        {
+          "name": "Melbourne",
+          "type": "city"
+        },
+        {
+          "name": "Miami",
+          "type": "city"
+        },
+        {
+          "name": "Miami Beach",
+          "type": "city"
+        },
+        {
+          "name": "Naples",
+          "type": "city"
+        },
+        {
+          "name": "New Smyrna Beach",
+          "type": "city"
+        },
+        {
+          "name": "Ocala",
+          "type": "city"
+        },
+        {
+          "name": "Orlando",
+          "type": "city"
+        },
+        {
+          "name": "Ormond Beach",
+          "type": "city"
+        },
+        {
+          "name": "Palatka",
+          "type": "city"
+        },
+        {
+          "name": "Palm Bay",
+          "type": "city"
+        },
+        {
+          "name": "Palm Beach",
+          "type": "city"
+        },
+        {
+          "name": "Panama City",
+          "type": "city"
+        },
+        {
+          "name": "Pensacola",
+          "type": "city"
+        },
+        {
+          "name": "Pompano Beach",
+          "type": "city"
+        },
+        {
+          "name": "Saint Augustine",
+          "type": "city"
+        },
+        {
+          "name": "Saint Petersburg",
+          "type": "city"
+        },
+        {
+          "name": "Sanford",
+          "type": "city"
+        },
+        {
+          "name": "Sarasota",
+          "type": "city"
+        },
+        {
+          "name": "Sebring",
+          "type": "city"
+        },
+        {
+          "name": "Tallahassee",
+          "type": "city"
+        },
+        {
+          "name": "Tampa",
+          "type": "city"
+        },
+        {
+          "name": "Tarpon Springs",
+          "type": "city"
+        },
+        {
+          "name": "Titusville",
+          "type": "city"
+        },
+        {
+          "name": "Venice",
+          "type": "city"
+        },
+        {
+          "name": "West Palm Beach",
+          "type": "city"
+        },
+        {
+          "name": "White Springs",
+          "type": "city"
+        },
+        {
+          "name": "Winter Haven",
+          "type": "city"
+        },
+        {
+          "name": "Winter Park",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Miami International",
+          "type": "airport",
+          "code": "MIA"
+        },
+        {
+          "name": "Orlando International",
+          "type": "airport",
+          "code": "MCO"
+        },
+        {
+          "name": "Fort Lauderdale–Hollywood International",
+          "type": "airport",
+          "code": "FLL"
+        },
+        {
+          "name": "Tampa International",
+          "type": "airport",
+          "code": "TPA"
+        },
+        {
+          "name": "Palm Beach International",
+          "type": "airport",
+          "code": "PBI"
+        },
+        {
+          "name": "Southwest Florida International (Fort Myers)",
+          "type": "airport",
+          "code": "RSW"
+        },
+        {
+          "name": "Jacksonville International",
+          "type": "airport",
+          "code": "JAX"
+        }
+      ]
+    },
+    {
+      "name": "Georgia",
+      "abbreviation": "GA",
+      "cities": [
+        {
+          "name": "Albany",
+          "type": "city"
+        },
+        {
+          "name": "Americus",
+          "type": "city"
+        },
+        {
+          "name": "Andersonville",
+          "type": "city"
+        },
+        {
+          "name": "Athens",
+          "type": "city"
+        },
+        {
+          "name": "Atlanta",
+          "type": "city"
+        },
+        {
+          "name": "Augusta",
+          "type": "city"
+        },
+        {
+          "name": "Bainbridge",
+          "type": "city"
+        },
+        {
+          "name": "Blairsville",
+          "type": "city"
+        },
+        {
+          "name": "Brunswick",
+          "type": "city"
+        },
+        {
+          "name": "Calhoun",
+          "type": "city"
+        },
+        {
+          "name": "Carrollton",
+          "type": "city"
+        },
+        {
+          "name": "Columbus",
+          "type": "city"
+        },
+        {
+          "name": "Dahlonega",
+          "type": "city"
+        },
+        {
+          "name": "Dalton",
+          "type": "city"
+        },
+        {
+          "name": "Darien",
+          "type": "city"
+        },
+        {
+          "name": "Decatur",
+          "type": "city"
+        },
+        {
+          "name": "Douglas",
+          "type": "city"
+        },
+        {
+          "name": "East Point",
+          "type": "city"
+        },
+        {
+          "name": "Fitzgerald",
+          "type": "city"
+        },
+        {
+          "name": "Fort Valley",
+          "type": "city"
+        },
+        {
+          "name": "Gainesville",
+          "type": "city"
+        },
+        {
+          "name": "La Grange",
+          "type": "city"
+        },
+        {
+          "name": "Macon",
+          "type": "city"
+        },
+        {
+          "name": "Marietta",
+          "type": "city"
+        },
+        {
+          "name": "Milledgeville",
+          "type": "city"
+        },
+        {
+          "name": "Plains",
+          "type": "city"
+        },
+        {
+          "name": "Rome",
+          "type": "city"
+        },
+        {
+          "name": "Savannah",
+          "type": "city"
+        },
+        {
+          "name": "Toccoa",
+          "type": "city"
+        },
+        {
+          "name": "Valdosta",
+          "type": "city"
+        },
+        {
+          "name": "Warm Springs",
+          "type": "city"
+        },
+        {
+          "name": "Warner Robins",
+          "type": "city"
+        },
+        {
+          "name": "Washington",
+          "type": "city"
+        },
+        {
+          "name": "Waycross",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Hartsfield–Jackson Atlanta International",
+          "type": "airport",
+          "code": "ATL"
+        },
+        {
+          "name": "Savannah/Hilton Head International",
+          "type": "airport",
+          "code": "SAV"
+        }
+      ]
+    },
+    {
+      "name": "Hawaii",
+      "abbreviation": "HI",
+      "cities": [
+        {
+          "name": "Hanalei",
+          "type": "city"
+        },
+        {
+          "name": "Hilo",
+          "type": "city"
+        },
+        {
+          "name": "Honaunau",
+          "type": "city"
+        },
+        {
+          "name": "Honolulu",
+          "type": "city"
+        },
+        {
+          "name": "Kahului",
+          "type": "city"
+        },
+        {
+          "name": "Kaneohe",
+          "type": "city"
+        },
+        {
+          "name": "Kapaa",
+          "type": "city"
+        },
+        {
+          "name": "Kawaihae",
+          "type": "city"
+        },
+        {
+          "name": "Lahaina",
+          "type": "city"
+        },
+        {
+          "name": "Laie",
+          "type": "city"
+        },
+        {
+          "name": "Wahiawa",
+          "type": "city"
+        },
+        {
+          "name": "Wailuku",
+          "type": "city"
+        },
+        {
+          "name": "Waimea",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Daniel K. Inouye International (Honolulu)",
+          "type": "airport",
+          "code": "HNL"
+        },
+        {
+          "name": "Kahului",
+          "type": "airport",
+          "code": "OGG"
+        },
+        {
+          "name": "Lihue",
+          "type": "airport",
+          "code": "LIH"
+        },
+        {
+          "name": "Kona International",
+          "type": "airport",
+          "code": "KOA"
+        },
+        {
+          "name": "Hilo International",
+          "type": "airport",
+          "code": "ITO"
+        }
+      ]
+    },
+    {
+      "name": "Idaho",
+      "abbreviation": "ID",
+      "cities": [
+        {
+          "name": "Blackfoot",
+          "type": "city"
+        },
+        {
+          "name": "Boise",
+          "type": "city"
+        },
+        {
+          "name": "Bonners Ferry",
+          "type": "city"
+        },
+        {
+          "name": "Caldwell",
+          "type": "city"
+        },
+        {
+          "name": "Coeur d’Alene",
+          "type": "city"
+        },
+        {
+          "name": "Idaho City",
+          "type": "city"
+        },
+        {
+          "name": "Idaho Falls",
+          "type": "city"
+        },
+        {
+          "name": "Kellogg",
+          "type": "city"
+        },
+        {
+          "name": "Lewiston",
+          "type": "city"
+        },
+        {
+          "name": "Moscow",
+          "type": "city"
+        },
+        {
+          "name": "Nampa",
+          "type": "city"
+        },
+        {
+          "name": "Pocatello",
+          "type": "city"
+        },
+        {
+          "name": "Priest River",
+          "type": "city"
+        },
+        {
+          "name": "Rexburg",
+          "type": "city"
+        },
+        {
+          "name": "Sun Valley",
+          "type": "city"
+        },
+        {
+          "name": "Twin Falls",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Boise Airport",
+          "type": "airport",
+          "code": "BOI"
+        }
+      ]
+    },
+    {
+      "name": "Illinois",
+      "abbreviation": "IL",
+      "cities": [
+        {
+          "name": "Alton",
+          "type": "city"
+        },
+        {
+          "name": "Arlington Heights",
+          "type": "city"
+        },
+        {
+          "name": "Arthur",
+          "type": "city"
+        },
+        {
+          "name": "Aurora",
+          "type": "city"
+        },
+        {
+          "name": "Belleville",
+          "type": "city"
+        },
+        {
+          "name": "Belvidere",
+          "type": "city"
+        },
+        {
+          "name": "Bloomington",
+          "type": "city"
+        },
+        {
+          "name": "Brookfield",
+          "type": "city"
+        },
+        {
+          "name": "Cahokia",
+          "type": "city"
+        },
+        {
+          "name": "Cairo",
+          "type": "city"
+        },
+        {
+          "name": "Calumet City",
+          "type": "city"
+        },
+        {
+          "name": "Canton",
+          "type": "city"
+        },
+        {
+          "name": "Carbondale",
+          "type": "city"
+        },
+        {
+          "name": "Carlinville",
+          "type": "city"
+        },
+        {
+          "name": "Carthage",
+          "type": "city"
+        },
+        {
+          "name": "Centralia",
+          "type": "city"
+        },
+        {
+          "name": "Champaign",
+          "type": "city"
+        },
+        {
+          "name": "Charleston",
+          "type": "city"
+        },
+        {
+          "name": "Chester",
+          "type": "city"
+        },
+        {
+          "name": "Chicago",
+          "type": "city"
+        },
+        {
+          "name": "Chicago Heights",
+          "type": "city"
+        },
+        {
+          "name": "Cicero",
+          "type": "city"
+        },
+        {
+          "name": "Collinsville",
+          "type": "city"
+        },
+        {
+          "name": "Danville",
+          "type": "city"
+        },
+        {
+          "name": "Decatur",
+          "type": "city"
+        },
+        {
+          "name": "DeKalb",
+          "type": "city"
+        },
+        {
+          "name": "Des Plaines",
+          "type": "city"
+        },
+        {
+          "name": "Dixon",
+          "type": "city"
+        },
+        {
+          "name": "East Moline",
+          "type": "city"
+        },
+        {
+          "name": "East Saint Louis",
+          "type": "city"
+        },
+        {
+          "name": "Effingham",
+          "type": "city"
+        },
+        {
+          "name": "Elgin",
+          "type": "city"
+        },
+        {
+          "name": "Elmhurst",
+          "type": "city"
+        },
+        {
+          "name": "Evanston",
+          "type": "city"
+        },
+        {
+          "name": "Freeport",
+          "type": "city"
+        },
+        {
+          "name": "Galena",
+          "type": "city"
+        },
+        {
+          "name": "Galesburg",
+          "type": "city"
+        },
+        {
+          "name": "Glen Ellyn",
+          "type": "city"
+        },
+        {
+          "name": "Glenview",
+          "type": "city"
+        },
+        {
+          "name": "Granite City",
+          "type": "city"
+        },
+        {
+          "name": "Harrisburg",
+          "type": "city"
+        },
+        {
+          "name": "Herrin",
+          "type": "city"
+        },
+        {
+          "name": "Highland Park",
+          "type": "city"
+        },
+        {
+          "name": "Jacksonville",
+          "type": "city"
+        },
+        {
+          "name": "Joliet",
+          "type": "city"
+        },
+        {
+          "name": "Kankakee",
+          "type": "city"
+        },
+        {
+          "name": "Kaskaskia",
+          "type": "city"
+        },
+        {
+          "name": "Kewanee",
+          "type": "city"
+        },
+        {
+          "name": "La Salle",
+          "type": "city"
+        },
+        {
+          "name": "Lake Forest",
+          "type": "city"
+        },
+        {
+          "name": "Libertyville",
+          "type": "city"
+        },
+        {
+          "name": "Lincoln",
+          "type": "city"
+        },
+        {
+          "name": "Lisle",
+          "type": "city"
+        },
+        {
+          "name": "Lombard",
+          "type": "city"
+        },
+        {
+          "name": "Macomb",
+          "type": "city"
+        },
+        {
+          "name": "Mattoon",
+          "type": "city"
+        },
+        {
+          "name": "Moline",
+          "type": "city"
+        },
+        {
+          "name": "Monmouth",
+          "type": "city"
+        },
+        {
+          "name": "Mount Vernon",
+          "type": "city"
+        },
+        {
+          "name": "Mundelein",
+          "type": "city"
+        },
+        {
+          "name": "Naperville",
+          "type": "city"
+        },
+        {
+          "name": "Nauvoo",
+          "type": "city"
+        },
+        {
+          "name": "Normal",
+          "type": "city"
+        },
+        {
+          "name": "North Chicago",
+          "type": "city"
+        },
+        {
+          "name": "Oak Park",
+          "type": "city"
+        },
+        {
+          "name": "Oregon",
+          "type": "city"
+        },
+        {
+          "name": "Ottawa",
+          "type": "city"
+        },
+        {
+          "name": "Palatine",
+          "type": "city"
+        },
+        {
+          "name": "Park Forest",
+          "type": "city"
+        },
+        {
+          "name": "Park Ridge",
+          "type": "city"
+        },
+        {
+          "name": "Pekin",
+          "type": "city"
+        },
+        {
+          "name": "Peoria",
+          "type": "city"
+        },
+        {
+          "name": "Petersburg",
+          "type": "city"
+        },
+        {
+          "name": "Pontiac",
+          "type": "city"
+        },
+        {
+          "name": "Quincy",
+          "type": "city"
+        },
+        {
+          "name": "Rantoul",
+          "type": "city"
+        },
+        {
+          "name": "River Forest",
+          "type": "city"
+        },
+        {
+          "name": "Rock Island",
+          "type": "city"
+        },
+        {
+          "name": "Rockford",
+          "type": "city"
+        },
+        {
+          "name": "Salem",
+          "type": "city"
+        },
+        {
+          "name": "Shawneetown",
+          "type": "city"
+        },
+        {
+          "name": "Skokie",
+          "type": "city"
+        },
+        {
+          "name": "South Holland",
+          "type": "city"
+        },
+        {
+          "name": "Springfield",
+          "type": "city"
+        },
+        {
+          "name": "Streator",
+          "type": "city"
+        },
+        {
+          "name": "Summit",
+          "type": "city"
+        },
+        {
+          "name": "Urbana",
+          "type": "city"
+        },
+        {
+          "name": "Vandalia",
+          "type": "city"
+        },
+        {
+          "name": "Virden",
+          "type": "city"
+        },
+        {
+          "name": "Waukegan",
+          "type": "city"
+        },
+        {
+          "name": "Wheaton",
+          "type": "city"
+        },
+        {
+          "name": "Wilmette",
+          "type": "city"
+        },
+        {
+          "name": "Winnetka",
+          "type": "city"
+        },
+        {
+          "name": "Wood River",
+          "type": "city"
+        },
+        {
+          "name": "Zion",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "O'Hare International",
+          "type": "airport",
+          "code": "ORD"
+        },
+        {
+          "name": "Chicago Midway International",
+          "type": "airport",
+          "code": "MDW"
+        }
+      ]
+    },
+    {
+      "name": "Indiana",
+      "abbreviation": "IN",
+      "cities": [
+        {
+          "name": "Anderson",
+          "type": "city"
+        },
+        {
+          "name": "Bedford",
+          "type": "city"
+        },
+        {
+          "name": "Bloomington",
+          "type": "city"
+        },
+        {
+          "name": "Columbus",
+          "type": "city"
+        },
+        {
+          "name": "Connersville",
+          "type": "city"
+        },
+        {
+          "name": "Corydon",
+          "type": "city"
+        },
+        {
+          "name": "Crawfordsville",
+          "type": "city"
+        },
+        {
+          "name": "East Chicago",
+          "type": "city"
+        },
+        {
+          "name": "Elkhart",
+          "type": "city"
+        },
+        {
+          "name": "Elwood",
+          "type": "city"
+        },
+        {
+          "name": "Evansville",
+          "type": "city"
+        },
+        {
+          "name": "Fort Wayne",
+          "type": "city"
+        },
+        {
+          "name": "French Lick",
+          "type": "city"
+        },
+        {
+          "name": "Gary",
+          "type": "city"
+        },
+        {
+          "name": "Geneva",
+          "type": "city"
+        },
+        {
+          "name": "Goshen",
+          "type": "city"
+        },
+        {
+          "name": "Greenfield",
+          "type": "city"
+        },
+        {
+          "name": "Hammond",
+          "type": "city"
+        },
+        {
+          "name": "Hobart",
+          "type": "city"
+        },
+        {
+          "name": "Huntington",
+          "type": "city"
+        },
+        {
+          "name": "Indianapolis",
+          "type": "city"
+        },
+        {
+          "name": "Jeffersonville",
+          "type": "city"
+        },
+        {
+          "name": "Kokomo",
+          "type": "city"
+        },
+        {
+          "name": "Lafayette",
+          "type": "city"
+        },
+        {
+          "name": "Madison",
+          "type": "city"
+        },
+        {
+          "name": "Marion",
+          "type": "city"
+        },
+        {
+          "name": "Michigan City",
+          "type": "city"
+        },
+        {
+          "name": "Mishawaka",
+          "type": "city"
+        },
+        {
+          "name": "Muncie",
+          "type": "city"
+        },
+        {
+          "name": "Nappanee",
+          "type": "city"
+        },
+        {
+          "name": "Nashville",
+          "type": "city"
+        },
+        {
+          "name": "New Albany",
+          "type": "city"
+        },
+        {
+          "name": "New Castle",
+          "type": "city"
+        },
+        {
+          "name": "New Harmony",
+          "type": "city"
+        },
+        {
+          "name": "Peru",
+          "type": "city"
+        },
+        {
+          "name": "Plymouth",
+          "type": "city"
+        },
+        {
+          "name": "Richmond",
+          "type": "city"
+        },
+        {
+          "name": "Santa Claus",
+          "type": "city"
+        },
+        {
+          "name": "Shelbyville",
+          "type": "city"
+        },
+        {
+          "name": "South Bend",
+          "type": "city"
+        },
+        {
+          "name": "Terre Haute",
+          "type": "city"
+        },
+        {
+          "name": "Valparaiso",
+          "type": "city"
+        },
+        {
+          "name": "Vincennes",
+          "type": "city"
+        },
+        {
+          "name": "Wabash",
+          "type": "city"
+        },
+        {
+          "name": "West Lafayette",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Indianapolis International",
+          "type": "airport",
+          "code": "IND"
+        }
+      ]
+    },
+    {
+      "name": "Iowa",
+      "abbreviation": "IA",
+      "cities": [
+        {
+          "name": "Amana Colonies",
+          "type": "city"
+        },
+        {
+          "name": "Ames",
+          "type": "city"
+        },
+        {
+          "name": "Boone",
+          "type": "city"
+        },
+        {
+          "name": "Burlington",
+          "type": "city"
+        },
+        {
+          "name": "Cedar Falls",
+          "type": "city"
+        },
+        {
+          "name": "Cedar Rapids",
+          "type": "city"
+        },
+        {
+          "name": "Charles City",
+          "type": "city"
+        },
+        {
+          "name": "Cherokee",
+          "type": "city"
+        },
+        {
+          "name": "Clinton",
+          "type": "city"
+        },
+        {
+          "name": "Council Bluffs",
+          "type": "city"
+        },
+        {
+          "name": "Davenport",
+          "type": "city"
+        },
+        {
+          "name": "Des Moines",
+          "type": "city"
+        },
+        {
+          "name": "Dubuque",
+          "type": "city"
+        },
+        {
+          "name": "Estherville",
+          "type": "city"
+        },
+        {
+          "name": "Fairfield",
+          "type": "city"
+        },
+        {
+          "name": "Fort Dodge",
+          "type": "city"
+        },
+        {
+          "name": "Grinnell",
+          "type": "city"
+        },
+        {
+          "name": "Indianola",
+          "type": "city"
+        },
+        {
+          "name": "Iowa City",
+          "type": "city"
+        },
+        {
+          "name": "Keokuk",
+          "type": "city"
+        },
+        {
+          "name": "Mason City",
+          "type": "city"
+        },
+        {
+          "name": "Mount Pleasant",
+          "type": "city"
+        },
+        {
+          "name": "Muscatine",
+          "type": "city"
+        },
+        {
+          "name": "Newton",
+          "type": "city"
+        },
+        {
+          "name": "Oskaloosa",
+          "type": "city"
+        },
+        {
+          "name": "Ottumwa",
+          "type": "city"
+        },
+        {
+          "name": "Sioux City",
+          "type": "city"
+        },
+        {
+          "name": "Waterloo",
+          "type": "city"
+        },
+        {
+          "name": "Webster City",
+          "type": "city"
+        },
+        {
+          "name": "West Des Moines",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Des Moines International",
+          "type": "airport",
+          "code": "DSM"
+        }
+      ]
+    },
+    {
+      "name": "Kansas",
+      "abbreviation": "KS",
+      "cities": [
+        {
+          "name": "Abilene",
+          "type": "city"
+        },
+        {
+          "name": "Arkansas City",
+          "type": "city"
+        },
+        {
+          "name": "Atchison",
+          "type": "city"
+        },
+        {
+          "name": "Chanute",
+          "type": "city"
+        },
+        {
+          "name": "Coffeyville",
+          "type": "city"
+        },
+        {
+          "name": "Council Grove",
+          "type": "city"
+        },
+        {
+          "name": "Dodge City",
+          "type": "city"
+        },
+        {
+          "name": "Emporia",
+          "type": "city"
+        },
+        {
+          "name": "Fort Scott",
+          "type": "city"
+        },
+        {
+          "name": "Garden City",
+          "type": "city"
+        },
+        {
+          "name": "Great Bend",
+          "type": "city"
+        },
+        {
+          "name": "Hays",
+          "type": "city"
+        },
+        {
+          "name": "Hutchinson",
+          "type": "city"
+        },
+        {
+          "name": "Independence",
+          "type": "city"
+        },
+        {
+          "name": "Junction City",
+          "type": "city"
+        },
+        {
+          "name": "Kansas City",
+          "type": "city"
+        },
+        {
+          "name": "Lawrence",
+          "type": "city"
+        },
+        {
+          "name": "Leavenworth",
+          "type": "city"
+        },
+        {
+          "name": "Liberal",
+          "type": "city"
+        },
+        {
+          "name": "Manhattan",
+          "type": "city"
+        },
+        {
+          "name": "McPherson",
+          "type": "city"
+        },
+        {
+          "name": "Medicine Lodge",
+          "type": "city"
+        },
+        {
+          "name": "Newton",
+          "type": "city"
+        },
+        {
+          "name": "Olathe",
+          "type": "city"
+        },
+        {
+          "name": "Osawatomie",
+          "type": "city"
+        },
+        {
+          "name": "Ottawa",
+          "type": "city"
+        },
+        {
+          "name": "Overland Park",
+          "type": "city"
+        },
+        {
+          "name": "Pittsburg",
+          "type": "city"
+        },
+        {
+          "name": "Salina",
+          "type": "city"
+        },
+        {
+          "name": "Shawnee",
+          "type": "city"
+        },
+        {
+          "name": "Smith Center",
+          "type": "city"
+        },
+        {
+          "name": "Topeka",
+          "type": "city"
+        },
+        {
+          "name": "Wichita",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Wichita Dwight D. Eisenhower National",
+          "type": "airport",
+          "code": "ICT"
+        }
+      ]
+    },
+    {
+      "name": "Kentucky",
+      "abbreviation": "KY",
+      "cities": [
+        {
+          "name": "Ashland",
+          "type": "city"
+        },
+        {
+          "name": "Barbourville",
+          "type": "city"
+        },
+        {
+          "name": "Bardstown",
+          "type": "city"
+        },
+        {
+          "name": "Berea",
+          "type": "city"
+        },
+        {
+          "name": "Boonesborough",
+          "type": "city"
+        },
+        {
+          "name": "Bowling Green",
+          "type": "city"
+        },
+        {
+          "name": "Campbellsville",
+          "type": "city"
+        },
+        {
+          "name": "Covington",
+          "type": "city"
+        },
+        {
+          "name": "Danville",
+          "type": "city"
+        },
+        {
+          "name": "Elizabethtown",
+          "type": "city"
+        },
+        {
+          "name": "Frankfort",
+          "type": "city"
+        },
+        {
+          "name": "Harlan",
+          "type": "city"
+        },
+        {
+          "name": "Harrodsburg",
+          "type": "city"
+        },
+        {
+          "name": "Hazard",
+          "type": "city"
+        },
+        {
+          "name": "Henderson",
+          "type": "city"
+        },
+        {
+          "name": "Hodgenville",
+          "type": "city"
+        },
+        {
+          "name": "Hopkinsville",
+          "type": "city"
+        },
+        {
+          "name": "Lexington",
+          "type": "city"
+        },
+        {
+          "name": "Louisville",
+          "type": "city"
+        },
+        {
+          "name": "Mayfield",
+          "type": "city"
+        },
+        {
+          "name": "Maysville",
+          "type": "city"
+        },
+        {
+          "name": "Middlesboro",
+          "type": "city"
+        },
+        {
+          "name": "Newport",
+          "type": "city"
+        },
+        {
+          "name": "Owensboro",
+          "type": "city"
+        },
+        {
+          "name": "Paducah",
+          "type": "city"
+        },
+        {
+          "name": "Paris",
+          "type": "city"
+        },
+        {
+          "name": "Richmond",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Louisville Muhammad Ali International",
+          "type": "airport",
+          "code": "SDF"
+        },
+        {
+          "name": "Cincinnati/Northern Kentucky International",
+          "type": "airport",
+          "code": "CVG"
+        }
+      ]
+    },
+    {
+      "name": "Louisiana",
+      "abbreviation": "LA",
+      "cities": [
+        {
+          "name": "Abbeville",
+          "type": "city"
+        },
+        {
+          "name": "Alexandria",
+          "type": "city"
+        },
+        {
+          "name": "Bastrop",
+          "type": "city"
+        },
+        {
+          "name": "Baton Rouge",
+          "type": "city"
+        },
+        {
+          "name": "Bogalusa",
+          "type": "city"
+        },
+        {
+          "name": "Bossier City",
+          "type": "city"
+        },
+        {
+          "name": "Gretna",
+          "type": "city"
+        },
+        {
+          "name": "Houma",
+          "type": "city"
+        },
+        {
+          "name": "Lafayette",
+          "type": "city"
+        },
+        {
+          "name": "Lake Charles",
+          "type": "city"
+        },
+        {
+          "name": "Monroe",
+          "type": "city"
+        },
+        {
+          "name": "Morgan City",
+          "type": "city"
+        },
+        {
+          "name": "Natchitoches",
+          "type": "city"
+        },
+        {
+          "name": "New Iberia",
+          "type": "city"
+        },
+        {
+          "name": "New Orleans",
+          "type": "city"
+        },
+        {
+          "name": "Opelousas",
+          "type": "city"
+        },
+        {
+          "name": "Ruston",
+          "type": "city"
+        },
+        {
+          "name": "Saint Martinville",
+          "type": "city"
+        },
+        {
+          "name": "Shreveport",
+          "type": "city"
+        },
+        {
+          "name": "Thibodaux",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Louis Armstrong New Orleans International",
+          "type": "airport",
+          "code": "MSY"
+        },
+        {
+          "name": "Baton Rouge Metropolitan",
+          "type": "airport",
+          "code": "BTR"
+        }
+      ]
+    },
+    {
+      "name": "Maine",
+      "abbreviation": "ME",
+      "cities": [
+        {
+          "name": "Auburn",
+          "type": "city"
+        },
+        {
+          "name": "Augusta",
+          "type": "city"
+        },
+        {
+          "name": "Bangor",
+          "type": "city"
+        },
+        {
+          "name": "Bar Harbor",
+          "type": "city"
+        },
+        {
+          "name": "Bath",
+          "type": "city"
+        },
+        {
+          "name": "Belfast",
+          "type": "city"
+        },
+        {
+          "name": "Biddeford",
+          "type": "city"
+        },
+        {
+          "name": "Boothbay Harbor",
+          "type": "city"
+        },
+        {
+          "name": "Brunswick",
+          "type": "city"
+        },
+        {
+          "name": "Calais",
+          "type": "city"
+        },
+        {
+          "name": "Caribou",
+          "type": "city"
+        },
+        {
+          "name": "Castine",
+          "type": "city"
+        },
+        {
+          "name": "Eastport",
+          "type": "city"
+        },
+        {
+          "name": "Ellsworth",
+          "type": "city"
+        },
+        {
+          "name": "Farmington",
+          "type": "city"
+        },
+        {
+          "name": "Fort Kent",
+          "type": "city"
+        },
+        {
+          "name": "Gardiner",
+          "type": "city"
+        },
+        {
+          "name": "Houlton",
+          "type": "city"
+        },
+        {
+          "name": "Kennebunkport",
+          "type": "city"
+        },
+        {
+          "name": "Kittery",
+          "type": "city"
+        },
+        {
+          "name": "Lewiston",
+          "type": "city"
+        },
+        {
+          "name": "Lubec",
+          "type": "city"
+        },
+        {
+          "name": "Machias",
+          "type": "city"
+        },
+        {
+          "name": "Orono",
+          "type": "city"
+        },
+        {
+          "name": "Portland",
+          "type": "city"
+        },
+        {
+          "name": "Presque Isle",
+          "type": "city"
+        },
+        {
+          "name": "Rockland",
+          "type": "city"
+        },
+        {
+          "name": "Rumford",
+          "type": "city"
+        },
+        {
+          "name": "Saco",
+          "type": "city"
+        },
+        {
+          "name": "Scarborough",
+          "type": "city"
+        },
+        {
+          "name": "Waterville",
+          "type": "city"
+        },
+        {
+          "name": "York",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Portland International Jetport",
+          "type": "airport",
+          "code": "PWM"
+        }
+      ]
+    },
+    {
+      "name": "Maryland",
+      "abbreviation": "MD",
+      "cities": [
+        {
+          "name": "Aberdeen",
+          "type": "city"
+        },
+        {
+          "name": "Annapolis",
+          "type": "city"
+        },
+        {
+          "name": "Baltimore",
+          "type": "city"
+        },
+        {
+          "name": "Bethesda-Chevy Chase",
+          "type": "city"
+        },
+        {
+          "name": "Bowie",
+          "type": "city"
+        },
+        {
+          "name": "Cambridge",
+          "type": "city"
+        },
+        {
+          "name": "Catonsville",
+          "type": "city"
+        },
+        {
+          "name": "College Park",
+          "type": "city"
+        },
+        {
+          "name": "Columbia",
+          "type": "city"
+        },
+        {
+          "name": "Cumberland",
+          "type": "city"
+        },
+        {
+          "name": "Easton",
+          "type": "city"
+        },
+        {
+          "name": "Elkton",
+          "type": "city"
+        },
+        {
+          "name": "Emmitsburg",
+          "type": "city"
+        },
+        {
+          "name": "Frederick",
+          "type": "city"
+        },
+        {
+          "name": "Greenbelt",
+          "type": "city"
+        },
+        {
+          "name": "Hagerstown",
+          "type": "city"
+        },
+        {
+          "name": "Hyattsville",
+          "type": "city"
+        },
+        {
+          "name": "Laurel",
+          "type": "city"
+        },
+        {
+          "name": "Oakland",
+          "type": "city"
+        },
+        {
+          "name": "Ocean City",
+          "type": "city"
+        },
+        {
+          "name": "Rockville",
+          "type": "city"
+        },
+        {
+          "name": "Saint Marys City",
+          "type": "city"
+        },
+        {
+          "name": "Salisbury",
+          "type": "city"
+        },
+        {
+          "name": "Silver Spring",
+          "type": "city"
+        },
+        {
+          "name": "Takoma Park",
+          "type": "city"
+        },
+        {
+          "name": "Towson",
+          "type": "city"
+        },
+        {
+          "name": "Westminster",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Baltimore/Washington International Thurgood Marshall",
+          "type": "airport",
+          "code": "BWI"
+        }
+      ]
+    },
+    {
+      "name": "Massachusetts",
+      "abbreviation": "MA",
+      "cities": [
+        {
+          "name": "Abington",
+          "type": "city"
+        },
+        {
+          "name": "Adams",
+          "type": "city"
+        },
+        {
+          "name": "Amesbury",
+          "type": "city"
+        },
+        {
+          "name": "Amherst",
+          "type": "city"
+        },
+        {
+          "name": "Andover",
+          "type": "city"
+        },
+        {
+          "name": "Arlington",
+          "type": "city"
+        },
+        {
+          "name": "Athol",
+          "type": "city"
+        },
+        {
+          "name": "Attleboro",
+          "type": "city"
+        },
+        {
+          "name": "Barnstable",
+          "type": "city"
+        },
+        {
+          "name": "Bedford",
+          "type": "city"
+        },
+        {
+          "name": "Beverly",
+          "type": "city"
+        },
+        {
+          "name": "Boston",
+          "type": "city"
+        },
+        {
+          "name": "Bourne",
+          "type": "city"
+        },
+        {
+          "name": "Braintree",
+          "type": "city"
+        },
+        {
+          "name": "Brockton",
+          "type": "city"
+        },
+        {
+          "name": "Brookline",
+          "type": "city"
+        },
+        {
+          "name": "Cambridge",
+          "type": "city"
+        },
+        {
+          "name": "Canton",
+          "type": "city"
+        },
+        {
+          "name": "Charlestown",
+          "type": "city"
+        },
+        {
+          "name": "Chelmsford",
+          "type": "city"
+        },
+        {
+          "name": "Chelsea",
+          "type": "city"
+        },
+        {
+          "name": "Chicopee",
+          "type": "city"
+        },
+        {
+          "name": "Clinton",
+          "type": "city"
+        },
+        {
+          "name": "Cohasset",
+          "type": "city"
+        },
+        {
+          "name": "Concord",
+          "type": "city"
+        },
+        {
+          "name": "Danvers",
+          "type": "city"
+        },
+        {
+          "name": "Dartmouth",
+          "type": "city"
+        },
+        {
+          "name": "Dedham",
+          "type": "city"
+        },
+        {
+          "name": "Dennis",
+          "type": "city"
+        },
+        {
+          "name": "Duxbury",
+          "type": "city"
+        },
+        {
+          "name": "Eastham",
+          "type": "city"
+        },
+        {
+          "name": "Edgartown",
+          "type": "city"
+        },
+        {
+          "name": "Everett",
+          "type": "city"
+        },
+        {
+          "name": "Fairhaven",
+          "type": "city"
+        },
+        {
+          "name": "Fall River",
+          "type": "city"
+        },
+        {
+          "name": "Falmouth",
+          "type": "city"
+        },
+        {
+          "name": "Fitchburg",
+          "type": "city"
+        },
+        {
+          "name": "Framingham",
+          "type": "city"
+        },
+        {
+          "name": "Gloucester",
+          "type": "city"
+        },
+        {
+          "name": "Great Barrington",
+          "type": "city"
+        },
+        {
+          "name": "Greenfield",
+          "type": "city"
+        },
+        {
+          "name": "Groton",
+          "type": "city"
+        },
+        {
+          "name": "Harwich",
+          "type": "city"
+        },
+        {
+          "name": "Haverhill",
+          "type": "city"
+        },
+        {
+          "name": "Hingham",
+          "type": "city"
+        },
+        {
+          "name": "Holyoke",
+          "type": "city"
+        },
+        {
+          "name": "Hyannis",
+          "type": "city"
+        },
+        {
+          "name": "Ipswich",
+          "type": "city"
+        },
+        {
+          "name": "Lawrence",
+          "type": "city"
+        },
+        {
+          "name": "Lenox",
+          "type": "city"
+        },
+        {
+          "name": "Leominster",
+          "type": "city"
+        },
+        {
+          "name": "Lexington",
+          "type": "city"
+        },
+        {
+          "name": "Lowell",
+          "type": "city"
+        },
+        {
+          "name": "Ludlow",
+          "type": "city"
+        },
+        {
+          "name": "Lynn",
+          "type": "city"
+        },
+        {
+          "name": "Malden",
+          "type": "city"
+        },
+        {
+          "name": "Marblehead",
+          "type": "city"
+        },
+        {
+          "name": "Marlborough",
+          "type": "city"
+        },
+        {
+          "name": "Medford",
+          "type": "city"
+        },
+        {
+          "name": "Milton",
+          "type": "city"
+        },
+        {
+          "name": "Nahant",
+          "type": "city"
+        },
+        {
+          "name": "Natick",
+          "type": "city"
+        },
+        {
+          "name": "New Bedford",
+          "type": "city"
+        },
+        {
+          "name": "Newburyport",
+          "type": "city"
+        },
+        {
+          "name": "Newton",
+          "type": "city"
+        },
+        {
+          "name": "North Adams",
+          "type": "city"
+        },
+        {
+          "name": "Northampton",
+          "type": "city"
+        },
+        {
+          "name": "Norton",
+          "type": "city"
+        },
+        {
+          "name": "Norwood",
+          "type": "city"
+        },
+        {
+          "name": "Peabody",
+          "type": "city"
+        },
+        {
+          "name": "Pittsfield",
+          "type": "city"
+        },
+        {
+          "name": "Plymouth",
+          "type": "city"
+        },
+        {
+          "name": "Provincetown",
+          "type": "city"
+        },
+        {
+          "name": "Quincy",
+          "type": "city"
+        },
+        {
+          "name": "Randolph",
+          "type": "city"
+        },
+        {
+          "name": "Revere",
+          "type": "city"
+        },
+        {
+          "name": "Salem",
+          "type": "city"
+        },
+        {
+          "name": "Sandwich",
+          "type": "city"
+        },
+        {
+          "name": "Saugus",
+          "type": "city"
+        },
+        {
+          "name": "Somerville",
+          "type": "city"
+        },
+        {
+          "name": "South Hadley",
+          "type": "city"
+        },
+        {
+          "name": "Springfield",
+          "type": "city"
+        },
+        {
+          "name": "Stockbridge",
+          "type": "city"
+        },
+        {
+          "name": "Stoughton",
+          "type": "city"
+        },
+        {
+          "name": "Sturbridge",
+          "type": "city"
+        },
+        {
+          "name": "Sudbury",
+          "type": "city"
+        },
+        {
+          "name": "Taunton",
+          "type": "city"
+        },
+        {
+          "name": "Tewksbury",
+          "type": "city"
+        },
+        {
+          "name": "Truro",
+          "type": "city"
+        },
+        {
+          "name": "Watertown",
+          "type": "city"
+        },
+        {
+          "name": "Webster",
+          "type": "city"
+        },
+        {
+          "name": "Wellesley",
+          "type": "city"
+        },
+        {
+          "name": "Wellfleet",
+          "type": "city"
+        },
+        {
+          "name": "West Bridgewater",
+          "type": "city"
+        },
+        {
+          "name": "West Springfield",
+          "type": "city"
+        },
+        {
+          "name": "Westfield",
+          "type": "city"
+        },
+        {
+          "name": "Weymouth",
+          "type": "city"
+        },
+        {
+          "name": "Whitman",
+          "type": "city"
+        },
+        {
+          "name": "Williamstown",
+          "type": "city"
+        },
+        {
+          "name": "Woburn",
+          "type": "city"
+        },
+        {
+          "name": "Woods Hole",
+          "type": "city"
+        },
+        {
+          "name": "Worcester",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Logan International",
+          "type": "airport",
+          "code": "BOS"
+        }
+      ]
+    },
+    {
+      "name": "Michigan",
+      "abbreviation": "MI",
+      "cities": [
+        {
+          "name": "Adrian",
+          "type": "city"
+        },
+        {
+          "name": "Alma",
+          "type": "city"
+        },
+        {
+          "name": "Ann Arbor",
+          "type": "city"
+        },
+        {
+          "name": "Battle Creek",
+          "type": "city"
+        },
+        {
+          "name": "Bay City",
+          "type": "city"
+        },
+        {
+          "name": "Benton Harbor",
+          "type": "city"
+        },
+        {
+          "name": "Bloomfield Hills",
+          "type": "city"
+        },
+        {
+          "name": "Cadillac",
+          "type": "city"
+        },
+        {
+          "name": "Charlevoix",
+          "type": "city"
+        },
+        {
+          "name": "Cheboygan",
+          "type": "city"
+        },
+        {
+          "name": "Dearborn",
+          "type": "city"
+        },
+        {
+          "name": "Detroit",
+          "type": "city"
+        },
+        {
+          "name": "East Lansing",
+          "type": "city"
+        },
+        {
+          "name": "Eastpointe",
+          "type": "city"
+        },
+        {
+          "name": "Ecorse",
+          "type": "city"
+        },
+        {
+          "name": "Escanaba",
+          "type": "city"
+        },
+        {
+          "name": "Flint",
+          "type": "city"
+        },
+        {
+          "name": "Grand Haven",
+          "type": "city"
+        },
+        {
+          "name": "Grand Rapids",
+          "type": "city"
+        },
+        {
+          "name": "Grayling",
+          "type": "city"
+        },
+        {
+          "name": "Grosse Pointe",
+          "type": "city"
+        },
+        {
+          "name": "Hancock",
+          "type": "city"
+        },
+        {
+          "name": "Highland Park",
+          "type": "city"
+        },
+        {
+          "name": "Holland",
+          "type": "city"
+        },
+        {
+          "name": "Houghton",
+          "type": "city"
+        },
+        {
+          "name": "Interlochen",
+          "type": "city"
+        },
+        {
+          "name": "Iron Mountain",
+          "type": "city"
+        },
+        {
+          "name": "Ironwood",
+          "type": "city"
+        },
+        {
+          "name": "Ishpeming",
+          "type": "city"
+        },
+        {
+          "name": "Jackson",
+          "type": "city"
+        },
+        {
+          "name": "Kalamazoo",
+          "type": "city"
+        },
+        {
+          "name": "Lansing",
+          "type": "city"
+        },
+        {
+          "name": "Livonia",
+          "type": "city"
+        },
+        {
+          "name": "Ludington",
+          "type": "city"
+        },
+        {
+          "name": "Mackinaw City",
+          "type": "city"
+        },
+        {
+          "name": "Manistee",
+          "type": "city"
+        },
+        {
+          "name": "Marquette",
+          "type": "city"
+        },
+        {
+          "name": "Menominee",
+          "type": "city"
+        },
+        {
+          "name": "Midland",
+          "type": "city"
+        },
+        {
+          "name": "Monroe",
+          "type": "city"
+        },
+        {
+          "name": "Mount Clemens",
+          "type": "city"
+        },
+        {
+          "name": "Mount Pleasant",
+          "type": "city"
+        },
+        {
+          "name": "Muskegon",
+          "type": "city"
+        },
+        {
+          "name": "Niles",
+          "type": "city"
+        },
+        {
+          "name": "Petoskey",
+          "type": "city"
+        },
+        {
+          "name": "Pontiac",
+          "type": "city"
+        },
+        {
+          "name": "Port Huron",
+          "type": "city"
+        },
+        {
+          "name": "Royal Oak",
+          "type": "city"
+        },
+        {
+          "name": "Saginaw",
+          "type": "city"
+        },
+        {
+          "name": "Saint Ignace",
+          "type": "city"
+        },
+        {
+          "name": "Saint Joseph",
+          "type": "city"
+        },
+        {
+          "name": "Sault Sainte Marie",
+          "type": "city"
+        },
+        {
+          "name": "Traverse City",
+          "type": "city"
+        },
+        {
+          "name": "Trenton",
+          "type": "city"
+        },
+        {
+          "name": "Warren",
+          "type": "city"
+        },
+        {
+          "name": "Wyandotte",
+          "type": "city"
+        },
+        {
+          "name": "Ypsilanti",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Detroit Metropolitan Wayne County",
+          "type": "airport",
+          "code": "DTW"
+        },
+        {
+          "name": "Gerald R. Ford International (Grand Rapids)",
+          "type": "airport",
+          "code": "GRR"
+        }
+      ]
+    },
+    {
+      "name": "Minnesota",
+      "abbreviation": "MN",
+      "cities": [
+        {
+          "name": "Albert Lea",
+          "type": "city"
+        },
+        {
+          "name": "Alexandria",
+          "type": "city"
+        },
+        {
+          "name": "Austin",
+          "type": "city"
+        },
+        {
+          "name": "Bemidji",
+          "type": "city"
+        },
+        {
+          "name": "Bloomington",
+          "type": "city"
+        },
+        {
+          "name": "Brainerd",
+          "type": "city"
+        },
+        {
+          "name": "Crookston",
+          "type": "city"
+        },
+        {
+          "name": "Duluth",
+          "type": "city"
+        },
+        {
+          "name": "Ely",
+          "type": "city"
+        },
+        {
+          "name": "Eveleth",
+          "type": "city"
+        },
+        {
+          "name": "Faribault",
+          "type": "city"
+        },
+        {
+          "name": "Fergus Falls",
+          "type": "city"
+        },
+        {
+          "name": "Hastings",
+          "type": "city"
+        },
+        {
+          "name": "Hibbing",
+          "type": "city"
+        },
+        {
+          "name": "International Falls",
+          "type": "city"
+        },
+        {
+          "name": "Little Falls",
+          "type": "city"
+        },
+        {
+          "name": "Mankato",
+          "type": "city"
+        },
+        {
+          "name": "Minneapolis",
+          "type": "city"
+        },
+        {
+          "name": "Moorhead",
+          "type": "city"
+        },
+        {
+          "name": "New Ulm",
+          "type": "city"
+        },
+        {
+          "name": "Northfield",
+          "type": "city"
+        },
+        {
+          "name": "Owatonna",
+          "type": "city"
+        },
+        {
+          "name": "Pipestone",
+          "type": "city"
+        },
+        {
+          "name": "Red Wing",
+          "type": "city"
+        },
+        {
+          "name": "Rochester",
+          "type": "city"
+        },
+        {
+          "name": "Saint Cloud",
+          "type": "city"
+        },
+        {
+          "name": "Saint Paul",
+          "type": "city"
+        },
+        {
+          "name": "Sauk Centre",
+          "type": "city"
+        },
+        {
+          "name": "South Saint Paul",
+          "type": "city"
+        },
+        {
+          "name": "Stillwater",
+          "type": "city"
+        },
+        {
+          "name": "Virginia",
+          "type": "city"
+        },
+        {
+          "name": "Willmar",
+          "type": "city"
+        },
+        {
+          "name": "Winona",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Minneapolis–Saint Paul International",
+          "type": "airport",
+          "code": "MSP"
+        }
+      ]
+    },
+    {
+      "name": "Mississippi",
+      "abbreviation": "MS",
+      "cities": [
+        {
+          "name": "Bay Saint Louis",
+          "type": "city"
+        },
+        {
+          "name": "Biloxi",
+          "type": "city"
+        },
+        {
+          "name": "Canton",
+          "type": "city"
+        },
+        {
+          "name": "Clarksdale",
+          "type": "city"
+        },
+        {
+          "name": "Columbia",
+          "type": "city"
+        },
+        {
+          "name": "Columbus",
+          "type": "city"
+        },
+        {
+          "name": "Corinth",
+          "type": "city"
+        },
+        {
+          "name": "Greenville",
+          "type": "city"
+        },
+        {
+          "name": "Greenwood",
+          "type": "city"
+        },
+        {
+          "name": "Grenada",
+          "type": "city"
+        },
+        {
+          "name": "Gulfport",
+          "type": "city"
+        },
+        {
+          "name": "Hattiesburg",
+          "type": "city"
+        },
+        {
+          "name": "Holly Springs",
+          "type": "city"
+        },
+        {
+          "name": "Jackson",
+          "type": "city"
+        },
+        {
+          "name": "Laurel",
+          "type": "city"
+        },
+        {
+          "name": "Meridian",
+          "type": "city"
+        },
+        {
+          "name": "Natchez",
+          "type": "city"
+        },
+        {
+          "name": "Ocean Springs",
+          "type": "city"
+        },
+        {
+          "name": "Oxford",
+          "type": "city"
+        },
+        {
+          "name": "Pascagoula",
+          "type": "city"
+        },
+        {
+          "name": "Pass Christian",
+          "type": "city"
+        },
+        {
+          "name": "Philadelphia",
+          "type": "city"
+        },
+        {
+          "name": "Port Gibson",
+          "type": "city"
+        },
+        {
+          "name": "Starkville",
+          "type": "city"
+        },
+        {
+          "name": "Tupelo",
+          "type": "city"
+        },
+        {
+          "name": "Vicksburg",
+          "type": "city"
+        },
+        {
+          "name": "West Point",
+          "type": "city"
+        },
+        {
+          "name": "Yazoo City",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Jackson–Medgar Wiley Evers International",
+          "type": "airport",
+          "code": "JAN"
+        }
+      ]
+    },
+    {
+      "name": "Missouri",
+      "abbreviation": "MO",
+      "cities": [
+        {
+          "name": "Boonville",
+          "type": "city"
+        },
+        {
+          "name": "Branson",
+          "type": "city"
+        },
+        {
+          "name": "Cape Girardeau",
+          "type": "city"
+        },
+        {
+          "name": "Carthage",
+          "type": "city"
+        },
+        {
+          "name": "Chillicothe",
+          "type": "city"
+        },
+        {
+          "name": "Clayton",
+          "type": "city"
+        },
+        {
+          "name": "Columbia",
+          "type": "city"
+        },
+        {
+          "name": "Excelsior Springs",
+          "type": "city"
+        },
+        {
+          "name": "Ferguson",
+          "type": "city"
+        },
+        {
+          "name": "Florissant",
+          "type": "city"
+        },
+        {
+          "name": "Fulton",
+          "type": "city"
+        },
+        {
+          "name": "Hannibal",
+          "type": "city"
+        },
+        {
+          "name": "Independence",
+          "type": "city"
+        },
+        {
+          "name": "Jefferson City",
+          "type": "city"
+        },
+        {
+          "name": "Joplin",
+          "type": "city"
+        },
+        {
+          "name": "Kansas City",
+          "type": "city"
+        },
+        {
+          "name": "Kirksville",
+          "type": "city"
+        },
+        {
+          "name": "Lamar",
+          "type": "city"
+        },
+        {
+          "name": "Lebanon",
+          "type": "city"
+        },
+        {
+          "name": "Lexington",
+          "type": "city"
+        },
+        {
+          "name": "Maryville",
+          "type": "city"
+        },
+        {
+          "name": "Mexico",
+          "type": "city"
+        },
+        {
+          "name": "Monett",
+          "type": "city"
+        },
+        {
+          "name": "Neosho",
+          "type": "city"
+        },
+        {
+          "name": "New Madrid",
+          "type": "city"
+        },
+        {
+          "name": "Rolla",
+          "type": "city"
+        },
+        {
+          "name": "Saint Charles",
+          "type": "city"
+        },
+        {
+          "name": "Saint Joseph",
+          "type": "city"
+        },
+        {
+          "name": "Saint Louis",
+          "type": "city"
+        },
+        {
+          "name": "Sainte Genevieve",
+          "type": "city"
+        },
+        {
+          "name": "Salem",
+          "type": "city"
+        },
+        {
+          "name": "Sedalia",
+          "type": "city"
+        },
+        {
+          "name": "Springfield",
+          "type": "city"
+        },
+        {
+          "name": "Warrensburg",
+          "type": "city"
+        },
+        {
+          "name": "West Plains",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "St. Louis Lambert International",
+          "type": "airport",
+          "code": "STL"
+        },
+        {
+          "name": "Kansas City International",
+          "type": "airport",
+          "code": "MCI"
+        }
+      ]
+    },
+    {
+      "name": "Montana",
+      "abbreviation": "MT",
+      "cities": [
+        {
+          "name": "Anaconda",
+          "type": "city"
+        },
+        {
+          "name": "Billings",
+          "type": "city"
+        },
+        {
+          "name": "Bozeman",
+          "type": "city"
+        },
+        {
+          "name": "Butte",
+          "type": "city"
+        },
+        {
+          "name": "Dillon",
+          "type": "city"
+        },
+        {
+          "name": "Fort Benton",
+          "type": "city"
+        },
+        {
+          "name": "Glendive",
+          "type": "city"
+        },
+        {
+          "name": "Great Falls",
+          "type": "city"
+        },
+        {
+          "name": "Havre",
+          "type": "city"
+        },
+        {
+          "name": "Helena",
+          "type": "city"
+        },
+        {
+          "name": "Kalispell",
+          "type": "city"
+        },
+        {
+          "name": "Lewistown",
+          "type": "city"
+        },
+        {
+          "name": "Livingston",
+          "type": "city"
+        },
+        {
+          "name": "Miles City",
+          "type": "city"
+        },
+        {
+          "name": "Missoula",
+          "type": "city"
+        },
+        {
+          "name": "Virginia City",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Bozeman Yellowstone International",
+          "type": "airport",
+          "code": "BZN"
+        }
+      ]
+    },
+    {
+      "name": "Nebraska",
+      "abbreviation": "NE",
+      "cities": [
+        {
+          "name": "Beatrice",
+          "type": "city"
+        },
+        {
+          "name": "Bellevue",
+          "type": "city"
+        },
+        {
+          "name": "Boys Town",
+          "type": "city"
+        },
+        {
+          "name": "Chadron",
+          "type": "city"
+        },
+        {
+          "name": "Columbus",
+          "type": "city"
+        },
+        {
+          "name": "Fremont",
+          "type": "city"
+        },
+        {
+          "name": "Grand Island",
+          "type": "city"
+        },
+        {
+          "name": "Hastings",
+          "type": "city"
+        },
+        {
+          "name": "Kearney",
+          "type": "city"
+        },
+        {
+          "name": "Lincoln",
+          "type": "city"
+        },
+        {
+          "name": "McCook",
+          "type": "city"
+        },
+        {
+          "name": "Minden",
+          "type": "city"
+        },
+        {
+          "name": "Nebraska City",
+          "type": "city"
+        },
+        {
+          "name": "Norfolk",
+          "type": "city"
+        },
+        {
+          "name": "North Platte",
+          "type": "city"
+        },
+        {
+          "name": "Omaha",
+          "type": "city"
+        },
+        {
+          "name": "Plattsmouth",
+          "type": "city"
+        },
+        {
+          "name": "Red Cloud",
+          "type": "city"
+        },
+        {
+          "name": "Sidney",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Eppley Airfield (Omaha)",
+          "type": "airport",
+          "code": "OMA"
+        },
+        {
+          "name": "Lincoln Airport",
+          "type": "airport",
+          "code": "LNK"
+        }
+      ]
+    },
+    {
+      "name": "Nevada",
+      "abbreviation": "NV",
+      "cities": [
+        {
+          "name": "Boulder City",
+          "type": "city"
+        },
+        {
+          "name": "Carson City",
+          "type": "city"
+        },
+        {
+          "name": "Elko",
+          "type": "city"
+        },
+        {
+          "name": "Ely",
+          "type": "city"
+        },
+        {
+          "name": "Fallon",
+          "type": "city"
+        },
+        {
+          "name": "Genoa",
+          "type": "city"
+        },
+        {
+          "name": "Goldfield",
+          "type": "city"
+        },
+        {
+          "name": "Henderson",
+          "type": "city"
+        },
+        {
+          "name": "Las Vegas",
+          "type": "city"
+        },
+        {
+          "name": "North Las Vegas",
+          "type": "city"
+        },
+        {
+          "name": "Reno",
+          "type": "city"
+        },
+        {
+          "name": "Sparks",
+          "type": "city"
+        },
+        {
+          "name": "Virginia City",
+          "type": "city"
+        },
+        {
+          "name": "Winnemucca",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Harry Reid International (Las Vegas)",
+          "type": "airport",
+          "code": "LAS"
+        },
+        {
+          "name": "Reno–Tahoe International",
+          "type": "airport",
+          "code": "RNO"
+        }
+      ]
+    },
+    {
+      "name": "New Hampshire",
+      "abbreviation": "NH",
+      "cities": [
+        {
+          "name": "Berlin",
+          "type": "city"
+        },
+        {
+          "name": "Claremont",
+          "type": "city"
+        },
+        {
+          "name": "Concord",
+          "type": "city"
+        },
+        {
+          "name": "Derry",
+          "type": "city"
+        },
+        {
+          "name": "Dover",
+          "type": "city"
+        },
+        {
+          "name": "Durham",
+          "type": "city"
+        },
+        {
+          "name": "Exeter",
+          "type": "city"
+        },
+        {
+          "name": "Franklin",
+          "type": "city"
+        },
+        {
+          "name": "Hanover",
+          "type": "city"
+        },
+        {
+          "name": "Hillsborough",
+          "type": "city"
+        },
+        {
+          "name": "Keene",
+          "type": "city"
+        },
+        {
+          "name": "Laconia",
+          "type": "city"
+        },
+        {
+          "name": "Lebanon",
+          "type": "city"
+        },
+        {
+          "name": "Manchester",
+          "type": "city"
+        },
+        {
+          "name": "Nashua",
+          "type": "city"
+        },
+        {
+          "name": "Peterborough",
+          "type": "city"
+        },
+        {
+          "name": "Plymouth",
+          "type": "city"
+        },
+        {
+          "name": "Portsmouth",
+          "type": "city"
+        },
+        {
+          "name": "Rochester",
+          "type": "city"
+        },
+        {
+          "name": "Salem",
+          "type": "city"
+        },
+        {
+          "name": "Somersworth",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Manchester–Boston Regional",
+          "type": "airport",
+          "code": "MHT"
+        }
+      ]
+    },
+    {
+      "name": "New Jersey",
+      "abbreviation": "NJ",
+      "cities": [
+        {
+          "name": "Asbury Park",
+          "type": "city"
+        },
+        {
+          "name": "Atlantic City",
+          "type": "city"
+        },
+        {
+          "name": "Bayonne",
+          "type": "city"
+        },
+        {
+          "name": "Bloomfield",
+          "type": "city"
+        },
+        {
+          "name": "Bordentown",
+          "type": "city"
+        },
+        {
+          "name": "Bound Brook",
+          "type": "city"
+        },
+        {
+          "name": "Bridgeton",
+          "type": "city"
+        },
+        {
+          "name": "Burlington",
+          "type": "city"
+        },
+        {
+          "name": "Caldwell",
+          "type": "city"
+        },
+        {
+          "name": "Camden",
+          "type": "city"
+        },
+        {
+          "name": "Cape May",
+          "type": "city"
+        },
+        {
+          "name": "Clifton",
+          "type": "city"
+        },
+        {
+          "name": "Cranford",
+          "type": "city"
+        },
+        {
+          "name": "East Orange",
+          "type": "city"
+        },
+        {
+          "name": "Edison",
+          "type": "city"
+        },
+        {
+          "name": "Elizabeth",
+          "type": "city"
+        },
+        {
+          "name": "Englewood",
+          "type": "city"
+        },
+        {
+          "name": "Fort Lee",
+          "type": "city"
+        },
+        {
+          "name": "Glassboro",
+          "type": "city"
+        },
+        {
+          "name": "Hackensack",
+          "type": "city"
+        },
+        {
+          "name": "Haddonfield",
+          "type": "city"
+        },
+        {
+          "name": "Hoboken",
+          "type": "city"
+        },
+        {
+          "name": "Irvington",
+          "type": "city"
+        },
+        {
+          "name": "Jersey City",
+          "type": "city"
+        },
+        {
+          "name": "Lakehurst",
+          "type": "city"
+        },
+        {
+          "name": "Lakewood",
+          "type": "city"
+        },
+        {
+          "name": "Long Beach",
+          "type": "city"
+        },
+        {
+          "name": "Long Branch",
+          "type": "city"
+        },
+        {
+          "name": "Madison",
+          "type": "city"
+        },
+        {
+          "name": "Menlo Park",
+          "type": "city"
+        },
+        {
+          "name": "Millburn",
+          "type": "city"
+        },
+        {
+          "name": "Millville",
+          "type": "city"
+        },
+        {
+          "name": "Montclair",
+          "type": "city"
+        },
+        {
+          "name": "Morristown",
+          "type": "city"
+        },
+        {
+          "name": "Mount Holly",
+          "type": "city"
+        },
+        {
+          "name": "New Brunswick",
+          "type": "city"
+        },
+        {
+          "name": "New Milford",
+          "type": "city"
+        },
+        {
+          "name": "Newark",
+          "type": "city"
+        },
+        {
+          "name": "Ocean City",
+          "type": "city"
+        },
+        {
+          "name": "Orange",
+          "type": "city"
+        },
+        {
+          "name": "Parsippany–Troy Hills",
+          "type": "city"
+        },
+        {
+          "name": "Passaic",
+          "type": "city"
+        },
+        {
+          "name": "Paterson",
+          "type": "city"
+        },
+        {
+          "name": "Perth Amboy",
+          "type": "city"
+        },
+        {
+          "name": "Plainfield",
+          "type": "city"
+        },
+        {
+          "name": "Princeton",
+          "type": "city"
+        },
+        {
+          "name": "Ridgewood",
+          "type": "city"
+        },
+        {
+          "name": "Roselle",
+          "type": "city"
+        },
+        {
+          "name": "Rutherford",
+          "type": "city"
+        },
+        {
+          "name": "Salem",
+          "type": "city"
+        },
+        {
+          "name": "Somerville",
+          "type": "city"
+        },
+        {
+          "name": "South Orange Village",
+          "type": "city"
+        },
+        {
+          "name": "Totowa",
+          "type": "city"
+        },
+        {
+          "name": "Trenton",
+          "type": "city"
+        },
+        {
+          "name": "Union",
+          "type": "city"
+        },
+        {
+          "name": "Union City",
+          "type": "city"
+        },
+        {
+          "name": "Vineland",
+          "type": "city"
+        },
+        {
+          "name": "Wayne",
+          "type": "city"
+        },
+        {
+          "name": "Weehawken",
+          "type": "city"
+        },
+        {
+          "name": "West New York",
+          "type": "city"
+        },
+        {
+          "name": "West Orange",
+          "type": "city"
+        },
+        {
+          "name": "Willingboro",
+          "type": "city"
+        },
+        {
+          "name": "Woodbridge",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Newark Liberty International",
+          "type": "airport",
+          "code": "EWR"
+        },
+        {
+          "name": "Atlantic City International",
+          "type": "airport",
+          "code": "ACY"
+        }
+      ]
+    },
+    {
+      "name": "New Mexico",
+      "abbreviation": "NM",
+      "cities": [
+        {
+          "name": "Acoma",
+          "type": "city"
+        },
+        {
+          "name": "Alamogordo",
+          "type": "city"
+        },
+        {
+          "name": "Albuquerque",
+          "type": "city"
+        },
+        {
+          "name": "Artesia",
+          "type": "city"
+        },
+        {
+          "name": "Belen",
+          "type": "city"
+        },
+        {
+          "name": "Carlsbad",
+          "type": "city"
+        },
+        {
+          "name": "Clovis",
+          "type": "city"
+        },
+        {
+          "name": "Deming",
+          "type": "city"
+        },
+        {
+          "name": "Farmington",
+          "type": "city"
+        },
+        {
+          "name": "Gallup",
+          "type": "city"
+        },
+        {
+          "name": "Grants",
+          "type": "city"
+        },
+        {
+          "name": "Hobbs",
+          "type": "city"
+        },
+        {
+          "name": "Las Cruces",
+          "type": "city"
+        },
+        {
+          "name": "Las Vegas",
+          "type": "city"
+        },
+        {
+          "name": "Los Alamos",
+          "type": "city"
+        },
+        {
+          "name": "Lovington",
+          "type": "city"
+        },
+        {
+          "name": "Portales",
+          "type": "city"
+        },
+        {
+          "name": "Raton",
+          "type": "city"
+        },
+        {
+          "name": "Roswell",
+          "type": "city"
+        },
+        {
+          "name": "Santa Fe",
+          "type": "city"
+        },
+        {
+          "name": "Shiprock",
+          "type": "city"
+        },
+        {
+          "name": "Silver City",
+          "type": "city"
+        },
+        {
+          "name": "Socorro",
+          "type": "city"
+        },
+        {
+          "name": "Taos",
+          "type": "city"
+        },
+        {
+          "name": "Truth or Consequences",
+          "type": "city"
+        },
+        {
+          "name": "Tucumcari",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Albuquerque International Sunport",
+          "type": "airport",
+          "code": "ABQ"
+        }
+      ]
+    },
+    {
+      "name": "New York",
+      "abbreviation": "NY",
+      "cities": [
+        {
+          "name": "Albany",
+          "type": "city"
+        },
+        {
+          "name": "Amsterdam",
+          "type": "city"
+        },
+        {
+          "name": "Auburn",
+          "type": "city"
+        },
+        {
+          "name": "Babylon",
+          "type": "city"
+        },
+        {
+          "name": "Batavia",
+          "type": "city"
+        },
+        {
+          "name": "Beacon",
+          "type": "city"
+        },
+        {
+          "name": "Bedford",
+          "type": "city"
+        },
+        {
+          "name": "Binghamton",
+          "type": "city"
+        },
+        {
+          "name": "Bronx",
+          "type": "city"
+        },
+        {
+          "name": "Brooklyn",
+          "type": "city"
+        },
+        {
+          "name": "Buffalo",
+          "type": "city"
+        },
+        {
+          "name": "Chautauqua",
+          "type": "city"
+        },
+        {
+          "name": "Cheektowaga",
+          "type": "city"
+        },
+        {
+          "name": "Clinton",
+          "type": "city"
+        },
+        {
+          "name": "Cohoes",
+          "type": "city"
+        },
+        {
+          "name": "Coney Island",
+          "type": "city"
+        },
+        {
+          "name": "Cooperstown",
+          "type": "city"
+        },
+        {
+          "name": "Corning",
+          "type": "city"
+        },
+        {
+          "name": "Cortland",
+          "type": "city"
+        },
+        {
+          "name": "Crown Point",
+          "type": "city"
+        },
+        {
+          "name": "Dunkirk",
+          "type": "city"
+        },
+        {
+          "name": "East Aurora",
+          "type": "city"
+        },
+        {
+          "name": "East Hampton",
+          "type": "city"
+        },
+        {
+          "name": "Eastchester",
+          "type": "city"
+        },
+        {
+          "name": "Elmira",
+          "type": "city"
+        },
+        {
+          "name": "Flushing",
+          "type": "city"
+        },
+        {
+          "name": "Forest Hills",
+          "type": "city"
+        },
+        {
+          "name": "Fredonia",
+          "type": "city"
+        },
+        {
+          "name": "Garden City",
+          "type": "city"
+        },
+        {
+          "name": "Geneva",
+          "type": "city"
+        },
+        {
+          "name": "Glens Falls",
+          "type": "city"
+        },
+        {
+          "name": "Gloversville",
+          "type": "city"
+        },
+        {
+          "name": "Great Neck",
+          "type": "city"
+        },
+        {
+          "name": "Hammondsport",
+          "type": "city"
+        },
+        {
+          "name": "Harlem",
+          "type": "city"
+        },
+        {
+          "name": "Hempstead",
+          "type": "city"
+        },
+        {
+          "name": "Herkimer",
+          "type": "city"
+        },
+        {
+          "name": "Hudson",
+          "type": "city"
+        },
+        {
+          "name": "Huntington",
+          "type": "city"
+        },
+        {
+          "name": "Hyde Park",
+          "type": "city"
+        },
+        {
+          "name": "Ilion",
+          "type": "city"
+        },
+        {
+          "name": "Ithaca",
+          "type": "city"
+        },
+        {
+          "name": "Jamestown",
+          "type": "city"
+        },
+        {
+          "name": "Johnstown",
+          "type": "city"
+        },
+        {
+          "name": "Kingston",
+          "type": "city"
+        },
+        {
+          "name": "Lackawanna",
+          "type": "city"
+        },
+        {
+          "name": "Lake Placid",
+          "type": "city"
+        },
+        {
+          "name": "Levittown",
+          "type": "city"
+        },
+        {
+          "name": "Lockport",
+          "type": "city"
+        },
+        {
+          "name": "Mamaroneck",
+          "type": "city"
+        },
+        {
+          "name": "Manhattan",
+          "type": "city"
+        },
+        {
+          "name": "Massena",
+          "type": "city"
+        },
+        {
+          "name": "Middletown",
+          "type": "city"
+        },
+        {
+          "name": "Mineola",
+          "type": "city"
+        },
+        {
+          "name": "Mount Vernon",
+          "type": "city"
+        },
+        {
+          "name": "New Paltz",
+          "type": "city"
+        },
+        {
+          "name": "New Rochelle",
+          "type": "city"
+        },
+        {
+          "name": "New Windsor",
+          "type": "city"
+        },
+        {
+          "name": "New York City",
+          "type": "city"
+        },
+        {
+          "name": "Newburgh",
+          "type": "city"
+        },
+        {
+          "name": "Niagara Falls",
+          "type": "city"
+        },
+        {
+          "name": "North Hempstead",
+          "type": "city"
+        },
+        {
+          "name": "Nyack",
+          "type": "city"
+        },
+        {
+          "name": "Ogdensburg",
+          "type": "city"
+        },
+        {
+          "name": "Olean",
+          "type": "city"
+        },
+        {
+          "name": "Oneida",
+          "type": "city"
+        },
+        {
+          "name": "Oneonta",
+          "type": "city"
+        },
+        {
+          "name": "Ossining",
+          "type": "city"
+        },
+        {
+          "name": "Oswego",
+          "type": "city"
+        },
+        {
+          "name": "Oyster Bay",
+          "type": "city"
+        },
+        {
+          "name": "Palmyra",
+          "type": "city"
+        },
+        {
+          "name": "Peekskill",
+          "type": "city"
+        },
+        {
+          "name": "Plattsburgh",
+          "type": "city"
+        },
+        {
+          "name": "Port Washington",
+          "type": "city"
+        },
+        {
+          "name": "Potsdam",
+          "type": "city"
+        },
+        {
+          "name": "Poughkeepsie",
+          "type": "city"
+        },
+        {
+          "name": "Queens",
+          "type": "city"
+        },
+        {
+          "name": "Rensselaer",
+          "type": "city"
+        },
+        {
+          "name": "Rochester",
+          "type": "city"
+        },
+        {
+          "name": "Rome",
+          "type": "city"
+        },
+        {
+          "name": "Rotterdam",
+          "type": "city"
+        },
+        {
+          "name": "Rye",
+          "type": "city"
+        },
+        {
+          "name": "Sag Harbor",
+          "type": "city"
+        },
+        {
+          "name": "Saranac Lake",
+          "type": "city"
+        },
+        {
+          "name": "Saratoga Springs",
+          "type": "city"
+        },
+        {
+          "name": "Scarsdale",
+          "type": "city"
+        },
+        {
+          "name": "Schenectady",
+          "type": "city"
+        },
+        {
+          "name": "Seneca Falls",
+          "type": "city"
+        },
+        {
+          "name": "Southampton",
+          "type": "city"
+        },
+        {
+          "name": "Staten Island",
+          "type": "city"
+        },
+        {
+          "name": "Stony Brook",
+          "type": "city"
+        },
+        {
+          "name": "Stony Point",
+          "type": "city"
+        },
+        {
+          "name": "Syracuse",
+          "type": "city"
+        },
+        {
+          "name": "Tarrytown",
+          "type": "city"
+        },
+        {
+          "name": "Ticonderoga",
+          "type": "city"
+        },
+        {
+          "name": "Tonawanda",
+          "type": "city"
+        },
+        {
+          "name": "Troy",
+          "type": "city"
+        },
+        {
+          "name": "Utica",
+          "type": "city"
+        },
+        {
+          "name": "Watertown",
+          "type": "city"
+        },
+        {
+          "name": "Watervliet",
+          "type": "city"
+        },
+        {
+          "name": "Watkins Glen",
+          "type": "city"
+        },
+        {
+          "name": "West Seneca",
+          "type": "city"
+        },
+        {
+          "name": "White Plains",
+          "type": "city"
+        },
+        {
+          "name": "Woodstock",
+          "type": "city"
+        },
+        {
+          "name": "Yonkers",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "John F. Kennedy International",
+          "type": "airport",
+          "code": "JFK"
+        },
+        {
+          "name": "LaGuardia",
+          "type": "airport",
+          "code": "LGA"
+        },
+        {
+          "name": "Newark Liberty International",
+          "type": "airport",
+          "code": "EWR"
+        },
+        {
+          "name": "Buffalo Niagara International",
+          "type": "airport",
+          "code": "BUF"
+        },
+        {
+          "name": "Rochester International",
+          "type": "airport",
+          "code": "ROC"
+        },
+        {
+          "name": "Syracuse Hancock International",
+          "type": "airport",
+          "code": "SYR"
+        }
+      ]
+    },
+    {
+      "name": "North Carolina",
+      "abbreviation": "NC",
+      "cities": [
+        {
+          "name": "Asheboro",
+          "type": "city"
+        },
+        {
+          "name": "Asheville",
+          "type": "city"
+        },
+        {
+          "name": "Bath",
+          "type": "city"
+        },
+        {
+          "name": "Beaufort",
+          "type": "city"
+        },
+        {
+          "name": "Boone",
+          "type": "city"
+        },
+        {
+          "name": "Burlington",
+          "type": "city"
+        },
+        {
+          "name": "Chapel Hill",
+          "type": "city"
+        },
+        {
+          "name": "Charlotte",
+          "type": "city"
+        },
+        {
+          "name": "Concord",
+          "type": "city"
+        },
+        {
+          "name": "Durham",
+          "type": "city"
+        },
+        {
+          "name": "Edenton",
+          "type": "city"
+        },
+        {
+          "name": "Elizabeth City",
+          "type": "city"
+        },
+        {
+          "name": "Fayetteville",
+          "type": "city"
+        },
+        {
+          "name": "Gastonia",
+          "type": "city"
+        },
+        {
+          "name": "Goldsboro",
+          "type": "city"
+        },
+        {
+          "name": "Greensboro",
+          "type": "city"
+        },
+        {
+          "name": "Greenville",
+          "type": "city"
+        },
+        {
+          "name": "Halifax",
+          "type": "city"
+        },
+        {
+          "name": "Henderson",
+          "type": "city"
+        },
+        {
+          "name": "Hickory",
+          "type": "city"
+        },
+        {
+          "name": "High Point",
+          "type": "city"
+        },
+        {
+          "name": "Hillsborough",
+          "type": "city"
+        },
+        {
+          "name": "Jacksonville",
+          "type": "city"
+        },
+        {
+          "name": "Kinston",
+          "type": "city"
+        },
+        {
+          "name": "Kitty Hawk",
+          "type": "city"
+        },
+        {
+          "name": "Lumberton",
+          "type": "city"
+        },
+        {
+          "name": "Morehead City",
+          "type": "city"
+        },
+        {
+          "name": "Morganton",
+          "type": "city"
+        },
+        {
+          "name": "Nags Head",
+          "type": "city"
+        },
+        {
+          "name": "New Bern",
+          "type": "city"
+        },
+        {
+          "name": "Pinehurst",
+          "type": "city"
+        },
+        {
+          "name": "Raleigh",
+          "type": "city"
+        },
+        {
+          "name": "Rocky Mount",
+          "type": "city"
+        },
+        {
+          "name": "Salisbury",
+          "type": "city"
+        },
+        {
+          "name": "Shelby",
+          "type": "city"
+        },
+        {
+          "name": "Washington",
+          "type": "city"
+        },
+        {
+          "name": "Wilmington",
+          "type": "city"
+        },
+        {
+          "name": "Wilson",
+          "type": "city"
+        },
+        {
+          "name": "Winston-Salem",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Charlotte Douglas International",
+          "type": "airport",
+          "code": "CLT"
+        },
+        {
+          "name": "Raleigh–Durham International",
+          "type": "airport",
+          "code": "RDU"
+        }
+      ]
+    },
+    {
+      "name": "North Dakota",
+      "abbreviation": "ND",
+      "cities": [
+        {
+          "name": "Bismarck",
+          "type": "city"
+        },
+        {
+          "name": "Devils Lake",
+          "type": "city"
+        },
+        {
+          "name": "Dickinson",
+          "type": "city"
+        },
+        {
+          "name": "Fargo",
+          "type": "city"
+        },
+        {
+          "name": "Grand Forks",
+          "type": "city"
+        },
+        {
+          "name": "Jamestown",
+          "type": "city"
+        },
+        {
+          "name": "Mandan",
+          "type": "city"
+        },
+        {
+          "name": "Minot",
+          "type": "city"
+        },
+        {
+          "name": "Rugby",
+          "type": "city"
+        },
+        {
+          "name": "Valley City",
+          "type": "city"
+        },
+        {
+          "name": "Wahpeton",
+          "type": "city"
+        },
+        {
+          "name": "Williston",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Hector International (Fargo)",
+          "type": "airport",
+          "code": "FAR"
+        },
+        {
+          "name": "Bismarck Municipal",
+          "type": "airport",
+          "code": "BIS"
+        }
+      ]
+    },
+    {
+      "name": "Ohio",
+      "abbreviation": "OH",
+      "cities": [
+        {
+          "name": "Akron",
+          "type": "city"
+        },
+        {
+          "name": "Alliance",
+          "type": "city"
+        },
+        {
+          "name": "Ashtabula",
+          "type": "city"
+        },
+        {
+          "name": "Athens",
+          "type": "city"
+        },
+        {
+          "name": "Barberton",
+          "type": "city"
+        },
+        {
+          "name": "Bedford",
+          "type": "city"
+        },
+        {
+          "name": "Bellefontaine",
+          "type": "city"
+        },
+        {
+          "name": "Bowling Green",
+          "type": "city"
+        },
+        {
+          "name": "Canton",
+          "type": "city"
+        },
+        {
+          "name": "Chillicothe",
+          "type": "city"
+        },
+        {
+          "name": "Cincinnati",
+          "type": "city"
+        },
+        {
+          "name": "Cleveland",
+          "type": "city"
+        },
+        {
+          "name": "Cleveland Heights",
+          "type": "city"
+        },
+        {
+          "name": "Columbus",
+          "type": "city"
+        },
+        {
+          "name": "Conneaut",
+          "type": "city"
+        },
+        {
+          "name": "Cuyahoga Falls",
+          "type": "city"
+        },
+        {
+          "name": "Dayton",
+          "type": "city"
+        },
+        {
+          "name": "Defiance",
+          "type": "city"
+        },
+        {
+          "name": "Delaware",
+          "type": "city"
+        },
+        {
+          "name": "East Cleveland",
+          "type": "city"
+        },
+        {
+          "name": "East Liverpool",
+          "type": "city"
+        },
+        {
+          "name": "Elyria",
+          "type": "city"
+        },
+        {
+          "name": "Euclid",
+          "type": "city"
+        },
+        {
+          "name": "Findlay",
+          "type": "city"
+        },
+        {
+          "name": "Gallipolis",
+          "type": "city"
+        },
+        {
+          "name": "Greenville",
+          "type": "city"
+        },
+        {
+          "name": "Hamilton",
+          "type": "city"
+        },
+        {
+          "name": "Kent",
+          "type": "city"
+        },
+        {
+          "name": "Kettering",
+          "type": "city"
+        },
+        {
+          "name": "Lakewood",
+          "type": "city"
+        },
+        {
+          "name": "Lancaster",
+          "type": "city"
+        },
+        {
+          "name": "Lima",
+          "type": "city"
+        },
+        {
+          "name": "Lorain",
+          "type": "city"
+        },
+        {
+          "name": "Mansfield",
+          "type": "city"
+        },
+        {
+          "name": "Marietta",
+          "type": "city"
+        },
+        {
+          "name": "Marion",
+          "type": "city"
+        },
+        {
+          "name": "Martins Ferry",
+          "type": "city"
+        },
+        {
+          "name": "Massillon",
+          "type": "city"
+        },
+        {
+          "name": "Mentor",
+          "type": "city"
+        },
+        {
+          "name": "Middletown",
+          "type": "city"
+        },
+        {
+          "name": "Milan",
+          "type": "city"
+        },
+        {
+          "name": "Mount Vernon",
+          "type": "city"
+        },
+        {
+          "name": "New Philadelphia",
+          "type": "city"
+        },
+        {
+          "name": "Newark",
+          "type": "city"
+        },
+        {
+          "name": "Niles",
+          "type": "city"
+        },
+        {
+          "name": "North College Hill",
+          "type": "city"
+        },
+        {
+          "name": "Norwalk",
+          "type": "city"
+        },
+        {
+          "name": "Oberlin",
+          "type": "city"
+        },
+        {
+          "name": "Painesville",
+          "type": "city"
+        },
+        {
+          "name": "Parma",
+          "type": "city"
+        },
+        {
+          "name": "Piqua",
+          "type": "city"
+        },
+        {
+          "name": "Portsmouth",
+          "type": "city"
+        },
+        {
+          "name": "Put-in-Bay",
+          "type": "city"
+        },
+        {
+          "name": "Salem",
+          "type": "city"
+        },
+        {
+          "name": "Sandusky",
+          "type": "city"
+        },
+        {
+          "name": "Shaker Heights",
+          "type": "city"
+        },
+        {
+          "name": "Springfield",
+          "type": "city"
+        },
+        {
+          "name": "Steubenville",
+          "type": "city"
+        },
+        {
+          "name": "Tiffin",
+          "type": "city"
+        },
+        {
+          "name": "Toledo",
+          "type": "city"
+        },
+        {
+          "name": "Urbana",
+          "type": "city"
+        },
+        {
+          "name": "Warren",
+          "type": "city"
+        },
+        {
+          "name": "Wooster",
+          "type": "city"
+        },
+        {
+          "name": "Worthington",
+          "type": "city"
+        },
+        {
+          "name": "Xenia",
+          "type": "city"
+        },
+        {
+          "name": "Yellow Springs",
+          "type": "city"
+        },
+        {
+          "name": "Youngstown",
+          "type": "city"
+        },
+        {
+          "name": "Zanesville",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "John Glenn Columbus International",
+          "type": "airport",
+          "code": "CMH"
+        },
+        {
+          "name": "Cleveland Hopkins International",
+          "type": "airport",
+          "code": "CLE"
+        },
+        {
+          "name": "Cincinnati/Northern Kentucky International",
+          "type": "airport",
+          "code": "CVG"
+        }
+      ]
+    },
+    {
+      "name": "Oklahoma",
+      "abbreviation": "OK",
+      "cities": [
+        {
+          "name": "Ada",
+          "type": "city"
+        },
+        {
+          "name": "Altus",
+          "type": "city"
+        },
+        {
+          "name": "Alva",
+          "type": "city"
+        },
+        {
+          "name": "Anadarko",
+          "type": "city"
+        },
+        {
+          "name": "Ardmore",
+          "type": "city"
+        },
+        {
+          "name": "Bartlesville",
+          "type": "city"
+        },
+        {
+          "name": "Bethany",
+          "type": "city"
+        },
+        {
+          "name": "Chickasha",
+          "type": "city"
+        },
+        {
+          "name": "Claremore",
+          "type": "city"
+        },
+        {
+          "name": "Clinton",
+          "type": "city"
+        },
+        {
+          "name": "Cushing",
+          "type": "city"
+        },
+        {
+          "name": "Duncan",
+          "type": "city"
+        },
+        {
+          "name": "Durant",
+          "type": "city"
+        },
+        {
+          "name": "Edmond",
+          "type": "city"
+        },
+        {
+          "name": "El Reno",
+          "type": "city"
+        },
+        {
+          "name": "Elk City",
+          "type": "city"
+        },
+        {
+          "name": "Enid",
+          "type": "city"
+        },
+        {
+          "name": "Eufaula",
+          "type": "city"
+        },
+        {
+          "name": "Frederick",
+          "type": "city"
+        },
+        {
+          "name": "Guthrie",
+          "type": "city"
+        },
+        {
+          "name": "Guymon",
+          "type": "city"
+        },
+        {
+          "name": "Hobart",
+          "type": "city"
+        },
+        {
+          "name": "Holdenville",
+          "type": "city"
+        },
+        {
+          "name": "Hugo",
+          "type": "city"
+        },
+        {
+          "name": "Lawton",
+          "type": "city"
+        },
+        {
+          "name": "McAlester",
+          "type": "city"
+        },
+        {
+          "name": "Miami",
+          "type": "city"
+        },
+        {
+          "name": "Midwest City",
+          "type": "city"
+        },
+        {
+          "name": "Moore",
+          "type": "city"
+        },
+        {
+          "name": "Muskogee",
+          "type": "city"
+        },
+        {
+          "name": "Norman",
+          "type": "city"
+        },
+        {
+          "name": "Oklahoma City",
+          "type": "city"
+        },
+        {
+          "name": "Okmulgee",
+          "type": "city"
+        },
+        {
+          "name": "Pauls Valley",
+          "type": "city"
+        },
+        {
+          "name": "Pawhuska",
+          "type": "city"
+        },
+        {
+          "name": "Perry",
+          "type": "city"
+        },
+        {
+          "name": "Ponca City",
+          "type": "city"
+        },
+        {
+          "name": "Pryor",
+          "type": "city"
+        },
+        {
+          "name": "Sallisaw",
+          "type": "city"
+        },
+        {
+          "name": "Sand Springs",
+          "type": "city"
+        },
+        {
+          "name": "Sapulpa",
+          "type": "city"
+        },
+        {
+          "name": "Seminole",
+          "type": "city"
+        },
+        {
+          "name": "Shawnee",
+          "type": "city"
+        },
+        {
+          "name": "Stillwater",
+          "type": "city"
+        },
+        {
+          "name": "Tahlequah",
+          "type": "city"
+        },
+        {
+          "name": "The Village",
+          "type": "city"
+        },
+        {
+          "name": "Tulsa",
+          "type": "city"
+        },
+        {
+          "name": "Vinita",
+          "type": "city"
+        },
+        {
+          "name": "Wewoka",
+          "type": "city"
+        },
+        {
+          "name": "Woodward",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Will Rogers World (Oklahoma City)",
+          "type": "airport",
+          "code": "OKC"
+        },
+        {
+          "name": "Tulsa International",
+          "type": "airport",
+          "code": "TUL"
+        }
+      ]
+    },
+    {
+      "name": "Oregon",
+      "abbreviation": "OR",
+      "cities": [
+        {
+          "name": "Albany",
+          "type": "city"
+        },
+        {
+          "name": "Ashland",
+          "type": "city"
+        },
+        {
+          "name": "Astoria",
+          "type": "city"
+        },
+        {
+          "name": "Baker City",
+          "type": "city"
+        },
+        {
+          "name": "Beaverton",
+          "type": "city"
+        },
+        {
+          "name": "Bend",
+          "type": "city"
+        },
+        {
+          "name": "Brookings",
+          "type": "city"
+        },
+        {
+          "name": "Burns",
+          "type": "city"
+        },
+        {
+          "name": "Coos Bay",
+          "type": "city"
+        },
+        {
+          "name": "Corvallis",
+          "type": "city"
+        },
+        {
+          "name": "Eugene",
+          "type": "city"
+        },
+        {
+          "name": "Grants Pass",
+          "type": "city"
+        },
+        {
+          "name": "Hillsboro",
+          "type": "city"
+        },
+        {
+          "name": "Hood River",
+          "type": "city"
+        },
+        {
+          "name": "Jacksonville",
+          "type": "city"
+        },
+        {
+          "name": "John Day",
+          "type": "city"
+        },
+        {
+          "name": "Klamath Falls",
+          "type": "city"
+        },
+        {
+          "name": "La Grande",
+          "type": "city"
+        },
+        {
+          "name": "Lake Oswego",
+          "type": "city"
+        },
+        {
+          "name": "Lakeview",
+          "type": "city"
+        },
+        {
+          "name": "McMinnville",
+          "type": "city"
+        },
+        {
+          "name": "Medford",
+          "type": "city"
+        },
+        {
+          "name": "Newberg",
+          "type": "city"
+        },
+        {
+          "name": "Newport",
+          "type": "city"
+        },
+        {
+          "name": "Ontario",
+          "type": "city"
+        },
+        {
+          "name": "Oregon City",
+          "type": "city"
+        },
+        {
+          "name": "Pendleton",
+          "type": "city"
+        },
+        {
+          "name": "Port Orford",
+          "type": "city"
+        },
+        {
+          "name": "Portland",
+          "type": "city"
+        },
+        {
+          "name": "Prineville",
+          "type": "city"
+        },
+        {
+          "name": "Redmond",
+          "type": "city"
+        },
+        {
+          "name": "Reedsport",
+          "type": "city"
+        },
+        {
+          "name": "Roseburg",
+          "type": "city"
+        },
+        {
+          "name": "Salem",
+          "type": "city"
+        },
+        {
+          "name": "Seaside",
+          "type": "city"
+        },
+        {
+          "name": "Springfield",
+          "type": "city"
+        },
+        {
+          "name": "The Dalles",
+          "type": "city"
+        },
+        {
+          "name": "Tillamook",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Portland International",
+          "type": "airport",
+          "code": "PDX"
+        }
+      ]
+    },
+    {
+      "name": "Pennsylvania",
+      "abbreviation": "PA",
+      "cities": [
+        {
+          "name": "Abington",
+          "type": "city"
+        },
+        {
+          "name": "Aliquippa",
+          "type": "city"
+        },
+        {
+          "name": "Allentown",
+          "type": "city"
+        },
+        {
+          "name": "Altoona",
+          "type": "city"
+        },
+        {
+          "name": "Ambridge",
+          "type": "city"
+        },
+        {
+          "name": "Bedford",
+          "type": "city"
+        },
+        {
+          "name": "Bethlehem",
+          "type": "city"
+        },
+        {
+          "name": "Bloomsburg",
+          "type": "city"
+        },
+        {
+          "name": "Bradford",
+          "type": "city"
+        },
+        {
+          "name": "Bristol",
+          "type": "city"
+        },
+        {
+          "name": "Carbondale",
+          "type": "city"
+        },
+        {
+          "name": "Carlisle",
+          "type": "city"
+        },
+        {
+          "name": "Chambersburg",
+          "type": "city"
+        },
+        {
+          "name": "Chester",
+          "type": "city"
+        },
+        {
+          "name": "Columbia",
+          "type": "city"
+        },
+        {
+          "name": "Easton",
+          "type": "city"
+        },
+        {
+          "name": "Erie",
+          "type": "city"
+        },
+        {
+          "name": "Franklin",
+          "type": "city"
+        },
+        {
+          "name": "Germantown",
+          "type": "city"
+        },
+        {
+          "name": "Gettysburg",
+          "type": "city"
+        },
+        {
+          "name": "Greensburg",
+          "type": "city"
+        },
+        {
+          "name": "Hanover",
+          "type": "city"
+        },
+        {
+          "name": "Harmony",
+          "type": "city"
+        },
+        {
+          "name": "Harrisburg",
+          "type": "city"
+        },
+        {
+          "name": "Hazleton",
+          "type": "city"
+        },
+        {
+          "name": "Hershey",
+          "type": "city"
+        },
+        {
+          "name": "Homestead",
+          "type": "city"
+        },
+        {
+          "name": "Honesdale",
+          "type": "city"
+        },
+        {
+          "name": "Indiana",
+          "type": "city"
+        },
+        {
+          "name": "Jeannette",
+          "type": "city"
+        },
+        {
+          "name": "Jim Thorpe",
+          "type": "city"
+        },
+        {
+          "name": "Johnstown",
+          "type": "city"
+        },
+        {
+          "name": "Lancaster",
+          "type": "city"
+        },
+        {
+          "name": "Lebanon",
+          "type": "city"
+        },
+        {
+          "name": "Levittown",
+          "type": "city"
+        },
+        {
+          "name": "Lewistown",
+          "type": "city"
+        },
+        {
+          "name": "Lock Haven",
+          "type": "city"
+        },
+        {
+          "name": "Lower Southampton",
+          "type": "city"
+        },
+        {
+          "name": "McKeesport",
+          "type": "city"
+        },
+        {
+          "name": "Meadville",
+          "type": "city"
+        },
+        {
+          "name": "Middletown",
+          "type": "city"
+        },
+        {
+          "name": "Monroeville",
+          "type": "city"
+        },
+        {
+          "name": "Nanticoke",
+          "type": "city"
+        },
+        {
+          "name": "New Castle",
+          "type": "city"
+        },
+        {
+          "name": "New Hope",
+          "type": "city"
+        },
+        {
+          "name": "New Kensington",
+          "type": "city"
+        },
+        {
+          "name": "Norristown",
+          "type": "city"
+        },
+        {
+          "name": "Oil City",
+          "type": "city"
+        },
+        {
+          "name": "Philadelphia",
+          "type": "city"
+        },
+        {
+          "name": "Phoenixville",
+          "type": "city"
+        },
+        {
+          "name": "Pittsburgh",
+          "type": "city"
+        },
+        {
+          "name": "Pottstown",
+          "type": "city"
+        },
+        {
+          "name": "Pottsville",
+          "type": "city"
+        },
+        {
+          "name": "Reading",
+          "type": "city"
+        },
+        {
+          "name": "Scranton",
+          "type": "city"
+        },
+        {
+          "name": "Shamokin",
+          "type": "city"
+        },
+        {
+          "name": "Sharon",
+          "type": "city"
+        },
+        {
+          "name": "State College",
+          "type": "city"
+        },
+        {
+          "name": "Stroudsburg",
+          "type": "city"
+        },
+        {
+          "name": "Sunbury",
+          "type": "city"
+        },
+        {
+          "name": "Swarthmore",
+          "type": "city"
+        },
+        {
+          "name": "Tamaqua",
+          "type": "city"
+        },
+        {
+          "name": "Titusville",
+          "type": "city"
+        },
+        {
+          "name": "Uniontown",
+          "type": "city"
+        },
+        {
+          "name": "Warren",
+          "type": "city"
+        },
+        {
+          "name": "Washington",
+          "type": "city"
+        },
+        {
+          "name": "West Chester",
+          "type": "city"
+        },
+        {
+          "name": "Wilkes-Barre",
+          "type": "city"
+        },
+        {
+          "name": "Williamsport",
+          "type": "city"
+        },
+        {
+          "name": "York",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Philadelphia International",
+          "type": "airport",
+          "code": "PHL"
+        },
+        {
+          "name": "Pittsburgh International",
+          "type": "airport",
+          "code": "PIT"
+        }
+      ]
+    },
+    {
+      "name": "Rhode Island",
+      "abbreviation": "RI",
+      "cities": [
+        {
+          "name": "Barrington",
+          "type": "city"
+        },
+        {
+          "name": "Bristol",
+          "type": "city"
+        },
+        {
+          "name": "Central Falls",
+          "type": "city"
+        },
+        {
+          "name": "Cranston",
+          "type": "city"
+        },
+        {
+          "name": "East Greenwich",
+          "type": "city"
+        },
+        {
+          "name": "East Providence",
+          "type": "city"
+        },
+        {
+          "name": "Kingston",
+          "type": "city"
+        },
+        {
+          "name": "Middletown",
+          "type": "city"
+        },
+        {
+          "name": "Narragansett",
+          "type": "city"
+        },
+        {
+          "name": "Newport",
+          "type": "city"
+        },
+        {
+          "name": "North Kingstown",
+          "type": "city"
+        },
+        {
+          "name": "Pawtucket",
+          "type": "city"
+        },
+        {
+          "name": "Portsmouth",
+          "type": "city"
+        },
+        {
+          "name": "Providence",
+          "type": "city"
+        },
+        {
+          "name": "South Kingstown",
+          "type": "city"
+        },
+        {
+          "name": "Tiverton",
+          "type": "city"
+        },
+        {
+          "name": "Warren",
+          "type": "city"
+        },
+        {
+          "name": "Warwick",
+          "type": "city"
+        },
+        {
+          "name": "Westerly",
+          "type": "city"
+        },
+        {
+          "name": "Wickford",
+          "type": "city"
+        },
+        {
+          "name": "Woonsocket",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "T. F. Green International (Providence)",
+          "type": "airport",
+          "code": "PVD"
+        }
+      ]
+    },
+    {
+      "name": "South Carolina",
+      "abbreviation": "SC",
+      "cities": [
+        {
+          "name": "Abbeville",
+          "type": "city"
+        },
+        {
+          "name": "Aiken",
+          "type": "city"
+        },
+        {
+          "name": "Anderson",
+          "type": "city"
+        },
+        {
+          "name": "Beaufort",
+          "type": "city"
+        },
+        {
+          "name": "Camden",
+          "type": "city"
+        },
+        {
+          "name": "Charleston",
+          "type": "city"
+        },
+        {
+          "name": "Columbia",
+          "type": "city"
+        },
+        {
+          "name": "Darlington",
+          "type": "city"
+        },
+        {
+          "name": "Florence",
+          "type": "city"
+        },
+        {
+          "name": "Gaffney",
+          "type": "city"
+        },
+        {
+          "name": "Georgetown",
+          "type": "city"
+        },
+        {
+          "name": "Greenville",
+          "type": "city"
+        },
+        {
+          "name": "Greenwood",
+          "type": "city"
+        },
+        {
+          "name": "Hartsville",
+          "type": "city"
+        },
+        {
+          "name": "Lancaster",
+          "type": "city"
+        },
+        {
+          "name": "Mount Pleasant",
+          "type": "city"
+        },
+        {
+          "name": "Myrtle Beach",
+          "type": "city"
+        },
+        {
+          "name": "Orangeburg",
+          "type": "city"
+        },
+        {
+          "name": "Rock Hill",
+          "type": "city"
+        },
+        {
+          "name": "Spartanburg",
+          "type": "city"
+        },
+        {
+          "name": "Sumter",
+          "type": "city"
+        },
+        {
+          "name": "Union",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Charleston International",
+          "type": "airport",
+          "code": "CHS"
+        },
+        {
+          "name": "Greenville–Spartanburg International",
+          "type": "airport",
+          "code": "GSP"
+        }
+      ]
+    },
+    {
+      "name": "South Dakota",
+      "abbreviation": "SD",
+      "cities": [
+        {
+          "name": "Aberdeen",
+          "type": "city"
+        },
+        {
+          "name": "Belle Fourche",
+          "type": "city"
+        },
+        {
+          "name": "Brookings",
+          "type": "city"
+        },
+        {
+          "name": "Canton",
+          "type": "city"
+        },
+        {
+          "name": "Custer",
+          "type": "city"
+        },
+        {
+          "name": "De Smet",
+          "type": "city"
+        },
+        {
+          "name": "Deadwood",
+          "type": "city"
+        },
+        {
+          "name": "Hot Springs",
+          "type": "city"
+        },
+        {
+          "name": "Huron",
+          "type": "city"
+        },
+        {
+          "name": "Lead",
+          "type": "city"
+        },
+        {
+          "name": "Madison",
+          "type": "city"
+        },
+        {
+          "name": "Milbank",
+          "type": "city"
+        },
+        {
+          "name": "Mitchell",
+          "type": "city"
+        },
+        {
+          "name": "Mobridge",
+          "type": "city"
+        },
+        {
+          "name": "Pierre",
+          "type": "city"
+        },
+        {
+          "name": "Rapid City",
+          "type": "city"
+        },
+        {
+          "name": "Sioux Falls",
+          "type": "city"
+        },
+        {
+          "name": "Spearfish",
+          "type": "city"
+        },
+        {
+          "name": "Sturgis",
+          "type": "city"
+        },
+        {
+          "name": "Vermillion",
+          "type": "city"
+        },
+        {
+          "name": "Watertown",
+          "type": "city"
+        },
+        {
+          "name": "Yankton",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Sioux Falls Regional",
+          "type": "airport",
+          "code": "FSD"
+        },
+        {
+          "name": "Rapid City Regional",
+          "type": "airport",
+          "code": "RAP"
+        }
+      ]
+    },
+    {
+      "name": "Tennessee",
+      "abbreviation": "TN",
+      "cities": [
+        {
+          "name": "Alcoa",
+          "type": "city"
+        },
+        {
+          "name": "Athens",
+          "type": "city"
+        },
+        {
+          "name": "Chattanooga",
+          "type": "city"
+        },
+        {
+          "name": "Clarksville",
+          "type": "city"
+        },
+        {
+          "name": "Cleveland",
+          "type": "city"
+        },
+        {
+          "name": "Columbia",
+          "type": "city"
+        },
+        {
+          "name": "Cookeville",
+          "type": "city"
+        },
+        {
+          "name": "Dayton",
+          "type": "city"
+        },
+        {
+          "name": "Elizabethton",
+          "type": "city"
+        },
+        {
+          "name": "Franklin",
+          "type": "city"
+        },
+        {
+          "name": "Gallatin",
+          "type": "city"
+        },
+        {
+          "name": "Gatlinburg",
+          "type": "city"
+        },
+        {
+          "name": "Greeneville",
+          "type": "city"
+        },
+        {
+          "name": "Jackson",
+          "type": "city"
+        },
+        {
+          "name": "Johnson City",
+          "type": "city"
+        },
+        {
+          "name": "Jonesborough",
+          "type": "city"
+        },
+        {
+          "name": "Kingsport",
+          "type": "city"
+        },
+        {
+          "name": "Knoxville",
+          "type": "city"
+        },
+        {
+          "name": "Lebanon",
+          "type": "city"
+        },
+        {
+          "name": "Maryville",
+          "type": "city"
+        },
+        {
+          "name": "Memphis",
+          "type": "city"
+        },
+        {
+          "name": "Morristown",
+          "type": "city"
+        },
+        {
+          "name": "Murfreesboro",
+          "type": "city"
+        },
+        {
+          "name": "Nashville",
+          "type": "city"
+        },
+        {
+          "name": "Norris",
+          "type": "city"
+        },
+        {
+          "name": "Oak Ridge",
+          "type": "city"
+        },
+        {
+          "name": "Shelbyville",
+          "type": "city"
+        },
+        {
+          "name": "Tullahoma",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Nashville International",
+          "type": "airport",
+          "code": "BNA"
+        },
+        {
+          "name": "Memphis International",
+          "type": "airport",
+          "code": "MEM"
+        },
+        {
+          "name": "McGhee Tyson (Knoxville)",
+          "type": "airport",
+          "code": "TYS"
+        }
+      ]
+    },
+    {
+      "name": "Texas",
+      "abbreviation": "TX",
+      "cities": [
+        {
+          "name": "Abilene",
+          "type": "city"
+        },
+        {
+          "name": "Alpine",
+          "type": "city"
+        },
+        {
+          "name": "Amarillo",
+          "type": "city"
+        },
+        {
+          "name": "Arlington",
+          "type": "city"
+        },
+        {
+          "name": "Austin",
+          "type": "city"
+        },
+        {
+          "name": "Baytown",
+          "type": "city"
+        },
+        {
+          "name": "Beaumont",
+          "type": "city"
+        },
+        {
+          "name": "Big Spring",
+          "type": "city"
+        },
+        {
+          "name": "Borger",
+          "type": "city"
+        },
+        {
+          "name": "Brownsville",
+          "type": "city"
+        },
+        {
+          "name": "Bryan",
+          "type": "city"
+        },
+        {
+          "name": "Canyon",
+          "type": "city"
+        },
+        {
+          "name": "Cleburne",
+          "type": "city"
+        },
+        {
+          "name": "College Station",
+          "type": "city"
+        },
+        {
+          "name": "Corpus Christi",
+          "type": "city"
+        },
+        {
+          "name": "Crystal City",
+          "type": "city"
+        },
+        {
+          "name": "Dallas",
+          "type": "city"
+        },
+        {
+          "name": "Del Rio",
+          "type": "city"
+        },
+        {
+          "name": "Denison",
+          "type": "city"
+        },
+        {
+          "name": "Denton",
+          "type": "city"
+        },
+        {
+          "name": "Eagle Pass",
+          "type": "city"
+        },
+        {
+          "name": "Edinburg",
+          "type": "city"
+        },
+        {
+          "name": "El Paso",
+          "type": "city"
+        },
+        {
+          "name": "Fort Worth",
+          "type": "city"
+        },
+        {
+          "name": "Freeport",
+          "type": "city"
+        },
+        {
+          "name": "Galveston",
+          "type": "city"
+        },
+        {
+          "name": "Garland",
+          "type": "city"
+        },
+        {
+          "name": "Goliad",
+          "type": "city"
+        },
+        {
+          "name": "Greenville",
+          "type": "city"
+        },
+        {
+          "name": "Harlingen",
+          "type": "city"
+        },
+        {
+          "name": "Houston",
+          "type": "city"
+        },
+        {
+          "name": "Huntsville",
+          "type": "city"
+        },
+        {
+          "name": "Irving",
+          "type": "city"
+        },
+        {
+          "name": "Johnson City",
+          "type": "city"
+        },
+        {
+          "name": "Kilgore",
+          "type": "city"
+        },
+        {
+          "name": "Killeen",
+          "type": "city"
+        },
+        {
+          "name": "Kingsville",
+          "type": "city"
+        },
+        {
+          "name": "Laredo",
+          "type": "city"
+        },
+        {
+          "name": "Longview",
+          "type": "city"
+        },
+        {
+          "name": "Lubbock",
+          "type": "city"
+        },
+        {
+          "name": "Lufkin",
+          "type": "city"
+        },
+        {
+          "name": "Marshall",
+          "type": "city"
+        },
+        {
+          "name": "McAllen",
+          "type": "city"
+        },
+        {
+          "name": "McKinney",
+          "type": "city"
+        },
+        {
+          "name": "Mesquite",
+          "type": "city"
+        },
+        {
+          "name": "Midland",
+          "type": "city"
+        },
+        {
+          "name": "Mission",
+          "type": "city"
+        },
+        {
+          "name": "Nacogdoches",
+          "type": "city"
+        },
+        {
+          "name": "New Braunfels",
+          "type": "city"
+        },
+        {
+          "name": "Odessa",
+          "type": "city"
+        },
+        {
+          "name": "Orange",
+          "type": "city"
+        },
+        {
+          "name": "Pampa",
+          "type": "city"
+        },
+        {
+          "name": "Paris",
+          "type": "city"
+        },
+        {
+          "name": "Pasadena",
+          "type": "city"
+        },
+        {
+          "name": "Pecos",
+          "type": "city"
+        },
+        {
+          "name": "Pharr",
+          "type": "city"
+        },
+        {
+          "name": "Plainview",
+          "type": "city"
+        },
+        {
+          "name": "Plano",
+          "type": "city"
+        },
+        {
+          "name": "Port Arthur",
+          "type": "city"
+        },
+        {
+          "name": "Port Lavaca",
+          "type": "city"
+        },
+        {
+          "name": "Richardson",
+          "type": "city"
+        },
+        {
+          "name": "San Angelo",
+          "type": "city"
+        },
+        {
+          "name": "San Antonio",
+          "type": "city"
+        },
+        {
+          "name": "San Felipe",
+          "type": "city"
+        },
+        {
+          "name": "San Marcos",
+          "type": "city"
+        },
+        {
+          "name": "Sherman",
+          "type": "city"
+        },
+        {
+          "name": "Sweetwater",
+          "type": "city"
+        },
+        {
+          "name": "Temple",
+          "type": "city"
+        },
+        {
+          "name": "Texarkana",
+          "type": "city"
+        },
+        {
+          "name": "Texas City",
+          "type": "city"
+        },
+        {
+          "name": "Tyler",
+          "type": "city"
+        },
+        {
+          "name": "Uvalde",
+          "type": "city"
+        },
+        {
+          "name": "Victoria",
+          "type": "city"
+        },
+        {
+          "name": "Waco",
+          "type": "city"
+        },
+        {
+          "name": "Weatherford",
+          "type": "city"
+        },
+        {
+          "name": "Wichita Falls",
+          "type": "city"
+        },
+        {
+          "name": "Ysleta",
+          "type": "city"
+        },
+        {
+          "name": "Liberty Hill",
+          "type": "city"
+        },
+        {
+            "name": "Cedar Park",
+            "type": "city"
+        },
+        {
+            "name": "Hutto",
+            "type": "city"
+        },
+        {
+            "name": "Leander",
+            "type": "city"
+        },
+        {
+            "name": "Pflugerville",
+            "type": "city"
+        },
+        {
+            "name": "Round Rock",
+            "type": "city"
+        },
+        {
+            "name": "San Marcos",
+            "type": "city"
+        },
+        {
+            "name": "Taylor",
+            "type": "city"
+        },
+        {
+            "name": "Georgetown",
+            "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Austin-Bergstrom International",
+          "type": "airport",
+          "code": "AUS"
+        },
+        {
+          "name": "Dallas/Fort Worth International",
+          "type": "airport",
+          "code": "DFW"
+        },
+        {
+          "name": "George Bush Intercontinental (Houston)",
+          "type": "airport",
+          "code": "IAH"
+        },
+        {
+          "name": "San Antonio International",
+          "type": "airport",
+          "code": "SAT"
+        },
+        {
+          "name": "Dallas Love Field",
+          "type": "airport",
+          "code": "DAL"
+        },
+        {
+          "name": "William P. Hobby (Houston)",
+          "type": "airport",
+          "code": "HOU"
+        }
+      ]
+    },
+    {
+      "name": "Utah",
+      "abbreviation": "UT",
+      "cities": [
+        {
+          "name": "Alta",
+          "type": "city"
+        },
+        {
+          "name": "American Fork",
+          "type": "city"
+        },
+        {
+          "name": "Bountiful",
+          "type": "city"
+        },
+        {
+          "name": "Brigham City",
+          "type": "city"
+        },
+        {
+          "name": "Cedar City",
+          "type": "city"
+        },
+        {
+          "name": "Clearfield",
+          "type": "city"
+        },
+        {
+          "name": "Delta",
+          "type": "city"
+        },
+        {
+          "name": "Fillmore",
+          "type": "city"
+        },
+        {
+          "name": "Green River",
+          "type": "city"
+        },
+        {
+          "name": "Heber City",
+          "type": "city"
+        },
+        {
+          "name": "Kanab",
+          "type": "city"
+        },
+        {
+          "name": "Layton",
+          "type": "city"
+        },
+        {
+          "name": "Lehi",
+          "type": "city"
+        },
+        {
+          "name": "Logan",
+          "type": "city"
+        },
+        {
+          "name": "Manti",
+          "type": "city"
+        },
+        {
+          "name": "Moab",
+          "type": "city"
+        },
+        {
+          "name": "Monticello",
+          "type": "city"
+        },
+        {
+          "name": "Murray",
+          "type": "city"
+        },
+        {
+          "name": "Nephi",
+          "type": "city"
+        },
+        {
+          "name": "Ogden",
+          "type": "city"
+        },
+        {
+          "name": "Orderville",
+          "type": "city"
+        },
+        {
+          "name": "Orem",
+          "type": "city"
+        },
+        {
+          "name": "Panguitch",
+          "type": "city"
+        },
+        {
+          "name": "Park City",
+          "type": "city"
+        },
+        {
+          "name": "Payson",
+          "type": "city"
+        },
+        {
+          "name": "Price",
+          "type": "city"
+        },
+        {
+          "name": "Provo",
+          "type": "city"
+        },
+        {
+          "name": "Saint George",
+          "type": "city"
+        },
+        {
+          "name": "Salt Lake City",
+          "type": "city"
+        },
+        {
+          "name": "Spanish Fork",
+          "type": "city"
+        },
+        {
+          "name": "Springville",
+          "type": "city"
+        },
+        {
+          "name": "Tooele",
+          "type": "city"
+        },
+        {
+          "name": "Vernal",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Salt Lake City International",
+          "type": "airport",
+          "code": "SLC"
+        }
+      ]
+    },
+    {
+      "name": "Vermont",
+      "abbreviation": "VT",
+      "cities": [
+        {
+          "name": "Barre",
+          "type": "city"
+        },
+        {
+          "name": "Bellows Falls",
+          "type": "city"
+        },
+        {
+          "name": "Bennington",
+          "type": "city"
+        },
+        {
+          "name": "Brattleboro",
+          "type": "city"
+        },
+        {
+          "name": "Burlington",
+          "type": "city"
+        },
+        {
+          "name": "Essex",
+          "type": "city"
+        },
+        {
+          "name": "Manchester",
+          "type": "city"
+        },
+        {
+          "name": "Middlebury",
+          "type": "city"
+        },
+        {
+          "name": "Montpelier",
+          "type": "city"
+        },
+        {
+          "name": "Newport",
+          "type": "city"
+        },
+        {
+          "name": "Plymouth",
+          "type": "city"
+        },
+        {
+          "name": "Rutland",
+          "type": "city"
+        },
+        {
+          "name": "Saint Albans",
+          "type": "city"
+        },
+        {
+          "name": "Saint Johnsbury",
+          "type": "city"
+        },
+        {
+          "name": "Sharon",
+          "type": "city"
+        },
+        {
+          "name": "Winooski",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Burlington International",
+          "type": "airport",
+          "code": "BTV"
+        }
+      ]
+    },
+    {
+      "name": "Virginia",
+      "abbreviation": "VA",
+      "cities": [
+        {
+          "name": "Abingdon",
+          "type": "city"
+        },
+        {
+          "name": "Alexandria",
+          "type": "city"
+        },
+        {
+          "name": "Bristol",
+          "type": "city"
+        },
+        {
+          "name": "Charlottesville",
+          "type": "city"
+        },
+        {
+          "name": "Chesapeake",
+          "type": "city"
+        },
+        {
+          "name": "Danville",
+          "type": "city"
+        },
+        {
+          "name": "Fairfax",
+          "type": "city"
+        },
+        {
+          "name": "Falls Church",
+          "type": "city"
+        },
+        {
+          "name": "Fredericksburg",
+          "type": "city"
+        },
+        {
+          "name": "Hampton",
+          "type": "city"
+        },
+        {
+          "name": "Hanover",
+          "type": "city"
+        },
+        {
+          "name": "Hopewell",
+          "type": "city"
+        },
+        {
+          "name": "Lexington",
+          "type": "city"
+        },
+        {
+          "name": "Lynchburg",
+          "type": "city"
+        },
+        {
+          "name": "Manassas",
+          "type": "city"
+        },
+        {
+          "name": "Martinsville",
+          "type": "city"
+        },
+        {
+          "name": "New Market",
+          "type": "city"
+        },
+        {
+          "name": "Newport News",
+          "type": "city"
+        },
+        {
+          "name": "Norfolk",
+          "type": "city"
+        },
+        {
+          "name": "Petersburg",
+          "type": "city"
+        },
+        {
+          "name": "Portsmouth",
+          "type": "city"
+        },
+        {
+          "name": "Reston",
+          "type": "city"
+        },
+        {
+          "name": "Richmond",
+          "type": "city"
+        },
+        {
+          "name": "Roanoke",
+          "type": "city"
+        },
+        {
+          "name": "Staunton",
+          "type": "city"
+        },
+        {
+          "name": "Suffolk",
+          "type": "city"
+        },
+        {
+          "name": "Virginia Beach",
+          "type": "city"
+        },
+        {
+          "name": "Waynesboro",
+          "type": "city"
+        },
+        {
+          "name": "Williamsburg",
+          "type": "city"
+        },
+        {
+          "name": "Winchester",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Washington Dulles International",
+          "type": "airport",
+          "code": "IAD"
+        },
+        {
+          "name": "Reagan National",
+          "type": "airport",
+          "code": "DCA"
+        },
+        {
+          "name": "Norfolk International",
+          "type": "airport",
+          "code": "ORF"
+        },
+        {
+          "name": "Richmond International",
+          "type": "airport",
+          "code": "RIC"
+        }
+      ]
+    },
+    {
+      "name": "Washington",
+      "abbreviation": "WA",
+      "cities": [
+        {
+          "name": "Aberdeen",
+          "type": "city"
+        },
+        {
+          "name": "Anacortes",
+          "type": "city"
+        },
+        {
+          "name": "Auburn",
+          "type": "city"
+        },
+        {
+          "name": "Bellevue",
+          "type": "city"
+        },
+        {
+          "name": "Bellingham",
+          "type": "city"
+        },
+        {
+          "name": "Bremerton",
+          "type": "city"
+        },
+        {
+          "name": "Centralia",
+          "type": "city"
+        },
+        {
+          "name": "Coulee Dam",
+          "type": "city"
+        },
+        {
+          "name": "Coupeville",
+          "type": "city"
+        },
+        {
+          "name": "Ellensburg",
+          "type": "city"
+        },
+        {
+          "name": "Ephrata",
+          "type": "city"
+        },
+        {
+          "name": "Everett",
+          "type": "city"
+        },
+        {
+          "name": "Hoquiam",
+          "type": "city"
+        },
+        {
+          "name": "Kelso",
+          "type": "city"
+        },
+        {
+          "name": "Kennewick",
+          "type": "city"
+        },
+        {
+          "name": "Longview",
+          "type": "city"
+        },
+        {
+          "name": "Moses Lake",
+          "type": "city"
+        },
+        {
+          "name": "Oak Harbor",
+          "type": "city"
+        },
+        {
+          "name": "Olympia",
+          "type": "city"
+        },
+        {
+          "name": "Pasco",
+          "type": "city"
+        },
+        {
+          "name": "Point Roberts",
+          "type": "city"
+        },
+        {
+          "name": "Port Angeles",
+          "type": "city"
+        },
+        {
+          "name": "Pullman",
+          "type": "city"
+        },
+        {
+          "name": "Puyallup",
+          "type": "city"
+        },
+        {
+          "name": "Redmond",
+          "type": "city"
+        },
+        {
+          "name": "Renton",
+          "type": "city"
+        },
+        {
+          "name": "Richland",
+          "type": "city"
+        },
+        {
+          "name": "Seattle",
+          "type": "city"
+        },
+        {
+          "name": "Spokane",
+          "type": "city"
+        },
+        {
+          "name": "Tacoma",
+          "type": "city"
+        },
+        {
+          "name": "Vancouver",
+          "type": "city"
+        },
+        {
+          "name": "Walla Walla",
+          "type": "city"
+        },
+        {
+          "name": "Wenatchee",
+          "type": "city"
+        },
+        {
+          "name": "Yakima",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Seattle–Tacoma International",
+          "type": "airport",
+          "code": "SEA"
+        },
+        {
+          "name": "Spokane International",
+          "type": "airport",
+          "code": "GEG"
+        }
+      ]
+    },
+    {
+      "name": "West Virginia",
+      "abbreviation": "WV",
+      "cities": [
+        {
+          "name": "Bath",
+          "type": "city"
+        },
+        {
+          "name": "Beckley",
+          "type": "city"
+        },
+        {
+          "name": "Bluefield",
+          "type": "city"
+        },
+        {
+          "name": "Buckhannon",
+          "type": "city"
+        },
+        {
+          "name": "Charles Town",
+          "type": "city"
+        },
+        {
+          "name": "Charleston",
+          "type": "city"
+        },
+        {
+          "name": "Clarksburg",
+          "type": "city"
+        },
+        {
+          "name": "Elkins",
+          "type": "city"
+        },
+        {
+          "name": "Fairmont",
+          "type": "city"
+        },
+        {
+          "name": "Grafton",
+          "type": "city"
+        },
+        {
+          "name": "Harpers Ferry",
+          "type": "city"
+        },
+        {
+          "name": "Hillsboro",
+          "type": "city"
+        },
+        {
+          "name": "Hinton",
+          "type": "city"
+        },
+        {
+          "name": "Huntington",
+          "type": "city"
+        },
+        {
+          "name": "Keyser",
+          "type": "city"
+        },
+        {
+          "name": "Lewisburg",
+          "type": "city"
+        },
+        {
+          "name": "Logan",
+          "type": "city"
+        },
+        {
+          "name": "Martinsburg",
+          "type": "city"
+        },
+        {
+          "name": "Morgantown",
+          "type": "city"
+        },
+        {
+          "name": "Moundsville",
+          "type": "city"
+        },
+        {
+          "name": "New Martinsville",
+          "type": "city"
+        },
+        {
+          "name": "Parkersburg",
+          "type": "city"
+        },
+        {
+          "name": "Philippi",
+          "type": "city"
+        },
+        {
+          "name": "Point Pleasant",
+          "type": "city"
+        },
+        {
+          "name": "Princeton",
+          "type": "city"
+        },
+        {
+          "name": "Romney",
+          "type": "city"
+        },
+        {
+          "name": "Shepherdstown",
+          "type": "city"
+        },
+        {
+          "name": "South Charleston",
+          "type": "city"
+        },
+        {
+          "name": "Summersville",
+          "type": "city"
+        },
+        {
+          "name": "Weirton",
+          "type": "city"
+        },
+        {
+          "name": "Welch",
+          "type": "city"
+        },
+        {
+          "name": "Wellsburg",
+          "type": "city"
+        },
+        {
+          "name": "Weston",
+          "type": "city"
+        },
+        {
+          "name": "Wheeling",
+          "type": "city"
+        },
+        {
+          "name": "White Sulphur Springs",
+          "type": "city"
+        },
+        {
+          "name": "Williamson",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Yeager Airport (Charleston)",
+          "type": "airport",
+          "code": "CRW"
+        }
+      ]
+    },
+    {
+      "name": "Wisconsin",
+      "abbreviation": "WI",
+      "cities": [
+        {
+          "name": "Appleton",
+          "type": "city"
+        },
+        {
+          "name": "Ashland",
+          "type": "city"
+        },
+        {
+          "name": "Baraboo",
+          "type": "city"
+        },
+        {
+          "name": "Belmont",
+          "type": "city"
+        },
+        {
+          "name": "Beloit",
+          "type": "city"
+        },
+        {
+          "name": "Eau Claire",
+          "type": "city"
+        },
+        {
+          "name": "Fond du Lac",
+          "type": "city"
+        },
+        {
+          "name": "Green Bay",
+          "type": "city"
+        },
+        {
+          "name": "Hayward",
+          "type": "city"
+        },
+        {
+          "name": "Janesville",
+          "type": "city"
+        },
+        {
+          "name": "Kenosha",
+          "type": "city"
+        },
+        {
+          "name": "La Crosse",
+          "type": "city"
+        },
+        {
+          "name": "Lake Geneva",
+          "type": "city"
+        },
+        {
+          "name": "Madison",
+          "type": "city"
+        },
+        {
+          "name": "Manitowoc",
+          "type": "city"
+        },
+        {
+          "name": "Marinette",
+          "type": "city"
+        },
+        {
+          "name": "Menasha",
+          "type": "city"
+        },
+        {
+          "name": "Milwaukee",
+          "type": "city"
+        },
+        {
+          "name": "Neenah",
+          "type": "city"
+        },
+        {
+          "name": "New Glarus",
+          "type": "city"
+        },
+        {
+          "name": "Oconto",
+          "type": "city"
+        },
+        {
+          "name": "Oshkosh",
+          "type": "city"
+        },
+        {
+          "name": "Peshtigo",
+          "type": "city"
+        },
+        {
+          "name": "Portage",
+          "type": "city"
+        },
+        {
+          "name": "Prairie du Chien",
+          "type": "city"
+        },
+        {
+          "name": "Racine",
+          "type": "city"
+        },
+        {
+          "name": "Rhinelander",
+          "type": "city"
+        },
+        {
+          "name": "Ripon",
+          "type": "city"
+        },
+        {
+          "name": "Sheboygan",
+          "type": "city"
+        },
+        {
+          "name": "Spring Green",
+          "type": "city"
+        },
+        {
+          "name": "Stevens Point",
+          "type": "city"
+        },
+        {
+          "name": "Sturgeon Bay",
+          "type": "city"
+        },
+        {
+          "name": "Superior",
+          "type": "city"
+        },
+        {
+          "name": "Waukesha",
+          "type": "city"
+        },
+        {
+          "name": "Wausau",
+          "type": "city"
+        },
+        {
+          "name": "Wauwatosa",
+          "type": "city"
+        },
+        {
+          "name": "West Allis",
+          "type": "city"
+        },
+        {
+          "name": "West Bend",
+          "type": "city"
+        },
+        {
+          "name": "Wisconsin Dells",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Milwaukee Mitchell International",
+          "type": "airport",
+          "code": "MKE"
+        },
+        {
+          "name": "Dane County Regional (Madison)",
+          "type": "airport",
+          "code": "MSN"
+        }
+      ]
+    },
+    {
+      "name": "Wyoming",
+      "abbreviation": "WY",
+      "cities": [
+        {
+          "name": "Buffalo",
+          "type": "city"
+        },
+        {
+          "name": "Casper",
+          "type": "city"
+        },
+        {
+          "name": "Cheyenne",
+          "type": "city"
+        },
+        {
+          "name": "Cody",
+          "type": "city"
+        },
+        {
+          "name": "Douglas",
+          "type": "city"
+        },
+        {
+          "name": "Evanston",
+          "type": "city"
+        },
+        {
+          "name": "Gillette",
+          "type": "city"
+        },
+        {
+          "name": "Green River",
+          "type": "city"
+        },
+        {
+          "name": "Jackson",
+          "type": "city"
+        },
+        {
+          "name": "Lander",
+          "type": "city"
+        },
+        {
+          "name": "Laramie",
+          "type": "city"
+        },
+        {
+          "name": "Newcastle",
+          "type": "city"
+        },
+        {
+          "name": "Powell",
+          "type": "city"
+        },
+        {
+          "name": "Rawlins",
+          "type": "city"
+        },
+        {
+          "name": "Riverton",
+          "type": "city"
+        },
+        {
+          "name": "Rock Springs",
+          "type": "city"
+        },
+        {
+          "name": "Sheridan",
+          "type": "city"
+        },
+        {
+          "name": "Ten Sleep",
+          "type": "city"
+        },
+        {
+          "name": "Thermopolis",
+          "type": "city"
+        },
+        {
+          "name": "Torrington",
+          "type": "city"
+        },
+        {
+          "name": "Worland",
+          "type": "city"
+        }
+      ],
+      "airports": [
+        {
+          "name": "Jackson Hole",
+          "type": "airport",
+          "code": "JAC"
+        }
+      ]
+    }
+  ]
+}
+
+
